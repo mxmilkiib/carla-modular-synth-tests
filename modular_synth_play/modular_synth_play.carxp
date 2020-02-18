@@ -2246,22 +2246,26 @@
     <Value>
 0:3:0x90:043:100
 24:3:0x80:043:100
+96:3:0x90:048:100
 120:3:0x90:050:100
-144:3:0x80:050:100
+120:3:0x80:050:100
+120:3:0x80:048:100
 192:3:0x90:043:100
 216:3:0x80:043:100
-312:3:0x90:047:100
-336:3:0x80:047:100
+288:3:0x90:048:100
+312:3:0x80:048:100
 384:3:0x90:043:100
 408:3:0x80:043:100
-456:3:0x90:043:100
-480:3:0x80:043:100
-528:3:0x90:046:100
-552:3:0x80:046:100
+480:3:0x90:048:100
+504:3:0x80:048:100
 576:3:0x90:042:100
 600:3:0x80:042:100
+624:3:0x90:042:100
+648:3:0x80:042:100
 672:3:0x90:042:100
 696:3:0x80:042:100
+720:3:0x90:048:100
+744:3:0x80:048:100
 
     </Value>
    </CustomData>
@@ -2382,7 +2386,7 @@
     <Index>0</Index>
     <Name>Gain</Name>
     <Symbol>gain</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -2581,14 +2585,14 @@
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>0.970000028610229</Value>
+    <Value>0.270000010728836</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Mute 1</Name>
     <Symbol>mute1</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -2602,7 +2606,7 @@
     <Index>3</Index>
     <Name>Volume 1</Name>
     <Symbol>volume1</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -2616,7 +2620,7 @@
     <Index>5</Index>
     <Name>Mute 2</Name>
     <Symbol>mute2</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -2630,7 +2634,7 @@
     <Index>7</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>1</Value>
+    <Value>0.400000005960464</Value>
    </Parameter>
 
    <Parameter>
