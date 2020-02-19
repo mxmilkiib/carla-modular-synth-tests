@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0587393902242184</Value>
+    <Value>0.317816883325577</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.662001430988312</Value>
+    <Value>0.226525619626045</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.294052213430405</Value>
    </Parameter>
 
    <Parameter>
@@ -314,14 +314,14 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.699684858322144</Value>
+    <Value>0.319936871528625</Value>
    </Parameter>
 
    <Parameter>
     <Index>11</Index>
     <Name>VCO 1 - Harmonic</Name>
     <Symbol>vco1_harmonic</Symbol>
-    <Value>3</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -392,7 +392,7 @@
     <Index>20</Index>
     <Name>VCO 3 - Wave Form</Name>
     <Symbol>vco3_waveForm</Symbol>
-    <Value>3</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -413,7 +413,7 @@
     <Index>23</Index>
     <Name>VCO 3 - Harmonic</Name>
     <Symbol>vco3_harmonic</Symbol>
-    <Value>1</Value>
+    <Value>3</Value>
    </Parameter>
 
    <Parameter>
@@ -459,7 +459,7 @@
     <Index>29</Index>
     <Name>VCO 4 - Harmonic</Name>
     <Symbol>vco4_harmonic</Symbol>
-    <Value>2</Value>
+    <Value>3</Value>
    </Parameter>
 
    <Parameter>
@@ -552,7 +552,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.571793079376221</Value>
+    <Value>-0.268195331096649</Value>
    </Parameter>
 
    <Parameter>
@@ -1557,7 +1557,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.689957916736603</Value>
+    <Value>0.511329293251038</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.252127170562744</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.582093894481659</Value>
+    <Value>0.144052490592003</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.79787278175354</Value>
+    <Value>0.841967105865479</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>35.2610397338867</Value>
+    <Value>53.1066017150879</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>10.6384353637695</Value>
+    <Value>12.8002490997314</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>8.51139831542969</Value>
+    <Value>14.9951410293579</Value>
    </Parameter>
 
    <Parameter>
@@ -2457,7 +2457,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>69.4769592285156</Value>
+    <Value>87.0247497558594</Value>
    </Parameter>
 
    <Parameter>
