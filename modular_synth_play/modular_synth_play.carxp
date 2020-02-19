@@ -626,7 +626,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Osc Sine</Name>
+   <Name>Lead Osc 1</Name>
    <URI>http://github.com/blablack/ams-lv2/vco3</URI>
   </Info>
 
@@ -639,7 +639,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>0</Value>
+    <Value>5</Value>
    </Parameter>
 
    <Parameter>
@@ -667,14 +667,14 @@
     <Index>4</Index>
     <Name>PW0</Name>
     <Symbol>pw0</Symbol>
-    <Value>0.5</Value>
+    <Value>0.820963859558105</Value>
    </Parameter>
 
    <Parameter>
     <Index>5</Index>
     <Name>PW Gain</Name>
     <Symbol>pwGain</Symbol>
-    <Value>0</Value>
+    <Value>0.0401606410741806</Value>
    </Parameter>
 
    <Parameter>
@@ -788,7 +788,7 @@
     <Index>0</Index>
     <Name>Gain Offset</Name>
     <Symbol>gain1</Symbol>
-    <Value>0</Value>
+    <Value>0.310000002384186</Value>
    </Parameter>
 
    <Parameter>
@@ -816,7 +816,7 @@
     <Index>4</Index>
     <Name>Output Level</Name>
     <Symbol>outputLevel</Symbol>
-    <Value>0.5</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -901,7 +901,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Osc Tri</Name>
+   <Name>Lead Osc 2</Name>
    <URI>http://github.com/blablack/ams-lv2/vco3</URI>
   </Info>
 
@@ -1063,7 +1063,7 @@
     <Index>0</Index>
     <Name>Gain Offset</Name>
     <Symbol>gain1</Symbol>
-    <Value>0.370000004768372</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1091,7 +1091,7 @@
     <Index>4</Index>
     <Name>Output Level</Name>
     <Symbol>outputLevel</Symbol>
-    <Value>0.5</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1177,7 +1177,7 @@
     <Index>0</Index>
     <Name>Gain Offset</Name>
     <Symbol>gain1</Symbol>
-    <Value>0</Value>
+    <Value>0.360000014305115</Value>
    </Parameter>
 
    <Parameter>
@@ -1205,7 +1205,7 @@
     <Index>4</Index>
     <Name>Output Level</Name>
     <Symbol>outputLevel</Symbol>
-    <Value>0.5</Value>
+    <Value>0.949999988079071</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1227,7 +1227,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>3</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1658,7 +1658,7 @@
     <Index>2</Index>
     <Name>Late Level</Name>
     <Symbol>late_level</Symbol>
-    <Value>20</Value>
+    <Value>36.1963195800781</Value>
    </Parameter>
 
    <Parameter>
@@ -1686,7 +1686,7 @@
     <Index>6</Index>
     <Name>Diffuse</Name>
     <Symbol>diffuse</Symbol>
-    <Value>90</Value>
+    <Value>29</Value>
    </Parameter>
 
    <Parameter>
@@ -1714,7 +1714,7 @@
     <Index>10</Index>
     <Name>High Cut</Name>
     <Symbol>high_cut</Symbol>
-    <Value>11200</Value>
+    <Value>11275</Value>
    </Parameter>
 
    <Parameter>
@@ -1735,7 +1735,7 @@
     <Index>13</Index>
     <Name>Spin</Name>
     <Symbol>spin</Symbol>
-    <Value>2.5</Value>
+    <Value>2.44999885559082</Value>
    </Parameter>
 
    <Parameter>
@@ -2207,7 +2207,7 @@
     <Index>3</Index>
     <Name>Volume 1</Name>
     <Symbol>volume1</Symbol>
-    <Value>1</Value>
+    <Value>0.550000011920929</Value>
    </Parameter>
 
    <Parameter>
@@ -2235,7 +2235,7 @@
     <Index>7</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>1</Value>
+    <Value>0.349999994039536</Value>
    </Parameter>
 
    <Parameter>
@@ -2263,7 +2263,7 @@
     <Index>11</Index>
     <Name>Volume 3</Name>
     <Symbol>volume3</Symbol>
-    <Value>1</Value>
+    <Value>0.25</Value>
    </Parameter>
 
    <Parameter>
@@ -2291,7 +2291,7 @@
     <Index>15</Index>
     <Name>Volume 4</Name>
     <Symbol>volume4</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -2319,7 +2319,7 @@
     <Index>19</Index>
     <Name>Volume 5</Name>
     <Symbol>volume5</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -2347,7 +2347,7 @@
     <Index>23</Index>
     <Name>Volume 6</Name>
     <Symbol>volume6</Symbol>
-    <Value>1</Value>
+    <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
@@ -2375,7 +2375,7 @@
     <Index>27</Index>
     <Name>Volume 7</Name>
     <Symbol>volume7</Symbol>
-    <Value>1</Value>
+    <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
@@ -2403,7 +2403,7 @@
     <Index>31</Index>
     <Name>Volume 8</Name>
     <Symbol>volume8</Symbol>
-    <Value>1</Value>
+    <Value>0.600000023841858</Value>
    </Parameter>
 
    <Parameter>
@@ -2644,7 +2644,7 @@
     <Index>1</Index>
     <Name>Input Gain</Name>
     <Symbol>inputGain</Symbol>
-    <Value>1</Value>
+    <Value>1.27789998054504</Value>
    </Parameter>
 
    <Parameter>
@@ -3027,7 +3027,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3303,7 +3303,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -4060,14 +4060,14 @@
     <Index>0</Index>
     <Name>Attack Offset</Name>
     <Symbol>attackOffset</Symbol>
-    <Value>-8</Value>
+    <Value>-1.60000002384186</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Decay Offset</Name>
     <Symbol>decayOffset</Symbol>
-    <Value>0</Value>
+    <Value>-1.85000002384186</Value>
    </Parameter>
 
    <Parameter>
@@ -4109,7 +4109,7 @@
     <Index>7</Index>
     <Name>Release Gain</Name>
     <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
+    <Value>-2.90000009536743</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4131,7 +4131,7 @@
     <Index>0</Index>
     <Name>Attack Offset</Name>
     <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
+    <Value>-1.14999997615814</Value>
    </Parameter>
 
    <Parameter>
@@ -4159,7 +4159,7 @@
     <Index>4</Index>
     <Name>Attack Gain</Name>
     <Symbol>attackGain</Symbol>
-    <Value>1</Value>
+    <Value>-8</Value>
    </Parameter>
 
    <Parameter>
@@ -4180,7 +4180,7 @@
     <Index>7</Index>
     <Name>Release Gain</Name>
     <Symbol>releaseGain</Symbol>
-    <Value>-5.21999979019165</Value>
+    <Value>-2.61999988555908</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4273,7 +4273,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>-0.808197975158691</Value>
+    <Value>-0.980000019073486</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4295,7 +4295,7 @@
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>8</Value>
+    <Value>7.99999904632568</Value>
    </Parameter>
 
    <Parameter>
@@ -4403,7 +4403,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Osc Saw</Name>
+   <Name>Lead Osc 3</Name>
    <URI>http://github.com/blablack/ams-lv2/vco3</URI>
   </Info>
 
@@ -4416,7 +4416,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -4501,7 +4501,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>-0.257540613412857</Value>
+    <Value>-0.523588538169861</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4523,7 +4523,7 @@
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>8</Value>
+    <Value>7.99999952316284</Value>
    </Parameter>
 
    <Parameter>
@@ -4573,7 +4573,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>0.219999969005585</Value>
+    <Value>0.299999982118607</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4595,7 +4595,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>-0.939999997615814</Value>
+    <Value>-1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4617,7 +4617,7 @@
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>8</Value>
+    <Value>7.99999952316284</Value>
    </Parameter>
 
    <Parameter>
@@ -4667,7 +4667,7 @@
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>8</Value>
+    <Value>7.99999952316284</Value>
    </Parameter>
 
    <Parameter>
@@ -4695,6 +4695,49 @@
     <Index>4</Index>
     <Name>PluginEnabled</Name>
     <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Multiphase LFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Multiphase LFO</Name>
+   <URI>http://github.com/blablack/ams-lv2/multiphase_lfo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Freq (Hz)</Name>
+    <Symbol>freq</Symbol>
+    <Value>0.259999990463257</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gain Saw</Name>
+    <Symbol>gainSaw</Symbol>
+    <Value>0.449999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Gain Triangle</Name>
+    <Symbol>gainTriangle</Symbol>
+    <Value>0.839999973773956</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Saw Mode</Name>
+    <Symbol>sawMode</Symbol>
     <Value>1</Value>
    </Parameter>
   </Data>
@@ -4762,7 +4805,7 @@
    <Target>Triangle VCA:In 1 Mod</Target>
   </Connection>
   <Connection>
-   <Source>Lead Osc Sine:Out</Source>
+   <Source>Lead Osc 1:Out</Source>
    <Target>Lead VCF 1:In</Target>
   </Connection>
   <Connection>
@@ -4783,15 +4826,15 @@
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 1</Source>
-   <Target>Lead Osc Sine:Frequency</Target>
+   <Target>Lead Osc 1:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 2</Source>
-   <Target>Lead Osc Tri:Frequency</Target>
+   <Target>Lead Osc 2:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 3</Source>
-   <Target>Lead Osc Saw:Frequency</Target>
+   <Target>Lead Osc 3:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 4</Source>
@@ -4802,19 +4845,35 @@
    <Target>AMS VC Envelope II:Gate</Target>
   </Connection>
   <Connection>
+   <Source>MIDI to CV Poly:Gate 1</Source>
+   <Target>AMS VC Envelope II:Retrigger</Target>
+  </Connection>
+  <Connection>
    <Source>MIDI to CV Poly:Gate 2</Source>
    <Target>AMS VC Envelope II (2):Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI to CV Poly:Gate 2</Source>
+   <Target>AMS VC Envelope II (2):Retrigger</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Gate 3</Source>
    <Target>AMS VC Envelope II (3):Gate</Target>
   </Connection>
   <Connection>
+   <Source>MIDI to CV Poly:Gate 3</Source>
+   <Target>AMS VC Envelope II (3):Retrigger</Target>
+  </Connection>
+  <Connection>
    <Source>MIDI to CV Poly:Gate 4</Source>
    <Target>AMS VC Envelope II (4):Gate</Target>
   </Connection>
   <Connection>
-   <Source>Lead Osc Tri:Out</Source>
+   <Source>MIDI to CV Poly:Gate 4</Source>
+   <Target>AMS VC Envelope II (4):Retrigger</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Osc 2:Out</Source>
    <Target>Lead VCF 2:In</Target>
   </Connection>
   <Connection>
@@ -4962,16 +5021,32 @@
    <Target>AMS VC Envelope II (5):Gate</Target>
   </Connection>
   <Connection>
+   <Source>MIDI to CV Poly (2):Gate 1</Source>
+   <Target>AMS VC Envelope II (5):Retrigger</Target>
+  </Connection>
+  <Connection>
    <Source>MIDI to CV Poly (2):Gate 2</Source>
    <Target>AMS VC Envelope II (6):Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI to CV Poly (2):Gate 2</Source>
+   <Target>AMS VC Envelope II (6):Retrigger</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly (2):Gate 3</Source>
    <Target>AMS VC Envelope II (7):Gate</Target>
   </Connection>
   <Connection>
+   <Source>MIDI to CV Poly (2):Gate 3</Source>
+   <Target>AMS VC Envelope II (7):Retrigger</Target>
+  </Connection>
+  <Connection>
    <Source>MIDI to CV Poly (2):Gate 4</Source>
    <Target>AMS VC Envelope II (8):Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI to CV Poly (2):Gate 4</Source>
+   <Target>AMS VC Envelope II (8):Retrigger</Target>
   </Connection>
   <Connection>
    <Source>Lead Osc 4 (2):Out</Source>
@@ -5086,6 +5161,10 @@
    <Target>Lead Gain 1:Main Gain</Target>
   </Connection>
   <Connection>
+   <Source>AMS VC Envelope II:Out</Source>
+   <Target>Simple Scope (4 channel):In1</Target>
+  </Connection>
+  <Connection>
    <Source>AMS VC Envelope II (2):Out</Source>
    <Target>Lead VCF 2:Frequency Mod</Target>
   </Connection>
@@ -5094,12 +5173,20 @@
    <Target>Lead Gain 2:Main Gain</Target>
   </Connection>
   <Connection>
+   <Source>AMS VC Envelope II (2):Out</Source>
+   <Target>Simple Scope (4 channel):In2</Target>
+  </Connection>
+  <Connection>
    <Source>AMS VC Envelope II (3):Out</Source>
    <Target>Lead VCF 3:Frequency Mod</Target>
   </Connection>
   <Connection>
    <Source>AMS VC Envelope II (3):Out</Source>
    <Target>Lead Gain 3:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (3):Out</Source>
+   <Target>Simple Scope (4 channel):In3</Target>
   </Connection>
   <Connection>
    <Source>Lead Attack:Output</Source>
@@ -5146,7 +5233,11 @@
    <Target>Lead Gain 4:Main Gain</Target>
   </Connection>
   <Connection>
-   <Source>Lead Osc Saw:Out</Source>
+   <Source>AMS VC Envelope II (4):Out</Source>
+   <Target>Simple Scope (4 channel):In4</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Osc 3:Out</Source>
    <Target>Lead VCF 3:In</Target>
   </Connection>
   <Connection>
@@ -5256,6 +5347,14 @@
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
    <Target>AMS VC Envelope II (8):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (7):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Saw Out 0</Source>
+   <Target>Lead Osc 1:PW</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
