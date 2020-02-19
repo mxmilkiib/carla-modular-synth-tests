@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.57400244474411</Value>
+    <Value>0.435477048158646</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.484177440404892</Value>
+    <Value>0.344190090894699</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.39252370595932</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.204894736409187</Value>
+    <Value>0.641073107719421</Value>
    </Parameter>
 
    <Parameter>
@@ -395,7 +395,7 @@
     <Index>21</Index>
     <Name>VCO 3 - Octave</Name>
     <Symbol>vco3_octave</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -548,7 +548,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-1</Value>
+    <Value>0.365759015083313</Value>
    </Parameter>
 
    <Parameter>
@@ -1553,7 +1553,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.00999999977648258</Value>
+    <Value>0.508894920349121</Value>
    </Parameter>
 
    <Parameter>
@@ -1621,7 +1621,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.845105230808258</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1639,7 +1639,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0</Value>
+    <Value>0.261667400598526</Value>
    </Parameter>
 
    <Parameter>
@@ -1675,7 +1675,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.729894697666168</Value>
+    <Value>0</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1701,7 +1701,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>54.1397552490234</Value>
+    <Value>61.6446266174316</Value>
    </Parameter>
 
    <Parameter>
@@ -1712,7 +1712,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>40.6597557067871</Value>
+    <Value>16.819185256958</Value>
    </Parameter>
 
    <Parameter>
@@ -1723,7 +1723,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>18.0066089630127</Value>
+    <Value>11.482250213623</Value>
    </Parameter>
 
    <Parameter>
@@ -1734,28 +1734,28 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>10</MappedMinimum>
     <MappedMaximum>60</MappedMaximum>
-    <Value>60</Value>
+    <Value>40</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Width</Name>
     <Symbol>width</Symbol>
-    <Value>100</Value>
+    <Value>80</Value>
    </Parameter>
 
    <Parameter>
     <Index>5</Index>
     <Name>Predelay</Name>
     <Symbol>delay</Symbol>
-    <Value>20</Value>
+    <Value>12</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
     <Name>Diffuse</Name>
     <Symbol>diffuse</Symbol>
-    <Value>90</Value>
+    <Value>80</Value>
    </Parameter>
 
    <Parameter>
@@ -1769,35 +1769,35 @@
     <Index>8</Index>
     <Name>Low Cross</Name>
     <Symbol>low_xo</Symbol>
-    <Value>400</Value>
+    <Value>700</Value>
    </Parameter>
 
    <Parameter>
     <Index>9</Index>
     <Name>Low Mult</Name>
     <Symbol>low_mult</Symbol>
-    <Value>1.5</Value>
+    <Value>2.25</Value>
    </Parameter>
 
    <Parameter>
     <Index>10</Index>
     <Name>High Cut</Name>
     <Symbol>high_cut</Symbol>
-    <Value>5500</Value>
+    <Value>6250</Value>
    </Parameter>
 
    <Parameter>
     <Index>11</Index>
     <Name>High Cross</Name>
     <Symbol>high_xo</Symbol>
-    <Value>5800</Value>
+    <Value>4600</Value>
    </Parameter>
 
    <Parameter>
     <Index>12</Index>
     <Name>High Mult</Name>
     <Symbol>high_mult</Symbol>
-    <Value>0.5</Value>
+    <Value>0.300000011920929</Value>
    </Parameter>
 
    <Parameter>
@@ -1811,14 +1811,14 @@
     <Index>14</Index>
     <Name>Wander</Name>
     <Symbol>wander</Symbol>
-    <Value>20</Value>
+    <Value>17</Value>
    </Parameter>
 
    <Parameter>
     <Index>15</Index>
     <Name>Decay</Name>
     <Symbol>decay</Symbol>
-    <Value>2.5</Value>
+    <Value>2.40000009536743</Value>
    </Parameter>
 
    <Parameter>
@@ -1838,7 +1838,7 @@
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#String</Type>
     <Key>urn:distrho:preset</Key>
-    <Value>Large Bright Hall</Value>
+    <Value>Large Vocal Hall</Value>
    </CustomData>
   </Data>
  </Plugin>
@@ -2453,7 +2453,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>5</Value>
+    <Value>41.9612350463867</Value>
    </Parameter>
 
    <Parameter>
@@ -2801,42 +2801,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- Slew Rate Limiter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Slew Rate Limiter</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Rise Time</Name>
-    <Symbol>RiseTime</Symbol>
-    <Value>140</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Fall Time</Name>
-    <Symbol>FallTime</Symbol>
-    <Value>190</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>BYPASS</Name>
-    <Symbol>BYPASS</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
@@ -2966,6 +2930,179 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- AMS Slew Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Slew Limiter (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Slew Rate Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Slew Rate Limiter</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Rise Time</Name>
+    <Symbol>RiseTime</Symbol>
+    <Value>32</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Fall Time</Name>
+    <Symbol>FallTime</Symbol>
+    <Value>33</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Slew Rate Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Slew Rate Limiter (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Rise Time</Name>
+    <Symbol>RiseTime</Symbol>
+    <Value>16</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Fall Time</Name>
+    <Symbol>FallTime</Symbol>
+    <Value>27</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Slew Rate Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Slew Rate Limiter (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Rise Time</Name>
+    <Symbol>RiseTime</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Fall Time</Name>
+    <Symbol>FallTime</Symbol>
+    <Value>25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Slew Rate Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Slew Rate Limiter (4)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Rise Time</Name>
+    <Symbol>RiseTime</Symbol>
+    <Value>41</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Fall Time</Name>
+    <Symbol>FallTime</Symbol>
+    <Value>40</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -3049,11 +3186,15 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 1</Target>
+   <Target>Slew Rate Limiter (2):CV Input</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 45</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 2</Target>
+   <Target>Slew Rate Limiter (3):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Saw Out 90</Source>
+   <Target>LFO Blender:LFO_2_PHASE</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 180</Source>
@@ -3080,16 +3221,12 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>LFO Blender:LFO_3_PHASE</Target>
   </Connection>
   <Connection>
-   <Source>AMS Multiphase LFO:Tri Out 135</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 3</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Multiphase LFO:Tri Out 225</Source>
-   <Target>LFO Blender:LFO_4_PHASE</Target>
+   <Source>AMS Multiphase LFO:Tri Out 180</Source>
+   <Target>Slew Rate Limiter (4):CV Input</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Tri Out 270</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 4</Target>
+   <Target>Slew Rate Limiter:CV Input</Target>
   </Connection>
   <Connection>
    <Source>LFO Blender:CV Mix</Source>
@@ -3137,7 +3274,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (3):CV Output</Source>
-   <Target>Attenuverter Booster (4):CV Input</Target>
+   <Target>AMS Slew Limiter (3):In</Target>
   </Connection>
   <Connection>
    <Source>LSP Compressor Stereo (2):Output L</Source>
@@ -3172,6 +3309,10 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Dragonfly Hall Reverb:Late Level</Target>
   </Connection>
   <Connection>
+   <Source>AMS Slew Limiter (3):Out</Source>
+   <Target>Attenuverter Booster (4):CV Input</Target>
+  </Connection>
+  <Connection>
    <Source>AMS Slew Limiter (2):Out</Source>
    <Target>Attenuverter Booster (6):CV Input</Target>
   </Connection>
@@ -3182,6 +3323,22 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>Attenuverter Booster (8):CV Output</Source>
    <Target>x42 Whirl - Rotary Speaker:Horn Speed Slow</Target>
+  </Connection>
+  <Connection>
+   <Source>Slew Rate Limiter:CV Output</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 4</Target>
+  </Connection>
+  <Connection>
+   <Source>Slew Rate Limiter (2):CV Output</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Slew Rate Limiter (3):CV Output</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Slew Rate Limiter (4):CV Output</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 3</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
