@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.435477048158646</Value>
+    <Value>0.149842813611031</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.344190090894699</Value>
+    <Value>0.0590395852923393</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.39252370595932</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.641073107719421</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -548,7 +548,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.365759015083313</Value>
+    <Value>-0.168451607227325</Value>
    </Parameter>
 
    <Parameter>
@@ -1107,14 +1107,14 @@
     <Index>8</Index>
     <Name>Range min</Name>
     <Symbol>range_min</Symbol>
-    <Value>-1</Value>
+    <Value>-0.839999973773956</Value>
    </Parameter>
 
    <Parameter>
     <Index>9</Index>
     <Name>Range max</Name>
     <Symbol>range_max</Symbol>
-    <Value>1</Value>
+    <Value>0.879999995231628</Value>
    </Parameter>
 
    <Parameter>
@@ -1553,7 +1553,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.508894920349121</Value>
+    <Value>0.607806026935577</Value>
    </Parameter>
 
    <Parameter>
@@ -1621,7 +1621,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.916604697704315</Value>
    </Parameter>
 
    <Parameter>
@@ -1639,7 +1639,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.261667400598526</Value>
+    <Value>0.695774435997009</Value>
    </Parameter>
 
    <Parameter>
@@ -1657,7 +1657,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.133395224809647</Value>
    </Parameter>
 
    <Parameter>
@@ -1701,7 +1701,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>61.6446266174316</Value>
+    <Value>39.0096740722656</Value>
    </Parameter>
 
    <Parameter>
@@ -1712,7 +1712,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>16.819185256958</Value>
+    <Value>15.5507354736328</Value>
    </Parameter>
 
    <Parameter>
@@ -1723,7 +1723,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>11.482250213623</Value>
+    <Value>8.93517875671387</Value>
    </Parameter>
 
    <Parameter>
@@ -2453,7 +2453,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>41.9612350463867</Value>
+    <Value>96.7418060302734</Value>
    </Parameter>
 
    <Parameter>
@@ -3103,6 +3103,57 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- StereoRecord -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>StereoRecord</Name>
+   <URI>https://github.com/brummer10/screcord#stereo_record</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>FORM</Name>
+    <Symbol>FORM</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>REC</Name>
+    <Symbol>REC</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Switch -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Switch</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcswitch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Switch Level</Name>
+    <Symbol>switchLevel</Symbol>
+    <Value>1.1710000038147</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -3281,8 +3332,16 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
+   <Source>LSP Compressor Stereo (2):Output L</Source>
+   <Target>StereoRecord:In</Target>
+  </Connection>
+  <Connection>
    <Source>LSP Compressor Stereo (2):Output R</Source>
    <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Stereo (2):Output R</Source>
+   <Target>StereoRecord:In1</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
@@ -3309,10 +3368,6 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Dragonfly Hall Reverb:Late Level</Target>
   </Connection>
   <Connection>
-   <Source>AMS Slew Limiter (3):Out</Source>
-   <Target>Attenuverter Booster (4):CV Input</Target>
-  </Connection>
-  <Connection>
    <Source>AMS Slew Limiter (2):Out</Source>
    <Target>Attenuverter Booster (6):CV Input</Target>
   </Connection>
@@ -3323,6 +3378,10 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>Attenuverter Booster (8):CV Output</Source>
    <Target>x42 Whirl - Rotary Speaker:Horn Speed Slow</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter (3):Out</Source>
+   <Target>Attenuverter Booster (4):CV Input</Target>
   </Connection>
   <Connection>
    <Source>Slew Rate Limiter:CV Output</Source>
