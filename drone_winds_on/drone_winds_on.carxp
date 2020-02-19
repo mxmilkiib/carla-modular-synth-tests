@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.590161085128784</Value>
+    <Value>0.434052169322968</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.500307440757751</Value>
+    <Value>0.34419572353363</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.435909748077393</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.298634052276611</Value>
+    <Value>0.613729059696198</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.273906707763672</Value>
+    <Value>0.435778260231018</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.750016391277313</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.410625398159027</Value>
+    <Value>0.254604578018188</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>21.3799839019775</Value>
+    <Value>6.61523628234863</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>9.33507442474365</Value>
+    <Value>4.71633529663086</Value>
    </Parameter>
 
    <Parameter>
@@ -1863,7 +1863,7 @@
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
     <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>CgAAAA==</Value>
+    <Value>DQAAAA==</Value>
    </CustomData>
 
    <CustomData>
@@ -3670,16 +3670,32 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Slew Rate Limiter:CV Input</Target>
   </Connection>
   <Connection>
+   <Source>LFO Blender:CV Mix</Source>
+   <Target>Simple Scope (4 channel):In1</Target>
+  </Connection>
+  <Connection>
    <Source>LFO Blender:LFO 1</Source>
    <Target>Attenuverter Booster:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>LFO Blender:LFO 1</Source>
+   <Target>Simple Scope (4 channel):In2</Target>
   </Connection>
   <Connection>
    <Source>LFO Blender:LFO 2</Source>
    <Target>Attenuverter Booster (3):CV Input</Target>
   </Connection>
   <Connection>
+   <Source>LFO Blender:LFO 2</Source>
+   <Target>Simple Scope (4 channel):In3</Target>
+  </Connection>
+  <Connection>
    <Source>LFO Blender:LFO 3</Source>
    <Target>Attenuverter Booster (5):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>LFO Blender:LFO 3</Source>
+   <Target>Simple Scope (4 channel):In4</Target>
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 1</Source>
@@ -3712,10 +3728,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>LSP Compressor Stereo (2):Output R</Source>
    <Target>system:playback_2</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Compressor Stereo (2):Output R</Source>
-   <Target>StereoRecord:In1</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
