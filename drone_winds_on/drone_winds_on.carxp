@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.278807044029236</Value>
+    <Value>0.195470869541168</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.188982039690018</Value>
+    <Value>0.105645880103111</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0545431226491928</Value>
+    <Value>0.432489782571793</Value>
    </Parameter>
 
    <Parameter>
@@ -548,7 +548,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-1</Value>
+    <Value>0.347888827323914</Value>
    </Parameter>
 
    <Parameter>
@@ -994,7 +994,7 @@
     <Index>0</Index>
     <Name>Input gain</Name>
     <Symbol>port5</Symbol>
-    <Value>0</Value>
+    <Value>-0.699999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -1015,7 +1015,7 @@
     <Index>3</Index>
     <Name>Resonance</Name>
     <Symbol>res</Symbol>
-    <Value>0.149999991059303</Value>
+    <Value>0.364455372095108</Value>
    </Parameter>
 
    <Parameter>
@@ -1553,7 +1553,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.00999999977648258</Value>
+    <Value>0.503797709941864</Value>
    </Parameter>
 
    <Parameter>
@@ -1657,7 +1657,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.579543113708496</Value>
+    <Value>0.0925101786851883</Value>
    </Parameter>
 
    <Parameter>
@@ -1675,7 +1675,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.99545681476593</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1701,7 +1701,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>24.2496318817139</Value>
+    <Value>46.1085205078125</Value>
    </Parameter>
 
    <Parameter>
@@ -1712,7 +1712,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>0</Value>
+    <Value>5.02751636505127</Value>
    </Parameter>
 
    <Parameter>
@@ -1723,7 +1723,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>25.2832851409912</Value>
+    <Value>13.6596899032593</Value>
    </Parameter>
 
    <Parameter>
@@ -2829,6 +2829,35 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- AMS Slew Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Slew Limiter (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -2901,6 +2930,10 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>ZLFO (2):Saw</Source>
    <Target>ZLFO:Range min</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO (2):Saw</Source>
+   <Target>Moog Low-Pass Filter 4:FM</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
@@ -3016,7 +3049,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (5):CV Output</Source>
-   <Target>Slew Rate Limiter:CV Input</Target>
+   <Target>AMS Slew Limiter (2):In</Target>
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter:Out</Source>
@@ -3027,7 +3060,7 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Dragonfly Hall Reverb:Late Level</Target>
   </Connection>
   <Connection>
-   <Source>Slew Rate Limiter:CV Output</Source>
+   <Source>AMS Slew Limiter (2):Out</Source>
    <Target>Attenuverter Booster (6):CV Input</Target>
   </Connection>
  </ExternalPatchbay>
