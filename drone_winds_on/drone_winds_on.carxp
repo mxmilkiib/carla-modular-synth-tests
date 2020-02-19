@@ -81,7 +81,7 @@
     <Index>1</Index>
     <Name>Divisions</Name>
     <Symbol>Divisions</Symbol>
-    <Value>4</Value>
+    <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.434052169322968</Value>
+    <Value>0.0587393902242184</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.34419572353363</Value>
+    <Value>0.662001430988312</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.435909748077393</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.613729059696198</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -314,14 +314,14 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.435778260231018</Value>
+    <Value>0.699684858322144</Value>
    </Parameter>
 
    <Parameter>
     <Index>11</Index>
     <Name>VCO 1 - Harmonic</Name>
     <Symbol>vco1_harmonic</Symbol>
-    <Value>8.05117130279541</Value>
+    <Value>3</Value>
    </Parameter>
 
    <Parameter>
@@ -346,7 +346,7 @@
     <Index>14</Index>
     <Name>VCO 2 - Wave Form</Name>
     <Symbol>vco2_waveForm</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -367,7 +367,7 @@
     <Index>17</Index>
     <Name>VCO 2 - Harmonic</Name>
     <Symbol>vco2_harmonic</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -445,7 +445,7 @@
     <Index>27</Index>
     <Name>VCO 4 - Octave</Name>
     <Symbol>vco4_octave</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -459,7 +459,7 @@
     <Index>29</Index>
     <Name>VCO 4 - Harmonic</Name>
     <Symbol>vco4_harmonic</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -477,7 +477,7 @@
     <Index>31</Index>
     <Name>VCO 4 - Phi0</Name>
     <Symbol>vco4_phi0</Symbol>
-    <Value>0</Value>
+    <Value>0.300000011920929</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -552,7 +552,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.839999973773956</Value>
+    <Value>0.571793079376221</Value>
    </Parameter>
 
    <Parameter>
@@ -1005,28 +1005,28 @@
     <Index>1</Index>
     <Name>Frequency</Name>
     <Symbol>freq</Symbol>
-    <Value>0.00819099973887205</Value>
+    <Value>0.0204760003834963</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Exp FM gain</Name>
     <Symbol>exp_fm_gain</Symbol>
-    <Value>0.499999970197678</Value>
+    <Value>1.85913181304932</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Resonance</Name>
     <Symbol>res</Symbol>
-    <Value>0.199999988079071</Value>
+    <Value>0.167895168066025</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Resonance gain</Name>
     <Symbol>res_gain</Symbol>
-    <Value>0.550000011920929</Value>
+    <Value>0.0769860744476318</Value>
    </Parameter>
 
    <Parameter>
@@ -1202,7 +1202,7 @@
     <Index>21</Index>
     <Name>Node 1 value</Name>
     <Symbol>node_1_val</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1216,7 +1216,7 @@
     <Index>23</Index>
     <Name>Node 2 position</Name>
     <Symbol>node_2_pos</Symbol>
-    <Value>0.973214268684387</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1237,14 +1237,14 @@
     <Index>26</Index>
     <Name>Node 3 position</Name>
     <Symbol>node_3_pos</Symbol>
-    <Value>0.107142858207226</Value>
+    <Value>0.127976194024086</Value>
    </Parameter>
 
    <Parameter>
     <Index>27</Index>
     <Name>Node 3 value</Name>
     <Symbol>node_3_val</Symbol>
-    <Value>0.228813588619232</Value>
+    <Value>0.898305058479309</Value>
    </Parameter>
 
    <Parameter>
@@ -1258,14 +1258,14 @@
     <Index>29</Index>
     <Name>Node 4 position</Name>
     <Symbol>node_4_pos</Symbol>
-    <Value>0.586309552192688</Value>
+    <Value>0.380952388048172</Value>
    </Parameter>
 
    <Parameter>
     <Index>30</Index>
     <Name>Node 4 value</Name>
     <Symbol>node_4_val</Symbol>
-    <Value>0.771186470985413</Value>
+    <Value>0.703389823436737</Value>
    </Parameter>
 
    <Parameter>
@@ -1279,14 +1279,14 @@
     <Index>32</Index>
     <Name>Node 5 position</Name>
     <Symbol>node_5_pos</Symbol>
-    <Value>0.360119044780731</Value>
+    <Value>0.196428567171097</Value>
    </Parameter>
 
    <Parameter>
     <Index>33</Index>
     <Name>Node 5 value</Name>
     <Symbol>node_5_val</Symbol>
-    <Value>0.279660999774933</Value>
+    <Value>0.101694941520691</Value>
    </Parameter>
 
    <Parameter>
@@ -1321,14 +1321,14 @@
     <Index>38</Index>
     <Name>Node 7 position</Name>
     <Symbol>node_7_pos</Symbol>
-    <Value>0.94345235824585</Value>
+    <Value>0.970238089561462</Value>
    </Parameter>
 
    <Parameter>
     <Index>39</Index>
     <Name>Node 7 value</Name>
     <Symbol>node_7_val</Symbol>
-    <Value>0.101694941520691</Value>
+    <Value>0.44067794084549</Value>
    </Parameter>
 
    <Parameter>
@@ -1342,14 +1342,14 @@
     <Index>41</Index>
     <Name>Node 8 position</Name>
     <Symbol>node_8_pos</Symbol>
-    <Value>0</Value>
+    <Value>0.622023820877075</Value>
    </Parameter>
 
    <Parameter>
     <Index>42</Index>
     <Name>Node 8 value</Name>
     <Symbol>node_8_val</Symbol>
-    <Value>0</Value>
+    <Value>0.118644058704376</Value>
    </Parameter>
 
    <Parameter>
@@ -1363,14 +1363,14 @@
     <Index>44</Index>
     <Name>Node 9 position</Name>
     <Symbol>node_9_pos</Symbol>
-    <Value>0</Value>
+    <Value>0.708333313465118</Value>
    </Parameter>
 
    <Parameter>
     <Index>45</Index>
     <Name>Node 9 value</Name>
     <Symbol>node_9_val</Symbol>
-    <Value>0</Value>
+    <Value>0.796610176563263</Value>
    </Parameter>
 
    <Parameter>
@@ -1384,14 +1384,14 @@
     <Index>47</Index>
     <Name>Node 10 position</Name>
     <Symbol>node_10_pos</Symbol>
-    <Value>0</Value>
+    <Value>0.800595223903656</Value>
    </Parameter>
 
    <Parameter>
     <Index>48</Index>
     <Name>Node 10 value</Name>
     <Symbol>node_10_val</Symbol>
-    <Value>0</Value>
+    <Value>0.161016941070557</Value>
    </Parameter>
 
    <Parameter>
@@ -1531,7 +1531,7 @@
     <Index>68</Index>
     <Name>Node count</Name>
     <Symbol>num_nodes</Symbol>
-    <Value>7</Value>
+    <Value>10</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1557,7 +1557,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.00999999977648258</Value>
+    <Value>0.689957916736603</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.252127170562744</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.254604578018188</Value>
+    <Value>0.582093894481659</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.79787278175354</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>0</Value>
+    <Value>35.2610397338867</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>6.61523628234863</Value>
+    <Value>10.6384353637695</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>4.71633529663086</Value>
+    <Value>8.51139831542969</Value>
    </Parameter>
 
    <Parameter>
@@ -2073,7 +2073,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.398107141256332</Value>
+    <Value>0.42169651389122</Value>
    </Parameter>
 
    <Parameter>
@@ -2457,7 +2457,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>5</Value>
+    <Value>69.4769592285156</Value>
    </Parameter>
 
    <Parameter>
@@ -3241,14 +3241,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Time Up</Name>
     <Symbol>timeUp</Symbol>
-    <Value>0.200000002980232</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Time Down</Name>
     <Symbol>timeDown</Symbol>
-    <Value>0.300000011920929</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3270,14 +3270,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>279</Value>
+    <Value>479</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>950</Value>
+    <Value>1000</Value>
    </Parameter>
 
    <Parameter>
@@ -3306,7 +3306,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Delay</Name>
     <Symbol>delay</Symbol>
-    <Value>3.30800008773804</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3314,70 +3314,6 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Name>V Mod</Name>
     <Symbol>vmod</Symbol>
     <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Moog Low-Pass Filter 4 -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Moog Low-Pass Filter 4 (2)</Name>
-   <URI>http://drobilla.net/plugins/fomp/mvclpf4</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input gain</Name>
-    <Symbol>port5</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Frequency</Name>
-    <Symbol>freq</Symbol>
-    <Value>0.00916666630655527</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Exp FM gain</Name>
-    <Symbol>exp_fm_gain</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Resonance</Name>
-    <Symbol>res</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Resonance gain</Name>
-    <Symbol>res_gain</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Filter poles</Name>
-    <Symbol>poles</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Output gain</Name>
-    <Symbol>out_gain</Symbol>
-    <Value>0</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3449,7 +3385,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>2.79999923706055</Value>
+    <Value>-0.0732302665710449</Value>
    </Parameter>
 
    <Parameter>
@@ -3532,6 +3468,469 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- LSP Sidechain Dynamic Processor Mono -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Sidechain Dynamic Processor Mono</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/sc_dyna_processor_mono</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input gain</Name>
+    <Symbol>g_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output gain</Name>
+    <Symbol>g_out</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Pause graph analysis</Name>
+    <Symbol>pause</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Clear graph analysis</Name>
+    <Symbol>clear</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sidechain type</Name>
+    <Symbol>sct</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sidechain mode</Name>
+    <Symbol>scm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Sidechain lookahead</Name>
+    <Symbol>sla</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Sidechain listen</Name>
+    <Symbol>scl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Sidechain reactivity</Name>
+    <Symbol>scr</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sidechain preamp</Name>
+    <Symbol>scp</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Attack time default</Name>
+    <Symbol>atd</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Release time default</Name>
+    <Symbol>rtd</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Point enable 0</Name>
+    <Symbol>pe0</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Threshold 0</Name>
+    <Symbol>tl0</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Gain 0</Name>
+    <Symbol>gl0</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Knee 0</Name>
+    <Symbol>kn0</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Attack enable 0</Name>
+    <Symbol>ae0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Attack level 0</Name>
+    <Symbol>al0</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Attack time 0</Name>
+    <Symbol>at0</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Release enable 0</Name>
+    <Symbol>re0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Relative level 0</Name>
+    <Symbol>rl0</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Release time 0</Name>
+    <Symbol>rt0</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Point enable 1</Name>
+    <Symbol>pe1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Threshold 1</Name>
+    <Symbol>tl1</Symbol>
+    <Value>0.0631000027060509</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Gain 1</Name>
+    <Symbol>gl1</Symbol>
+    <Value>0.0631000027060509</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Knee 1</Name>
+    <Symbol>kn1</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Attack enable 1</Name>
+    <Symbol>ae1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Attack level 1</Name>
+    <Symbol>al1</Symbol>
+    <Value>0.0631000027060509</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Attack time 1</Name>
+    <Symbol>at1</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Release enable 1</Name>
+    <Symbol>re1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Relative level 1</Name>
+    <Symbol>rl1</Symbol>
+    <Value>0.0631000027060509</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Release time 1</Name>
+    <Symbol>rt1</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Point enable 2</Name>
+    <Symbol>pe2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Threshold 2</Name>
+    <Symbol>tl2</Symbol>
+    <Value>0.0158500000834465</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Gain 2</Name>
+    <Symbol>gl2</Symbol>
+    <Value>0.0158500000834465</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Knee 2</Name>
+    <Symbol>kn2</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Attack enable 2</Name>
+    <Symbol>ae2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Attack level 2</Name>
+    <Symbol>al2</Symbol>
+    <Value>0.0158500000834465</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Attack time 2</Name>
+    <Symbol>at2</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Release enable 2</Name>
+    <Symbol>re2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Relative level 2</Name>
+    <Symbol>rl2</Symbol>
+    <Value>0.0158500000834465</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Release time 2</Name>
+    <Symbol>rt2</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Point enable 3</Name>
+    <Symbol>pe3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Threshold 3</Name>
+    <Symbol>tl3</Symbol>
+    <Value>0.00398000003769994</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Gain 3</Name>
+    <Symbol>gl3</Symbol>
+    <Value>0.00398000003769994</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Knee 3</Name>
+    <Symbol>kn3</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Attack enable 3</Name>
+    <Symbol>ae3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Attack level 3</Name>
+    <Symbol>al3</Symbol>
+    <Value>0.00398000003769994</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Attack time 3</Name>
+    <Symbol>at3</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Release enable 3</Name>
+    <Symbol>re3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Relative level 3</Name>
+    <Symbol>rl3</Symbol>
+    <Value>0.00398000003769994</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Release time 3</Name>
+    <Symbol>rt3</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Low-level ratio</Name>
+    <Symbol>llr</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>High-level ratio</Name>
+    <Symbol>hlr</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Overall makeup gain</Name>
+    <Symbol>omk</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Dry gain</Name>
+    <Symbol>cdr</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Wet gain</Name>
+    <Symbol>cwt</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Curve modelling visibility</Name>
+    <Symbol>cmv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Sidechain level visibility</Name>
+    <Symbol>slv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Envelope level visibility</Name>
+    <Symbol>elv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Gain reduction visibility</Name>
+    <Symbol>grv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Input level visibility</Name>
+    <Symbol>ilv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Output level visibility</Name>
+    <Symbol>olv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -3604,10 +4003,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>Moog Low-Pass Filter 4:Output</Source>
    <Target>Dragonfly Hall Reverb:Audio Input 2</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Sine</Source>
-   <Target>Moog Low-Pass Filter 4:Exp FM</Target>
   </Connection>
   <Connection>
    <Source>ZLFO 64/1.:Triangle</Source>
@@ -3804,6 +4199,10 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>AMS VC Delay:Output</Source>
    <Target>AMS VC Organ - 4 Osc:VCO 1 - Tune</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Delay:Output</Source>
+   <Target>LSP Sidechain Dynamic Processor Mono:Input</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (9):CV Output</Source>
