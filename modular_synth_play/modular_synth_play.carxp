@@ -11,7 +11,7 @@
  </EngineSettings>
 
  <Transport>
-  <BeatsPerMinute>120</BeatsPerMinute>
+  <BeatsPerMinute>130</BeatsPerMinute>
  </Transport>
 
  <!-- AMS Envelope -->
@@ -31,14 +31,14 @@
     <Index>0</Index>
     <Name>Attack</Name>
     <Symbol>attack</Symbol>
-    <Value>0</Value>
+    <Value>0.00999999977648258</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Decay</Name>
     <Symbol>decay</Symbol>
-    <Value>0.180000007152557</Value>
+    <Value>0.46000000834465</Value>
    </Parameter>
 
    <Parameter>
@@ -151,7 +151,7 @@
     <Index>8</Index>
     <Name>Exp FM Gain</Name>
     <Symbol>expFMGain</Symbol>
-    <Value>0</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -187,7 +187,7 @@
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -222,7 +222,11 @@
     <Index>6</Index>
     <Name>Edge</Name>
     <Symbol>edge</Symbol>
-    <Value>1</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>1</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>1.75</Value>
    </Parameter>
 
    <Parameter>
@@ -236,7 +240,7 @@
     <Index>8</Index>
     <Name>Exp FM Gain</Name>
     <Symbol>expFMGain</Symbol>
-    <Value>0</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -521,7 +525,7 @@
     <Index>8</Index>
     <Name>Exp FM Gain</Name>
     <Symbol>expFMGain</Symbol>
-    <Value>0</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -606,7 +610,7 @@
     <Index>8</Index>
     <Name>Exp FM Gain</Name>
     <Symbol>expFMGain</Symbol>
-    <Value>0.0299999993294477</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -622,7 +626,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Osc 1</Name>
+   <Name>Lead Osc Sine</Name>
    <URI>http://github.com/blablack/ams-lv2/vco3</URI>
   </Info>
 
@@ -635,7 +639,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -893,75 +897,11 @@
   </Data>
  </Plugin>
 
- <!-- AMS Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Env 1</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0599999986588955</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.519999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.509999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS VCO3 -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Osc 2</Name>
+   <Name>Lead Osc Tri</Name>
    <URI>http://github.com/blablack/ams-lv2/vco3</URI>
   </Info>
 
@@ -974,7 +914,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1038,70 +978,6 @@
     <Name>Lin FM Gain</Name>
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Env 2</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0500000007450581</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.100000001490116</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.699999988079071</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.0500000007450581</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1216,155 +1092,6 @@
     <Name>Output Level</Name>
     <Symbol>outputLevel</Symbol>
     <Value>0.5</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VCO3 -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Osc 3</Name>
-   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Wave Form</Name>
-    <Symbol>waveForm</Symbol>
-    <Value>3</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Octave</Name>
-    <Symbol>octave</Symbol>
-    <Value>3</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Tune</Name>
-    <Symbol>tune</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Semitone</Name>
-    <Symbol>semitone</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PW0</Name>
-    <Symbol>pw0</Symbol>
-    <Value>0.5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>PW Gain</Name>
-    <Symbol>pwGain</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Edge</Name>
-    <Symbol>edge</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Phi0</Name>
-    <Symbol>phi0</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Exp FM Gain</Name>
-    <Symbol>expFMGain</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Lin FM Gain</Name>
-    <Symbol>linFMGain</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Env 3</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0500000007450581</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.100000001490116</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.699999988079071</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.0500000007450581</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1500,7 +1227,7 @@
     <Index>0</Index>
     <Name>Wave Form</Name>
     <Symbol>waveForm</Symbol>
-    <Value>1</Value>
+    <Value>3</Value>
    </Parameter>
 
    <Parameter>
@@ -1564,70 +1291,6 @@
     <Name>Lin FM Gain</Name>
     <Symbol>linFMGain</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Env 4</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0500000007450581</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.519999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.509999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -2197,81 +1860,6 @@
   </Data>
  </Plugin>
 
- <!-- MIDI Pattern -->
- <Plugin>
-  <Info>
-   <Type>INTERNAL</Type>
-   <Name>MIDI Pattern</Name>
-   <Label>midipattern</Label>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Time Signature</Name>
-    <Value>3</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Measures</Name>
-    <Value>4</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Default Length</Name>
-    <Value>4</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Quantize</Name>
-    <Value>4</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
-    <Key>CarlaSkinIsCompacted</Key>
-    <Value>false</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://kxstudio.sf.net/ns/carla/chunk</Type>
-    <Key>State</Key>
-    <Value>
-0:3:0x90:043:100
-24:3:0x80:043:100
-96:3:0x90:048:100
-120:3:0x90:050:100
-120:3:0x80:050:100
-120:3:0x80:048:100
-192:3:0x90:043:100
-216:3:0x80:043:100
-288:3:0x90:048:100
-312:3:0x80:048:100
-384:3:0x90:043:100
-408:3:0x80:043:100
-480:3:0x90:048:100
-504:3:0x80:048:100
-576:3:0x90:042:100
-600:3:0x80:042:100
-624:3:0x90:042:100
-648:3:0x80:042:100
-672:3:0x90:042:100
-696:3:0x80:042:100
-720:3:0x90:048:100
-744:3:0x80:048:100
-
-    </Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
  <!-- MIDI to CV -->
  <Plugin>
   <Info>
@@ -2288,19 +1876,19 @@
    <Parameter>
     <Index>0</Index>
     <Name>Octave</Name>
-    <Value>0</Value>
+    <Value>-3</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Semitone</Name>
-    <Value>0</Value>
+    <Value>-12</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Cent</Name>
-    <Value>0</Value>
+    <Value>-100</Value>
    </Parameter>
 
    <Parameter>
@@ -2407,14 +1995,14 @@
     <Index>3</Index>
     <Name>Volume 3</Name>
     <Symbol>volume3</Symbol>
-    <Value>0.699999988079071</Value>
+    <Value>0.550000011920929</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Volume 4</Name>
     <Symbol>volume4</Symbol>
-    <Value>0.100000001490116</Value>
+    <Value>0.400000005960464</Value>
    </Parameter>
 
    <Parameter>
@@ -2442,127 +2030,6 @@
     <Index>8</Index>
     <Name>Volume 8</Name>
     <Symbol>volume8</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS Noise2 -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS Noise2</Name>
-   <URI>http://github.com/blablack/ams-lv2/noise2</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Noise Type</Name>
-    <Symbol>noiseType</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Random Rate</Name>
-    <Symbol>rate</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Random Level</Name>
-    <Symbol>level</Symbol>
-    <Value>0.5</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS VC Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Envelope</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcenv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Offset</Name>
-    <Symbol>attackOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Offset</Name>
-    <Symbol>decayOffset</Symbol>
-    <Value>0.100000001490116</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Offset</Name>
-    <Symbol>sustainOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Offset</Name>
-    <Symbol>releaseOffset</Symbol>
-    <Value>1.29999995231628</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Attack Gain</Name>
-    <Symbol>attackGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Decay Gain</Name>
-    <Symbol>decayGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sustain Gain</Name>
-    <Symbol>sustainGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Release Gain</Name>
-    <Symbol>releaseGain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timescale</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Decay/Release Mode</Name>
-    <Symbol>decayreleasemode</Symbol>
     <Value>1</Value>
    </Parameter>
   </Data>
@@ -2648,7 +2115,7 @@
     <Index>9</Index>
     <Name>Mute 3</Name>
     <Symbol>mute3</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -2676,7 +2143,7 @@
     <Index>13</Index>
     <Name>Mute 4</Name>
     <Symbol>mute4</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -2754,7 +2221,7 @@
     <Index>5</Index>
     <Name>Mute 2</Name>
     <Symbol>mute2</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3076,12 +2543,12 @@
   </Data>
  </Plugin>
 
- <!-- AMS Envelope -->
+ <!-- AMS VC Envelope II -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Env 4 (2)</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
+   <Name>AMS VC Envelope II (5)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
   </Info>
 
   <Data>
@@ -3091,52 +2558,65 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.519999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.509999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
     <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
     <Value>1</Value>
    </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -3339,12 +2819,12 @@
   </Data>
  </Plugin>
 
- <!-- AMS Envelope -->
+ <!-- AMS VC Envelope II -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Env 4 (3)</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
+   <Name>AMS VC Envelope II (6)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
   </Info>
 
   <Data>
@@ -3354,52 +2834,65 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.519999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.509999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
     <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
     <Value>1</Value>
    </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -3602,12 +3095,12 @@
   </Data>
  </Plugin>
 
- <!-- AMS Envelope -->
+ <!-- AMS VC Envelope II -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Env 4 (4)</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
+   <Name>AMS VC Envelope II (7)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
   </Info>
 
   <Data>
@@ -3617,52 +3110,65 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.519999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.509999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
     <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
     <Value>1</Value>
    </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -3865,12 +3371,12 @@
   </Data>
  </Plugin>
 
- <!-- AMS Envelope -->
+ <!-- AMS VC Envelope II -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Lead Env 4 (5)</Name>
-   <URI>http://github.com/blablack/ams-lv2/env</URI>
+   <Name>AMS VC Envelope II (8)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
   </Info>
 
   <Data>
@@ -3880,52 +3386,65 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Attack</Name>
-    <Symbol>attack</Symbol>
-    <Value>0.0199999995529652</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay</Name>
-    <Symbol>decay</Symbol>
-    <Value>0.0299999993294477</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain</Name>
-    <Symbol>sustain</Symbol>
-    <Value>0.519999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release</Name>
-    <Symbol>release</Symbol>
-    <Value>0.509999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Delay</Name>
-    <Symbol>delay</Symbol>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
     <Index>5</Index>
-    <Name>Hold</Name>
-    <Symbol>hold</Symbol>
-    <Value>0.0199999995529652</Value>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
-    <Name>Time Scale</Name>
-    <Symbol>timeScale</Symbol>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
     <Value>1</Value>
    </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -4088,12 +3607,12 @@
   </Data>
  </Plugin>
 
- <!-- AMS VCA Lin -->
+ <!-- MIDI Pattern -->
  <Plugin>
   <Info>
-   <Type>LV2</Type>
-   <Name>AMS VCA Lin</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcalin</URI>
+   <Type>INTERNAL</Type>
+   <Name>MIDI Pattern</Name>
+   <Label>midipattern</Label>
   </Info>
 
   <Data>
@@ -4103,53 +3622,1081 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Gain Offset</Name>
-    <Symbol>gain1</Symbol>
-    <Value>0</Value>
+    <Name>Time Signature</Name>
+    <Value>3</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>2nd Gain Boost</Name>
-    <Symbol>gain2</Symbol>
+    <Name>Measures</Name>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Default Length</Name>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Quantize</Name>
+    <Value>4</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/chunk</Type>
+    <Key>State</Key>
+    <Value>
+0:3:0x90:052:100
+24:3:0x80:052:100
+96:3:0x90:052:100
+120:3:0x80:052:100
+192:3:0x90:052:100
+216:3:0x80:052:100
+384:3:0x90:052:100
+408:3:0x80:052:100
+480:3:0x90:052:100
+504:3:0x80:052:100
+576:3:0x90:052:100
+600:3:0x80:052:100
+768:3:0x90:051:100
+792:3:0x80:051:100
+
+    </Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- LSP Spectrum Analyzer x4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Spectrum Analyzer x4</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/spectrum_analyzer_x4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Analyse 0</Name>
+    <Symbol>on_0</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Solo 0</Name>
+    <Symbol>solo_0</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
-    <Name>In 1</Name>
-    <Symbol>in1</Symbol>
-    <Value>0.5</Value>
+    <Name>Freeze 0</Name>
+    <Symbol>frz_0</Symbol>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
-    <Name>In 2</Name>
-    <Symbol>in2</Symbol>
-    <Value>1</Value>
+    <Name>Hue 0</Name>
+    <Symbol>hue_0</Symbol>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
-    <Name>Output Level</Name>
-    <Symbol>outputLevel</Symbol>
+    <Name>Shift gain 0</Name>
+    <Symbol>sh_0</Symbol>
+    <Value>0.07498949021101</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Analyse 1</Name>
+    <Symbol>on_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Freeze 1</Name>
+    <Symbol>frz_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Hue 1</Name>
+    <Symbol>hue_1</Symbol>
+    <Value>0.25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Shift gain 1</Name>
+    <Symbol>sh_1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Analyse 2</Name>
+    <Symbol>on_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Freeze 2</Name>
+    <Symbol>frz_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Hue 2</Name>
+    <Symbol>hue_2</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Shift gain 2</Name>
+    <Symbol>sh_2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Analyse 3</Name>
+    <Symbol>on_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Solo 3</Name>
+    <Symbol>solo_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Freeze 3</Name>
+    <Symbol>frz_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Hue 3</Name>
+    <Symbol>hue_3</Symbol>
+    <Value>0.75</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Shift gain 3</Name>
+    <Symbol>sh_3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Analyzer mode</Name>
+    <Symbol>mode</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Spectralizer mode</Name>
+    <Symbol>spm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Spectralizer logarithmic scale</Name>
+    <Symbol>splog</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Analyzer freeze</Name>
+    <Symbol>freeze</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>FFT Tolerance</Name>
+    <Symbol>tol</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>FFT Window</Name>
+    <Symbol>wnd</Symbol>
+    <Value>13</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>FFT Envelope</Name>
+    <Symbol>env</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Preamp gain</Name>
+    <Symbol>pamp</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Graph zoom</Name>
+    <Symbol>zoom</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Reactivity</Name>
+    <Symbol>react</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Channel</Name>
+    <Symbol>chn</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Selector</Name>
+    <Symbol>sel</Symbol>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Spectralizer channel 0</Name>
+    <Symbol>spc0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Spectralizer channel 1</Name>
+    <Symbol>spc1</Symbol>
     <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
 
- <!-- 1/3 Octave Spectrum Display Mono -->
+ <!-- AMS VC Envelope II -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>1/3 Octave Spectrum Display Mono</Name>
-   <URI>http://gareus.org/oss/lv2/meters#spectr30mono</URI>
+   <Name>Freq Env</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
   </Info>
 
   <Data>
    <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>-0.307944297790527</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>0.990000009536743</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Envelope II -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Envelope II</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Envelope II -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Envelope II (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>-2.24000000953674</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>-5.21999979019165</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Envelope II -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Envelope II (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>-0.2817362844944</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Attack</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>-0.808197975158691</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Envelope II -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Envelope II (4)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>-8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Osc Saw</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0.00400000018998981</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Decay</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>-0.257540613412857</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Sustain</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>0.219999969005585</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Lead Release</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>-0.939999997615814</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (4)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
   </Data>
  </Plugin>
 
@@ -4215,7 +4762,7 @@
    <Target>Triangle VCA:In 1 Mod</Target>
   </Connection>
   <Connection>
-   <Source>Lead Osc 1:Out</Source>
+   <Source>Lead Osc Sine:Out</Source>
    <Target>Lead VCF 1:In</Target>
   </Connection>
   <Connection>
@@ -4228,23 +4775,23 @@
   </Connection>
   <Connection>
    <Source>MIDI Generator:events-out</Source>
-   <Target>MIDI Key-Range Filter:events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>MIDI Generator:events-out</Source>
    <Target>MIDI Key-Range Filter (2):events-in</Target>
   </Connection>
   <Connection>
+   <Source>MIDI Generator:events-out</Source>
+   <Target>MIDI Key-Range Filter:events-in</Target>
+  </Connection>
+  <Connection>
    <Source>MIDI to CV Poly:Pitch 1</Source>
-   <Target>Lead Osc 1:Frequency</Target>
+   <Target>Lead Osc Sine:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 2</Source>
-   <Target>Lead Osc 2:Frequency</Target>
+   <Target>Lead Osc Tri:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 3</Source>
-   <Target>Lead Osc 3:Frequency</Target>
+   <Target>Lead Osc Saw:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 4</Source>
@@ -4252,39 +4799,23 @@
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Gate 1</Source>
-   <Target>Lead Env 1:Gate</Target>
+   <Target>AMS VC Envelope II:Gate</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Gate 2</Source>
-   <Target>Lead Env 2:Gate</Target>
+   <Target>AMS VC Envelope II (2):Gate</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Gate 3</Source>
-   <Target>Lead Env 3:Gate</Target>
+   <Target>AMS VC Envelope II (3):Gate</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Gate 4</Source>
-   <Target>Lead Env 4:Gate</Target>
+   <Target>AMS VC Envelope II (4):Gate</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 1:Out</Source>
-   <Target>Lead VCF 1:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 1:Out</Source>
-   <Target>Lead Gain 1:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Osc 2:Out</Source>
+   <Source>Lead Osc Tri:Out</Source>
    <Target>Lead VCF 2:In</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 2:Out</Source>
-   <Target>Lead VCF 2:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 2:Out</Source>
-   <Target>Lead Gain 2:Main Gain</Target>
   </Connection>
   <Connection>
    <Source>Lead VCF 2:Out</Source>
@@ -4293,18 +4824,6 @@
   <Connection>
    <Source>Lead Gain 2:Out</Source>
    <Target>AMS Stereo Mixer 8 channels:In 2</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Osc 3:Out</Source>
-   <Target>Lead VCF 3:In</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 3:Out</Source>
-   <Target>Lead VCF 3:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 3:Out</Source>
-   <Target>Lead Gain 3:Main Gain</Target>
   </Connection>
   <Connection>
    <Source>Lead VCF 3:Out</Source>
@@ -4317,14 +4836,6 @@
   <Connection>
    <Source>Lead Osc 4:Out</Source>
    <Target>Lead VCF 4:In</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 4:Out</Source>
-   <Target>Lead VCF 4:Frequency Mod</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Env 4:Out</Source>
-   <Target>Lead Gain 4:Main Gain</Target>
   </Connection>
   <Connection>
    <Source>Lead VCF 4:Out</Source>
@@ -4359,20 +4870,20 @@
    <Target>MIDI to CV Poly (2):events-in</Target>
   </Connection>
   <Connection>
-   <Source>MIDI Pattern:events-out</Source>
-   <Target>MIDI to CV:events-in</Target>
+   <Source>MIDI to CV:Pitch</Source>
+   <Target>Pluse:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV:Pitch</Source>
-   <Target>CV meter:CV input</Target>
+   <Target>Sawtooth:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV:Pitch</Source>
-   <Target>AMS VCA Lin:Main Gain</Target>
+   <Target>Triangle:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV:Pitch</Source>
-   <Target>Simple Scope (4 channel):In1</Target>
+   <Target>Sine:Frequency</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV:Trigger</Source>
@@ -4396,7 +4907,15 @@
   </Connection>
   <Connection>
    <Source>MIDI to CV:Trigger</Source>
-   <Target>AMS VC Envelope:Gate</Target>
+   <Target>Freq Env:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI to CV:Trigger</Source>
+   <Target>Freq Env:Retrigger</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI to CV:Trigger</Source>
+   <Target>Gain Env:Retrigger</Target>
   </Connection>
   <Connection>
    <Source>AMS Mixer 8 channels (2):Out</Source>
@@ -4405,10 +4924,6 @@
   <Connection>
    <Source>AMS Mixer 8 channels (2):Out</Source>
    <Target>AMS Stereo Mixer 4 channels:In 4</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS VC Envelope:Out</Source>
-   <Target>AMS VCA Lin:In 1 Mod</Target>
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 4 channels:Out Left</Source>
@@ -4444,30 +4959,30 @@
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly (2):Gate 1</Source>
-   <Target>Lead Env 4 (2):Gate</Target>
+   <Target>AMS VC Envelope II (5):Gate</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly (2):Gate 2</Source>
-   <Target>Lead Env 4 (3):Gate</Target>
+   <Target>AMS VC Envelope II (6):Gate</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly (2):Gate 3</Source>
-   <Target>Lead Env 4 (4):Gate</Target>
+   <Target>AMS VC Envelope II (7):Gate</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly (2):Gate 4</Source>
-   <Target>Lead Env 4 (5):Gate</Target>
+   <Target>AMS VC Envelope II (8):Gate</Target>
   </Connection>
   <Connection>
    <Source>Lead Osc 4 (2):Out</Source>
    <Target>Lead VCF 4 (2):In</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (2):Out</Source>
+   <Source>AMS VC Envelope II (5):Out</Source>
    <Target>Lead VCF 4 (2):Frequency Mod</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (2):Out</Source>
+   <Source>AMS VC Envelope II (5):Out</Source>
    <Target>Lead Gain 4 (2):Main Gain</Target>
   </Connection>
   <Connection>
@@ -4483,11 +4998,11 @@
    <Target>Lead VCF 4 (3):In</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (3):Out</Source>
+   <Source>AMS VC Envelope II (6):Out</Source>
    <Target>Lead VCF 4 (3):Frequency Mod</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (3):Out</Source>
+   <Source>AMS VC Envelope II (6):Out</Source>
    <Target>Lead Gain 4 (3):Main Gain</Target>
   </Connection>
   <Connection>
@@ -4503,11 +5018,11 @@
    <Target>Lead VCF 4 (4):In</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (4):Out</Source>
+   <Source>AMS VC Envelope II (7):Out</Source>
    <Target>Lead VCF 4 (4):Frequency Mod</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (4):Out</Source>
+   <Source>AMS VC Envelope II (7):Out</Source>
    <Target>Lead Gain 4 (4):Main Gain</Target>
   </Connection>
   <Connection>
@@ -4523,36 +5038,224 @@
    <Target>Lead VCF 4 (5):In</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (5):Out</Source>
-   <Target>Lead VCF 4 (5):Frequency Mod</Target>
+   <Source>AMS VC Envelope II (8):Out</Source>
+   <Target>Lead Gain 4 (5):Main Gain</Target>
   </Connection>
   <Connection>
-   <Source>Lead Env 4 (5):Out</Source>
-   <Target>Lead Gain 4 (5):Main Gain</Target>
+   <Source>AMS VC Envelope II (8):Out</Source>
+   <Target>Lead VCF 4 (5):Frequency Mod</Target>
   </Connection>
   <Connection>
    <Source>Lead VCF 4 (5):Out</Source>
    <Target>Lead Gain 4 (5):In 1 Mod</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Lin:Out</Source>
-   <Target>Pluse:Frequency</Target>
+   <Source>Lead Gain 4 (5):Out</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 8</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Lin:Out</Source>
-   <Target>Sawtooth:Frequency</Target>
+   <Source>MIDI Pattern:events-out</Source>
+   <Target>MIDI to CV:events-in</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Lin:Out</Source>
-   <Target>Triangle:Frequency</Target>
+   <Source>Freq Env:Out</Source>
+   <Target>Sine:Exp FM</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Lin:Out</Source>
-   <Target>Sine:Frequency</Target>
+   <Source>Freq Env:Out</Source>
+   <Target>Triangle:Exp FM</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Lin:Out</Source>
-   <Target>1/3 Octave Spectrum Display Mono:In</Target>
+   <Source>Freq Env:Out</Source>
+   <Target>Sawtooth:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Freq Env:Out</Source>
+   <Target>Pluse:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV:Output</Source>
+   <Target>Freq Env:Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II:Out</Source>
+   <Target>Lead VCF 1:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II:Out</Source>
+   <Target>Lead Gain 1:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (2):Out</Source>
+   <Target>Lead VCF 2:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (2):Out</Source>
+   <Target>Lead Gain 2:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (3):Out</Source>
+   <Target>Lead VCF 3:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (3):Out</Source>
+   <Target>Lead Gain 3:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Attack:Output</Source>
+   <Target>Attenuverter Booster:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II:Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (2):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (3):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (4):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (5):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (6):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (7):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VC Envelope II (8):Attack</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (4):Out</Source>
+   <Target>Lead VCF 4:Frequency Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II (4):Out</Source>
+   <Target>Lead Gain 4:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Osc Saw:Out</Source>
+   <Target>Lead VCF 3:In</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Decay:Output</Source>
+   <Target>Attenuverter Booster (2):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (2):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (3):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (4):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II:Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (5):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>CV meter (3):CV input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (6):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (7):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>AMS VC Envelope II (8):Decay</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Sustain:Output</Source>
+   <Target>Attenuverter Booster (3):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Lead Release:Output</Source>
+   <Target>Attenuverter Booster (4):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II:Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (2):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (3):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (4):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (5):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (6):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (7):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>AMS VC Envelope II (8):Sustain</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II:Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (2):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (3):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (4):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (5):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (6):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (4):CV Output</Source>
+   <Target>AMS VC Envelope II (8):Release</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>

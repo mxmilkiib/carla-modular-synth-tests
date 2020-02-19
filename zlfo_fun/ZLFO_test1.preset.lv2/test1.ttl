@@ -1,0 +1,218 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://www.zrythm.org/plugins/ZLFO> ;
+	rdfs:label "test1" ;
+	lv2:port [
+		lv2:symbol "custom_toggle" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "free_running" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "freq" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "gate" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "gated_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "grid_step" ;
+		pset:value 3.0
+	] , [
+		lv2:symbol "hinvert" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_10_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_10_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_10_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_11_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_11_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_11_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_12_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_12_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_12_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_13_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_13_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_13_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_14_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_14_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_14_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_15_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_15_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_15_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_16_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_16_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_16_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_1_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_1_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_1_val" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "node_2_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_2_pos" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "node_2_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_3_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_3_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_3_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_4_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_4_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_4_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_5_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_5_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_5_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_6_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_6_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_6_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_7_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_7_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_7_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_8_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_8_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_8_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_9_curve" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_9_pos" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "node_9_val" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "num_nodes" ;
+		pset:value 2.0
+	] , [
+		lv2:symbol "range_max" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "range_min" ;
+		pset:value -1.0
+	] , [
+		lv2:symbol "saw_toggle" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "shift" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "sine_toggle" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "square_toggle" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "step_mode" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "sync_rate" ;
+		pset:value 5.0
+	] , [
+		lv2:symbol "sync_rate_type" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "triangle_toggle" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "trigger" ;
+		pset:value 0.0
+	] , [
+		lv2:symbol "vinvert" ;
+		pset:value 0.0
+	] .
+
