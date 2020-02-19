@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.149842813611031</Value>
+    <Value>0.596869885921478</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0590395852923393</Value>
+    <Value>0.50701630115509</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.337843298912048</Value>
    </Parameter>
 
    <Parameter>
@@ -548,7 +548,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.168451607227325</Value>
+    <Value>-0.839999973773956</Value>
    </Parameter>
 
    <Parameter>
@@ -1553,7 +1553,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.607806026935577</Value>
+    <Value>0.00999999977648258</Value>
    </Parameter>
 
    <Parameter>
@@ -1621,7 +1621,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.916604697704315</Value>
+    <Value>0.710807085037231</Value>
    </Parameter>
 
    <Parameter>
@@ -1639,7 +1639,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.695774435997009</Value>
+    <Value>0.417334228754044</Value>
    </Parameter>
 
    <Parameter>
@@ -1657,7 +1657,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.133395224809647</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1701,7 +1701,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>39.0096740722656</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1712,7 +1712,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>15.5507354736328</Value>
+    <Value>23.2236728668213</Value>
    </Parameter>
 
    <Parameter>
@@ -1723,7 +1723,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>8.93517875671387</Value>
+    <Value>6.57192611694336</Value>
    </Parameter>
 
    <Parameter>
@@ -2453,7 +2453,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>96.7418060302734</Value>
+    <Value>5</Value>
    </Parameter>
 
    <Parameter>
@@ -3127,7 +3127,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>1</Index>
     <Name>REC</Name>
     <Symbol>REC</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
