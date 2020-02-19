@@ -126,7 +126,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>AMS VCO3 (2)</Name>
+   <Name>AMS Saw</Name>
    <URI>http://github.com/blablack/ams-lv2/vco3</URI>
   </Info>
 
@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.245310693979263</Value>
+    <Value>0.57400244474411</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.155485704541206</Value>
+    <Value>0.484177440404892</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.141232043504715</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.204894736409187</Value>
    </Parameter>
 
    <Parameter>
@@ -482,7 +482,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>ZLFO</Name>
+   <Name>ZLFO 64/1</Name>
    <URI>https://www.zrythm.org/plugins/ZLFO</URI>
   </Info>
 
@@ -548,7 +548,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.966814756393433</Value>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
@@ -1045,7 +1045,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>ZLFO (2)</Name>
+   <Name>ZLFO 64/1.</Name>
    <URI>https://www.zrythm.org/plugins/ZLFO</URI>
   </Info>
 
@@ -1621,7 +1621,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.845105230808258</Value>
    </Parameter>
 
    <Parameter>
@@ -1657,7 +1657,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.383767932653427</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1675,7 +1675,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.729894697666168</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1701,7 +1701,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>58.8452987670898</Value>
+    <Value>54.1397552490234</Value>
    </Parameter>
 
    <Parameter>
@@ -1712,7 +1712,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>35.6938171386719</Value>
+    <Value>40.6597557067871</Value>
    </Parameter>
 
    <Parameter>
@@ -1723,7 +1723,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>15.9258728027344</Value>
+    <Value>18.0066089630127</Value>
    </Parameter>
 
    <Parameter>
@@ -2449,14 +2449,22 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>5</Index>
     <Name>Horn Speed Slow</Name>
     <Symbol>hornrpmslow</Symbol>
-    <Value>14.5252456665039</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>5</MappedMinimum>
+    <MappedMaximum>200</MappedMaximum>
+    <Value>5</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
     <Name>Horn Speed Fast</Name>
     <Symbol>hornrpmfast</Symbol>
-    <Value>507.890838623047</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>100</MappedMinimum>
+    <MappedMaximum>1000</MappedMaximum>
+    <Value>242.73127746582</Value>
    </Parameter>
 
    <Parameter>
@@ -2540,14 +2548,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>18</Index>
     <Name>Drum Speed Slow</Name>
     <Symbol>drumrpmslow</Symbol>
-    <Value>36</Value>
+    <Value>7.3432765007019</Value>
    </Parameter>
 
    <Parameter>
     <Index>19</Index>
     <Name>Drum Speed Fast</Name>
     <Symbol>drumrpmfast</Symbol>
-    <Value>357.299987792969</Value>
+    <Value>286.573974609375</Value>
    </Parameter>
 
    <Parameter>
@@ -2858,6 +2866,106 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (7)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (8)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -2880,7 +2988,7 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>system:playback_2</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCO3 (2):Out</Source>
+   <Source>AMS Saw:Out</Source>
    <Target>AMS VC Organ - 4 Osc:Frequency</Target>
   </Connection>
   <Connection>
@@ -2892,11 +3000,15 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>LFO Blender:Blend</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO:Sine</Source>
-   <Target>AMS VCO3 (2):Lin FM</Target>
+   <Source>ZLFO 64/1:Sine</Source>
+   <Target>AMS Saw:Lin FM</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO:Saw</Source>
+   <Source>ZLFO 64/1:Sine</Source>
+   <Target>Attenuverter Booster (7):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 64/1:Saw</Source>
    <Target>AMS Multiphase LFO:Freq (Hz)</Target>
   </Connection>
   <Connection>
@@ -2920,20 +3032,20 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Dragonfly Hall Reverb:Audio Input 2</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO (2):Sine</Source>
+   <Source>ZLFO 64/1.:Sine</Source>
    <Target>Moog Low-Pass Filter 4:Exp FM</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO (2):Triangle</Source>
+   <Source>ZLFO 64/1.:Triangle</Source>
    <Target>Moog Low-Pass Filter 4:Resonance Mod</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO (2):Saw</Source>
-   <Target>ZLFO:Range min</Target>
+   <Source>ZLFO 64/1.:Saw</Source>
+   <Target>Moog Low-Pass Filter 4:FM</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO (2):Saw</Source>
-   <Target>Moog Low-Pass Filter 4:FM</Target>
+   <Source>ZLFO 64/1.:Saw</Source>
+   <Target>ZLFO 64/1:Range min</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
@@ -3062,6 +3174,14 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>AMS Slew Limiter (2):Out</Source>
    <Target>Attenuverter Booster (6):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (7):CV Output</Source>
+   <Target>Attenuverter Booster (8):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (8):CV Output</Source>
+   <Target>x42 Whirl - Rotary Speaker:Horn Speed Slow</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
