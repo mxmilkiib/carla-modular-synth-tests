@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.317816883325577</Value>
+    <Value>0.186521574854851</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.226525619626045</Value>
+    <Value>0.639672577381134</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.294052213430405</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -314,14 +314,14 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.319936871528625</Value>
+    <Value>0.697208881378174</Value>
    </Parameter>
 
    <Parameter>
     <Index>11</Index>
     <Name>VCO 1 - Harmonic</Name>
     <Symbol>vco1_harmonic</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -552,7 +552,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.268195331096649</Value>
+    <Value>0.880000114440918</Value>
    </Parameter>
 
    <Parameter>
@@ -1557,7 +1557,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.511329293251038</Value>
+    <Value>0.85999995470047</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.135920703411102</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.144052490592003</Value>
+    <Value>0.562199294567108</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.841967105865479</Value>
+    <Value>0.914079248905182</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>53.1066017150879</Value>
+    <Value>24.9015979766846</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.8002490997314</Value>
+    <Value>13.4440469741821</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>14.9951410293579</Value>
+    <Value>6.82663488388062</Value>
    </Parameter>
 
    <Parameter>
@@ -2457,7 +2457,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>87.0247497558594</Value>
+    <Value>90.3333358764648</Value>
    </Parameter>
 
    <Parameter>
@@ -2980,14 +2980,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>32</Value>
+    <Value>20</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>33</Value>
+    <Value>30</Value>
    </Parameter>
 
    <Parameter>
@@ -3102,35 +3102,6 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>2</Index>
     <Name>BYPASS</Name>
     <Symbol>BYPASS</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- StereoRecord -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>StereoRecord</Name>
-   <URI>https://github.com/brummer10/screcord#stereo_record</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>FORM</Name>
-    <Symbol>FORM</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>REC</Name>
-    <Symbol>REC</Symbol>
     <Value>1</Value>
    </Parameter>
   </Data>
@@ -3937,6 +3908,22 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>PulseAudio JACK Source:front-left</Target>
   </Connection>
   <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>SimpleScreenRecorder:in_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>SimpleScreenRecorder:in_2</Target>
+  </Connection>
+  <Connection>
    <Source>Random CV Generator:CV Output</Source>
    <Target>CV meter:CV input</Target>
   </Connection>
@@ -3947,14 +3934,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>CV Clock:pulse</Source>
    <Target>Random CV Generator:Gate In</Target>
-  </Connection>
-  <Connection>
-   <Source>PulseAudio JACK Sink:front-left</Source>
-   <Target>system:playback_1</Target>
-  </Connection>
-  <Connection>
-   <Source>PulseAudio JACK Sink:front-right</Source>
-   <Target>system:playback_2</Target>
   </Connection>
   <Connection>
    <Source>AMS Saw:Out</Source>
@@ -4118,11 +4097,15 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>LSP Compressor Stereo (2):Output L</Source>
-   <Target>StereoRecord:In</Target>
+   <Target>SimpleScreenRecorder:in_1</Target>
   </Connection>
   <Connection>
    <Source>LSP Compressor Stereo (2):Output R</Source>
    <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Stereo (2):Output R</Source>
+   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
