@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.186521574854851</Value>
+    <Value>0.246386989951134</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.639672577381134</Value>
+    <Value>0.154094010591507</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.746604919433594</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.697208881378174</Value>
+    <Value>0.54153299331665</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.135920703411102</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.562199294567108</Value>
+    <Value>0.0766090303659439</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.914079248905182</Value>
+    <Value>0.447795122861862</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>24.9015979766846</Value>
+    <Value>24.3751201629639</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>13.4440469741821</Value>
+    <Value>13.1264705657959</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>6.82663488388062</Value>
+    <Value>7.16602563858032</Value>
    </Parameter>
 
    <Parameter>
@@ -1843,51 +1843,6 @@
     <Type>http://lv2plug.in/ns/ext/atom#String</Type>
     <Key>urn:distrho:preset</Key>
     <Value>Large Dark Hall</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
- <!-- Simple Scope (4 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (4 channel)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>DQAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
    </CustomData>
   </Data>
  </Plugin>
@@ -2073,7 +2028,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.42169651389122</Value>
+    <Value>0.999999582767487</Value>
    </Parameter>
 
    <Parameter>
@@ -2178,7 +2133,7 @@
     <Index>17</Index>
     <Name>Ratio</Name>
     <Symbol>cr</Symbol>
-    <Value>11.4158945083618</Value>
+    <Value>4</Value>
    </Parameter>
 
    <Parameter>
@@ -3912,16 +3867,8 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
-   <Source>PulseAudio JACK Sink:front-left</Source>
-   <Target>SimpleScreenRecorder:in_1</Target>
-  </Connection>
-  <Connection>
    <Source>PulseAudio JACK Sink:front-right</Source>
    <Target>system:playback_2</Target>
-  </Connection>
-  <Connection>
-   <Source>PulseAudio JACK Sink:front-right</Source>
-   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Random CV Generator:CV Output</Source>
@@ -4044,32 +3991,16 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Slew Rate Limiter:CV Input</Target>
   </Connection>
   <Connection>
-   <Source>LFO Blender:CV Mix</Source>
-   <Target>Simple Scope (4 channel):In1</Target>
-  </Connection>
-  <Connection>
    <Source>LFO Blender:LFO 1</Source>
    <Target>Attenuverter Booster:CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>LFO Blender:LFO 1</Source>
-   <Target>Simple Scope (4 channel):In2</Target>
   </Connection>
   <Connection>
    <Source>LFO Blender:LFO 2</Source>
    <Target>Attenuverter Booster (3):CV Input</Target>
   </Connection>
   <Connection>
-   <Source>LFO Blender:LFO 2</Source>
-   <Target>Simple Scope (4 channel):In3</Target>
-  </Connection>
-  <Connection>
    <Source>LFO Blender:LFO 3</Source>
    <Target>Attenuverter Booster (5):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>LFO Blender:LFO 3</Source>
-   <Target>Simple Scope (4 channel):In4</Target>
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 1</Source>
@@ -4096,16 +4027,8 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
-   <Source>LSP Compressor Stereo (2):Output L</Source>
-   <Target>SimpleScreenRecorder:in_1</Target>
-  </Connection>
-  <Connection>
    <Source>LSP Compressor Stereo (2):Output R</Source>
    <Target>system:playback_2</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Compressor Stereo (2):Output R</Source>
-   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
@@ -4182,10 +4105,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>AMS VC Delay:Output</Source>
    <Target>AMS VC Organ - 4 Osc:VCO 1 - Tune</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS VC Delay:Output</Source>
-   <Target>LSP Sidechain Dynamic Processor Mono:Input</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (9):CV Output</Source>
