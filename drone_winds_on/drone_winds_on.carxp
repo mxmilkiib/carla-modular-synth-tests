@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.353694766759872</Value>
+    <Value>0.239444017410278</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.65788859128952</Value>
+    <Value>0.227407068014145</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.96894758939743</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.0233282446861267</Value>
+    <Value>0.593541145324707</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.516083657741547</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.627243399620056</Value>
+    <Value>0.047614723443985</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.533916294574738</Value>
+    <Value>0.278332144021988</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>50.8871269226074</Value>
+    <Value>53.9471740722656</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>15.2581510543823</Value>
+    <Value>12.793345451355</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>13.150731086731</Value>
+    <Value>15.5106563568115</Value>
    </Parameter>
 
    <Parameter>
@@ -2028,7 +2028,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.999999582767487</Value>
+    <Value>0.223872110247612</Value>
    </Parameter>
 
    <Parameter>
@@ -2971,14 +2971,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>140</Value>
+    <Value>187</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>220</Value>
+    <Value>236</Value>
    </Parameter>
 
    <Parameter>
@@ -3043,14 +3043,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>140</Value>
+    <Value>200</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>186</Value>
+    <Value>195</Value>
    </Parameter>
 
    <Parameter>
@@ -3174,14 +3174,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>479</Value>
+    <Value>109</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>1000</Value>
+    <Value>120</Value>
    </Parameter>
 
    <Parameter>
