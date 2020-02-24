@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.239444017410278</Value>
+    <Value>0.41986870765686</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.227407068014145</Value>
+    <Value>0.360133826732635</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.702426075935364</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.673466622829437</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.593541145324707</Value>
+    <Value>0.137073040008545</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.047614723443985</Value>
+    <Value>0.36660361289978</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.278332144021988</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>53.9471740722656</Value>
+    <Value>44.6524314880371</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.793345451355</Value>
+    <Value>8.95555686950684</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>15.5106563568115</Value>
+    <Value>13.3964252471924</Value>
    </Parameter>
 
    <Parameter>
@@ -2698,14 +2698,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Time Up</Name>
     <Symbol>timeUp</Symbol>
-    <Value>0.200000002980232</Value>
+    <Value>0.199999988079071</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Time Down</Name>
     <Symbol>timeDown</Symbol>
-    <Value>0.300000011920929</Value>
+    <Value>0.325138777494431</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -2971,14 +2971,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>187</Value>
+    <Value>229</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>236</Value>
+    <Value>227</Value>
    </Parameter>
 
    <Parameter>
@@ -3007,7 +3007,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>96</Value>
+    <Value>170</Value>
    </Parameter>
 
    <Parameter>
@@ -3043,14 +3043,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>200</Value>
+    <Value>143</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>195</Value>
+    <Value>150</Value>
    </Parameter>
 
    <Parameter>
@@ -3083,7 +3083,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1000</MappedMaximum>
-    <Value>0</Value>
+    <Value>177</Value>
    </Parameter>
 
    <Parameter>
@@ -3094,7 +3094,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1000</MappedMaximum>
-    <Value>0</Value>
+    <Value>213</Value>
    </Parameter>
 
    <Parameter>
@@ -3174,14 +3174,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>109</Value>
+    <Value>239</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>120</Value>
+    <Value>236</Value>
    </Parameter>
 
    <Parameter>
@@ -3319,681 +3319,6 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Symbol>PluginEnabled</Symbol>
     <Value>1</Value>
    </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (11)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- LSP Sidechain Dynamic Processor Mono -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>LSP Sidechain Dynamic Processor Mono</Name>
-   <URI>http://lsp-plug.in/plugins/lv2/sc_dyna_processor_mono</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x1</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Bypass</Name>
-    <Symbol>bypass</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Input gain</Name>
-    <Symbol>g_in</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Output gain</Name>
-    <Symbol>g_out</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Pause graph analysis</Name>
-    <Symbol>pause</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Clear graph analysis</Name>
-    <Symbol>clear</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Sidechain type</Name>
-    <Symbol>sct</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sidechain mode</Name>
-    <Symbol>scm</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Sidechain lookahead</Name>
-    <Symbol>sla</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Sidechain listen</Name>
-    <Symbol>scl</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Sidechain reactivity</Name>
-    <Symbol>scr</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Sidechain preamp</Name>
-    <Symbol>scp</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>Attack time default</Name>
-    <Symbol>atd</Symbol>
-    <Value>20</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>Release time default</Name>
-    <Symbol>rtd</Symbol>
-    <Value>100</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>Point enable 0</Name>
-    <Symbol>pe0</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>Threshold 0</Name>
-    <Symbol>tl0</Symbol>
-    <Value>0.251190006732941</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>Gain 0</Name>
-    <Symbol>gl0</Symbol>
-    <Value>0.251190006732941</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>Knee 0</Name>
-    <Symbol>kn0</Symbol>
-    <Value>0.501179993152618</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>17</Index>
-    <Name>Attack enable 0</Name>
-    <Symbol>ae0</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>18</Index>
-    <Name>Attack level 0</Name>
-    <Symbol>al0</Symbol>
-    <Value>0.251190006732941</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>19</Index>
-    <Name>Attack time 0</Name>
-    <Symbol>at0</Symbol>
-    <Value>20</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>20</Index>
-    <Name>Release enable 0</Name>
-    <Symbol>re0</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>21</Index>
-    <Name>Relative level 0</Name>
-    <Symbol>rl0</Symbol>
-    <Value>0.251190006732941</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>22</Index>
-    <Name>Release time 0</Name>
-    <Symbol>rt0</Symbol>
-    <Value>100</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>Point enable 1</Name>
-    <Symbol>pe1</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>24</Index>
-    <Name>Threshold 1</Name>
-    <Symbol>tl1</Symbol>
-    <Value>0.0631000027060509</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>25</Index>
-    <Name>Gain 1</Name>
-    <Symbol>gl1</Symbol>
-    <Value>0.0631000027060509</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>26</Index>
-    <Name>Knee 1</Name>
-    <Symbol>kn1</Symbol>
-    <Value>0.501179993152618</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>27</Index>
-    <Name>Attack enable 1</Name>
-    <Symbol>ae1</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>28</Index>
-    <Name>Attack level 1</Name>
-    <Symbol>al1</Symbol>
-    <Value>0.0631000027060509</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>29</Index>
-    <Name>Attack time 1</Name>
-    <Symbol>at1</Symbol>
-    <Value>20</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>30</Index>
-    <Name>Release enable 1</Name>
-    <Symbol>re1</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>31</Index>
-    <Name>Relative level 1</Name>
-    <Symbol>rl1</Symbol>
-    <Value>0.0631000027060509</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>32</Index>
-    <Name>Release time 1</Name>
-    <Symbol>rt1</Symbol>
-    <Value>100</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>33</Index>
-    <Name>Point enable 2</Name>
-    <Symbol>pe2</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>34</Index>
-    <Name>Threshold 2</Name>
-    <Symbol>tl2</Symbol>
-    <Value>0.0158500000834465</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>35</Index>
-    <Name>Gain 2</Name>
-    <Symbol>gl2</Symbol>
-    <Value>0.0158500000834465</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>36</Index>
-    <Name>Knee 2</Name>
-    <Symbol>kn2</Symbol>
-    <Value>0.501179993152618</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>37</Index>
-    <Name>Attack enable 2</Name>
-    <Symbol>ae2</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>38</Index>
-    <Name>Attack level 2</Name>
-    <Symbol>al2</Symbol>
-    <Value>0.0158500000834465</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>39</Index>
-    <Name>Attack time 2</Name>
-    <Symbol>at2</Symbol>
-    <Value>20</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>40</Index>
-    <Name>Release enable 2</Name>
-    <Symbol>re2</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>41</Index>
-    <Name>Relative level 2</Name>
-    <Symbol>rl2</Symbol>
-    <Value>0.0158500000834465</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>42</Index>
-    <Name>Release time 2</Name>
-    <Symbol>rt2</Symbol>
-    <Value>100</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>43</Index>
-    <Name>Point enable 3</Name>
-    <Symbol>pe3</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>44</Index>
-    <Name>Threshold 3</Name>
-    <Symbol>tl3</Symbol>
-    <Value>0.00398000003769994</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>45</Index>
-    <Name>Gain 3</Name>
-    <Symbol>gl3</Symbol>
-    <Value>0.00398000003769994</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>46</Index>
-    <Name>Knee 3</Name>
-    <Symbol>kn3</Symbol>
-    <Value>0.501179993152618</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>47</Index>
-    <Name>Attack enable 3</Name>
-    <Symbol>ae3</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>48</Index>
-    <Name>Attack level 3</Name>
-    <Symbol>al3</Symbol>
-    <Value>0.00398000003769994</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>49</Index>
-    <Name>Attack time 3</Name>
-    <Symbol>at3</Symbol>
-    <Value>20</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>50</Index>
-    <Name>Release enable 3</Name>
-    <Symbol>re3</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>51</Index>
-    <Name>Relative level 3</Name>
-    <Symbol>rl3</Symbol>
-    <Value>0.00398000003769994</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>52</Index>
-    <Name>Release time 3</Name>
-    <Symbol>rt3</Symbol>
-    <Value>100</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>53</Index>
-    <Name>Low-level ratio</Name>
-    <Symbol>llr</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>54</Index>
-    <Name>High-level ratio</Name>
-    <Symbol>hlr</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>55</Index>
-    <Name>Overall makeup gain</Name>
-    <Symbol>omk</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>56</Index>
-    <Name>Dry gain</Name>
-    <Symbol>cdr</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>57</Index>
-    <Name>Wet gain</Name>
-    <Symbol>cwt</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>58</Index>
-    <Name>Curve modelling visibility</Name>
-    <Symbol>cmv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>59</Index>
-    <Name>Sidechain level visibility</Name>
-    <Symbol>slv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>60</Index>
-    <Name>Envelope level visibility</Name>
-    <Symbol>elv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>61</Index>
-    <Name>Gain reduction visibility</Name>
-    <Symbol>grv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>66</Index>
-    <Name>Input level visibility</Name>
-    <Symbol>ilv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>67</Index>
-    <Name>Output level visibility</Name>
-    <Symbol>olv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Simple Scope (4 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (4 channel)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>CgAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
- <!-- Simple Scope (Mono) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (Mono)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#Mono</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>CgAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
- <!-- Example Scope (Stereo) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Example Scope (Stereo)</Name>
-   <URI>http://lv2plug.in/plugins/eg-scope#Stereo</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://lv2plug.in/plugins/eg-scope#ui-spp</Key>
-    <Value>MgAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Float</Type>
-    <Key>http://lv2plug.in/plugins/eg-scope#ui-amp</Key>
-    <Value>AACAPw==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
- <!-- Simple Scope (3 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (3 channel)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#3chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>CgAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8=</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
   </Data>
  </Plugin>
 
