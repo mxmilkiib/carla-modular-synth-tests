@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.462005078792572</Value>
+    <Value>0.353694766759872</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.397794306278229</Value>
+    <Value>0.65788859128952</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.725823760032654</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.674038529396057</Value>
+    <Value>0.96894758939743</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.724873542785645</Value>
+    <Value>-0.0233282446861267</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1625,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.516083657741547</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.366474866867065</Value>
+    <Value>0.627243399620056</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.533916294574738</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>51.1236381530762</Value>
+    <Value>50.8871269226074</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>11.6117191314697</Value>
+    <Value>15.2581510543823</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>16.4669628143311</Value>
+    <Value>13.150731086731</Value>
    </Parameter>
 
    <Parameter>
@@ -3062,28 +3062,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- AMS VC Switch -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS VC Switch</Name>
-   <URI>http://github.com/blablack/ams-lv2/vcswitch</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Switch Level</Name>
-    <Symbol>switchLevel</Symbol>
-    <Value>1.1710000038147</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Slew Rate Limiter -->
  <Plugin>
   <Info>
@@ -3970,6 +3948,51 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Type>http://lv2plug.in/ns/ext/atom#Float</Type>
     <Key>http://lv2plug.in/plugins/eg-scope#ui-amp</Key>
     <Value>AACAPw==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (3 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (3 channel)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#3chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8=</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
    </CustomData>
   </Data>
  </Plugin>
