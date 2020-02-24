@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.246386989951134</Value>
+    <Value>0.462005078792572</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.154094010591507</Value>
+    <Value>0.397794306278229</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.746604919433594</Value>
+    <Value>0.725823760032654</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.674038529396057</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.54153299331665</Value>
+    <Value>0.724873542785645</Value>
    </Parameter>
 
    <Parameter>
@@ -1258,7 +1258,7 @@
     <Index>29</Index>
     <Name>Node 4 position</Name>
     <Symbol>node_4_pos</Symbol>
-    <Value>0.380952388048172</Value>
+    <Value>0.382200002670288</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0766090303659439</Value>
+    <Value>0.366474866867065</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.447795122861862</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>24.3751201629639</Value>
+    <Value>51.1236381530762</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>13.1264705657959</Value>
+    <Value>11.6117191314697</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>7.16602563858032</Value>
+    <Value>16.4669628143311</Value>
    </Parameter>
 
    <Parameter>
@@ -2472,7 +2472,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>13</Index>
     <Name>Horn Filter-1 Gain</Name>
     <Symbol>filtagain</Symbol>
-    <Value>-30</Value>
+    <Value>-29.9423999786377</Value>
    </Parameter>
 
    <Parameter>
@@ -2935,14 +2935,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>20</Value>
+    <Value>230</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>30</Value>
+    <Value>230</Value>
    </Parameter>
 
    <Parameter>
@@ -2971,14 +2971,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>16</Value>
+    <Value>140</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>27</Value>
+    <Value>220</Value>
    </Parameter>
 
    <Parameter>
@@ -3007,14 +3007,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>20</Value>
+    <Value>96</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>25</Value>
+    <Value>160</Value>
    </Parameter>
 
    <Parameter>
@@ -3043,14 +3043,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Rise Time</Name>
     <Symbol>RiseTime</Symbol>
-    <Value>41</Value>
+    <Value>140</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Fall Time</Name>
     <Symbol>FallTime</Symbol>
-    <Value>40</Value>
+    <Value>186</Value>
    </Parameter>
 
    <Parameter>
@@ -3854,6 +3854,123 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Symbol>olv</Symbol>
     <Value>1</Value>
    </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (4 channel)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (Mono) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (Mono)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#Mono</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Example Scope (Stereo) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Example Scope (Stereo)</Name>
+   <URI>http://lv2plug.in/plugins/eg-scope#Stereo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://lv2plug.in/plugins/eg-scope#ui-spp</Key>
+    <Value>MgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Float</Type>
+    <Key>http://lv2plug.in/plugins/eg-scope#ui-amp</Key>
+    <Value>AACAPw==</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
