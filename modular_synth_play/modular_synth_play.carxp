@@ -4021,28 +4021,6 @@
   </Data>
  </Plugin>
 
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Control to CV (3)</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS VC Envelope II -->
  <Plugin>
   <Info>
@@ -4700,49 +4678,6 @@
   </Data>
  </Plugin>
 
- <!-- AMS Multiphase LFO -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>AMS Multiphase LFO</Name>
-   <URI>http://github.com/blablack/ams-lv2/multiphase_lfo</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Freq (Hz)</Name>
-    <Symbol>freq</Symbol>
-    <Value>0.259999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Gain Saw</Name>
-    <Symbol>gainSaw</Symbol>
-    <Value>0.449999988079071</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Gain Triangle</Name>
-    <Symbol>gainTriangle</Symbol>
-    <Value>0.839999973773956</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Saw Mode</Name>
-    <Symbol>sawMode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -5351,10 +5286,6 @@
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
    <Target>AMS VC Envelope II (7):Release</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Multiphase LFO:Saw Out 0</Source>
-   <Target>Lead Osc 1:PW</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>

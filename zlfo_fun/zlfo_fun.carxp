@@ -11,7 +11,7 @@
  </EngineSettings>
 
  <Transport>
-  <BeatsPerMinute>140</BeatsPerMinute>
+  <BeatsPerMinute>139</BeatsPerMinute>
  </Transport>
 
  <!-- ZLFO -->
@@ -1302,7 +1302,7 @@
     <Index>7</Index>
     <Name>Shift</Name>
     <Symbol>shift</Symbol>
-    <Value>0.473684221506119</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1372,7 +1372,7 @@
     <Index>17</Index>
     <Name>Square toggle</Name>
     <Symbol>square_toggle</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>

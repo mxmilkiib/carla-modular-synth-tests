@@ -1,0 +1,5306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>true</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>999</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>140</BeatsPerMinute>
+ </Transport>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO 8/1</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>0.915254235267639</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>0.985119044780731</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0.51694917678833</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO 2/1</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0.773809552192688</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0.770833313465118</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO 1/4</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Ring Modulator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Ring Modulator</Name>
+   <URI>http://github.com/blablack/ams-lv2/ringmodulator</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Ring Modulator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Ring Modulator (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/ringmodulator</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCO3</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCO3 (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.541999995708466</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0.204999998211861</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>1.87750005722046</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0.0270000007003546</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO 1/2</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>6</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>0.988095223903656</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0.822033882141113</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO 1/4t</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.526315808296204</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>0.976190447807312</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- LSP Compressor Stereo -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Compressor Stereo</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/compressor_stereo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input gain</Name>
+    <Symbol>g_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output gain</Name>
+    <Symbol>g_out</Symbol>
+    <Value>0.334965229034424</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Pause graph analysis</Name>
+    <Symbol>pause</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Clear graph analysis</Name>
+    <Symbol>clear</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sidechain type</Name>
+    <Symbol>sct</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sidechain mode</Name>
+    <Symbol>scm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Sidechain lookahead</Name>
+    <Symbol>sla</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Sidechain listen</Name>
+    <Symbol>scl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Sidechain source</Name>
+    <Symbol>scs</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sidechain reactivity</Name>
+    <Symbol>scr</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Sidechain preamp</Name>
+    <Symbol>scp</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Compression mode</Name>
+    <Symbol>cm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Attack level</Name>
+    <Symbol>al</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Attack time</Name>
+    <Symbol>at</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Relative release level</Name>
+    <Symbol>rrl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Release time</Name>
+    <Symbol>rt</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Ratio</Name>
+    <Symbol>cr</Symbol>
+    <Value>2.42760968208313</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Knee</Name>
+    <Symbol>kn</Symbol>
+    <Value>0.731485366821289</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Makeup gain</Name>
+    <Symbol>mk</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Dry gain</Name>
+    <Symbol>cdr</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Wet gain</Name>
+    <Symbol>cwt</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Sidechain level visibility</Name>
+    <Symbol>slv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Envelope level visibility</Name>
+    <Symbol>elv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Gain reduction visibility</Name>
+    <Symbol>grv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Input level visibility Left</Name>
+    <Symbol>ilv_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Output level visibility Left</Name>
+    <Symbol>olv_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Input level visibility Right</Name>
+    <Symbol>ilv_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Output level visibility Right</Name>
+    <Symbol>olv_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- x42 Whirl - Rotary Speaker -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>x42 Whirl - Rotary Speaker</Name>
+   <URI>http://gareus.org/oss/lv2/b_whirl#extended</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enable</Name>
+    <Symbol>enable</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Motors Ac/Dc</Name>
+    <Symbol>rt_speed</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Horn Level</Name>
+    <Symbol>hornlvl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Drum Level</Name>
+    <Symbol>drumlvl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Drum Stereo Width</Name>
+    <Symbol>drumwidth</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Horn Speed Slow</Name>
+    <Symbol>hornrpmslow</Symbol>
+    <Value>40.3199996948242</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Horn Speed Fast</Name>
+    <Symbol>hornrpmfast</Symbol>
+    <Value>423.359985351562</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Horn Acceleration</Name>
+    <Symbol>hornaccel</Symbol>
+    <Value>0.160999998450279</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Horn Deceleration</Name>
+    <Symbol>horndecel</Symbol>
+    <Value>0.321000009775162</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Horn Brake Position</Name>
+    <Symbol>hornbrakepos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Horn Filter-1 Type</Name>
+    <Symbol>filtatype</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Horn Filter-1 Frequency</Name>
+    <Symbol>filtafreq</Symbol>
+    <Value>4500</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Horn Filter-1 Quality</Name>
+    <Symbol>filtaq</Symbol>
+    <Value>2.74559998512268</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Horn Filter-1 Gain</Name>
+    <Symbol>filtagain</Symbol>
+    <Value>-30</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Horn Filter-2 Type</Name>
+    <Symbol>filtbtype</Symbol>
+    <Value>7</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Horn Filter-2 Frequency</Name>
+    <Symbol>filtbfreq</Symbol>
+    <Value>300</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Horn Filter-2 Quality</Name>
+    <Symbol>filtbq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Horn Filter-2 Gain</Name>
+    <Symbol>filtbgain</Symbol>
+    <Value>-30</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Drum Speed Slow</Name>
+    <Symbol>drumrpmslow</Symbol>
+    <Value>36</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Drum Speed Fast</Name>
+    <Symbol>drumrpmfast</Symbol>
+    <Value>357.299987792969</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Drum Acceleration</Name>
+    <Symbol>drumaccel</Symbol>
+    <Value>4.1269998550415</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Drum Deceleration</Name>
+    <Symbol>drumdecel</Symbol>
+    <Value>1.37100005149841</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Drum Brake Position</Name>
+    <Symbol>drumbrake</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Drum Filter Type</Name>
+    <Symbol>filtdtype</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Drum Filter Frequency</Name>
+    <Symbol>filtdfreq</Symbol>
+    <Value>811.969482421875</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Drum Filter Quality</Name>
+    <Symbol>filtdq</Symbol>
+    <Value>1.60160005092621</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Drum Filter Gain</Name>
+    <Symbol>filtdgain</Symbol>
+    <Value>-38.9291000366211</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Horn Signal Leakage</Name>
+    <Symbol>hornleak</Symbol>
+    <Value>-16.4699993133545</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Horn Radius</Name>
+    <Symbol>hornradius</Symbol>
+    <Value>19.2000007629395</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Drum Radius</Name>
+    <Symbol>drumradius</Symbol>
+    <Value>22</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Horn X-Axis Offset</Name>
+    <Symbol>hornxoff</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Horn Z-Axis Offset</Name>
+    <Symbol>hornzoff</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Microphone Distance</Name>
+    <Symbol>micdist</Symbol>
+    <Value>42</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Link Speed Control</Name>
+    <Symbol>link</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Microphone Angle</Name>
+    <Symbol>micangle</Symbol>
+    <Value>180</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Horn Stereo Width</Name>
+    <Symbol>hornwidth</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Slew Rate Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Slew Rate Limiter</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Rise Time</Name>
+    <Symbol>RiseTime</Symbol>
+    <Value>60</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Fall Time</Name>
+    <Symbol>FallTime</Symbol>
+    <Value>60</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCA Exp -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCA Exp</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcaexp</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain Offset</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>2nd Gain Boost</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>In 1 Level</Name>
+    <Symbol>in1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>In 2 Level</Name>
+    <Symbol>in2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Output Level</Name>
+    <Symbol>outputLevel</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Ring Modulator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Ring Modulator (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/ringmodulator</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Noise2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Noise2</Name>
+   <URI>http://github.com/blablack/ams-lv2/noise2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Noise Type</Name>
+    <Symbol>noiseType</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Random Rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Random Level</Name>
+    <Symbol>level</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Sample&amp;Hold -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Sample&amp;Hold</Name>
+   <URI>http://github.com/blablack/ams-lv2/samplehold</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Trigger Level</Name>
+    <Symbol>triggerLevel</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Sample&amp;Hold -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Sample&amp;Hold (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/samplehold</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Trigger Level</Name>
+    <Symbol>triggerLevel</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Triple chorus -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Triple chorus</Name>
+   <URI>http://drobilla.net/plugins/fomp/triple_chorus</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Delay</Name>
+    <Symbol>delay</Symbol>
+    <Value>12.2999992370605</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mod Frequency 1</Name>
+    <Symbol>mod_freq_1</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0.00300000002607703</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.00342758209444582</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mod Amplitude 1</Name>
+    <Symbol>mod_amp_1</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>2.72616291046143</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Mod Frequency 2</Name>
+    <Symbol>mod_freq_2</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0.00999999977648258</MappedMinimum>
+    <MappedMaximum>30</MappedMaximum>
+    <Value>0.0171043146401644</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Mod Amplitude 2</Name>
+    <Symbol>mod_amp_2</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>3</MappedMaximum>
+    <Value>1.10008800029755</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Stereo Mixer 8 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Stereo Mixer 8 channels</Name>
+   <URI>http://github.com/blablack/ams-lv2/stereomixer_8ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master Volume</Name>
+    <Symbol>masterVolume</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mute 1</Name>
+    <Symbol>mute1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Pan 1</Name>
+    <Symbol>pan1</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mute 2</Name>
+    <Symbol>mute2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Pan 2</Name>
+    <Symbol>pan2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Mute 3</Name>
+    <Symbol>mute3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Solo 3</Name>
+    <Symbol>solo3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Volume 3</Name>
+    <Symbol>volume3</Symbol>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Pan 3</Name>
+    <Symbol>pan3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Mute 4</Name>
+    <Symbol>mute4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Solo 4</Name>
+    <Symbol>solo4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Volume 4</Name>
+    <Symbol>volume4</Symbol>
+    <Value>0.25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Pan 4</Name>
+    <Symbol>pan4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Mute 5</Name>
+    <Symbol>mute5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Solo 5</Name>
+    <Symbol>solo5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Volume 5</Name>
+    <Symbol>volume5</Symbol>
+    <Value>0.550000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Pan 5</Name>
+    <Symbol>pan5</Symbol>
+    <Value>-0.150000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Mute 6</Name>
+    <Symbol>mute6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Solo 6</Name>
+    <Symbol>solo6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Volume 6</Name>
+    <Symbol>volume6</Symbol>
+    <Value>0.150000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Pan 6</Name>
+    <Symbol>pan6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Mute 7</Name>
+    <Symbol>mute7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Solo 7</Name>
+    <Symbol>solo7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Volume 7</Name>
+    <Symbol>volume7</Symbol>
+    <Value>0.0500000007450581</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Pan 7</Name>
+    <Symbol>pan7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Mute 8</Name>
+    <Symbol>mute8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Solo 8</Name>
+    <Symbol>solo8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Volume 8</Name>
+    <Symbol>volume8</Symbol>
+    <Value>0.75</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Pan 8</Name>
+    <Symbol>pan8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ZamVerb -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZamVerb</Name>
+   <URI>urn:zamaudio:ZamVerb</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master level</Name>
+    <Symbol>master</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Wet / Dry</Name>
+    <Symbol>wetdry</Symbol>
+    <Value>47</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Room</Name>
+    <Symbol>room</Symbol>
+    <Value>6</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#String</Type>
+    <Key>urn:distrho:reload</Key>
+    <Value></Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Multiphase LFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Multiphase LFO</Name>
+   <URI>http://github.com/blablack/ams-lv2/multiphase_lfo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Freq (Hz)</Name>
+    <Symbol>freq</Symbol>
+    <Value>1.04170024394989</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gain Saw</Name>
+    <Symbol>gainSaw</Symbol>
+    <Value>3.74609971046448</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Gain Triangle</Name>
+    <Symbol>gainTriangle</Symbol>
+    <Value>1.15140008926392</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Saw Mode</Name>
+    <Symbol>sawMode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Moog Low-Pass Filter 4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Moog Low-Pass Filter 4</Name>
+   <URI>http://drobilla.net/plugins/fomp/mvclpf4</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input gain</Name>
+    <Symbol>port5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>9.99999997475243e-07</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Exp FM gain</Name>
+    <Symbol>exp_fm_gain</Symbol>
+    <Value>6.49999952316284</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Resonance</Name>
+    <Symbol>res</Symbol>
+    <Value>0.0876330882310867</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Resonance gain</Name>
+    <Symbol>res_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Filter poles</Name>
+    <Symbol>poles</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Output gain</Name>
+    <Symbol>out_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO 4/1t</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>9</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Inv -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Inv</Name>
+   <URI>http://github.com/blablack/ams-lv2/inv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VCO3 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VCO3 (3)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vco3</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Octave</Name>
+    <Symbol>octave</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Tune</Name>
+    <Symbol>tune</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Semitone</Name>
+    <Symbol>semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PW0</Name>
+    <Symbol>pw0</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>PW Gain</Name>
+    <Symbol>pwGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Edge</Name>
+    <Symbol>edge</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Exp FM Gain</Name>
+    <Symbol>expFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Lin FM Gain</Name>
+    <Symbol>linFMGain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>2.59999990463257</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0.699999928474426</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- B.Slizr -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>B.Slizr</Name>
+   <URI>https://www.jahnichen.de/plugins/lv2/BSlizr</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack</Name>
+    <Symbol>attack</Symbol>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Release</Name>
+    <Symbol>release</Symbol>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sequences per bar</Name>
+    <Symbol>sequences_per_bar</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Number_Steps</Name>
+    <Symbol>number_steps</Symbol>
+    <Value>16</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Step 01</Name>
+    <Symbol>step_01</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Step 02</Name>
+    <Symbol>step_02</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Step 03</Name>
+    <Symbol>step_03</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Step 04</Name>
+    <Symbol>step_04</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.906642496585846</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Step 05</Name>
+    <Symbol>step_05</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.70515775680542</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Step 06</Name>
+    <Symbol>step_06</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.503673076629639</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step 07</Name>
+    <Symbol>step_07</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.302188336849213</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Step 08</Name>
+    <Symbol>step_08</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.100703604519367</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Step 09</Name>
+    <Symbol>step_09</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.00250096758827567</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Step 10</Name>
+    <Symbol>step_10</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.00750096747651696</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Step 11</Name>
+    <Symbol>step_11</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.012500966899097</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Step 12</Name>
+    <Symbol>step_12</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.0175009667873383</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Step 13</Name>
+    <Symbol>step_13</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.0174990314990282</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Step 14</Name>
+    <Symbol>step_14</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.0124990325421095</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Step 15</Name>
+    <Symbol>step_15</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.00749903218820691</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Step 16</Name>
+    <Symbol>step_16</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.00249903229996562</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Multiphase LFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Multiphase LFO (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/multiphase_lfo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Freq (Hz)</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0.00999999977648258</MappedMinimum>
+    <MappedMaximum>20</MappedMaximum>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gain Saw</Name>
+    <Symbol>gainSaw</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0.00999999977648258</MappedMinimum>
+    <MappedMaximum>5</MappedMaximum>
+    <Value>0.805938899517059</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Gain Triangle</Name>
+    <Symbol>gainTriangle</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0.00999999977648258</MappedMinimum>
+    <MappedMaximum>5</MappedMaximum>
+    <Value>0.00999999977648258</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Saw Mode</Name>
+    <Symbol>sawMode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- 3 Band EQ -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>3 Band EQ</Name>
+   <URI>http://distrho.sf.net/plugins/3BandEQ</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Low</Name>
+    <Symbol>low</Symbol>
+    <Value>-24</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mid</Name>
+    <Symbol>mid</Symbol>
+    <Value>-3.28421020507812</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>High</Name>
+    <Symbol>high</Symbol>
+    <Value>9.34736824035645</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Master</Name>
+    <Symbol>master</Symbol>
+    <Value>8.0842113494873</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Low-Mid Freq</Name>
+    <Symbol>low_mid</Symbol>
+    <Value>250</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mid-High Freq</Name>
+    <Symbol>mid_high</Symbol>
+    <Value>8600</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>1.39999985694885</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>2.00000047683716</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>2.00000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Delay -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Delay (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcdelay</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Delay</Name>
+    <Symbol>delay</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>V Mod</Name>
+    <Symbol>vmod</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- the infamous ewham -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>the infamous ewham</Name>
+   <URI>http://ssj71.github.io/infamousPlugins/plugs.html#ewham</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Expression</Name>
+    <Symbol>EXPRESSION</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Start</Name>
+    <Symbol>START</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Finish</Name>
+    <Symbol>FINISH</Symbol>
+    <Value>12</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Mode</Name>
+    <Symbol>MODE</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Lock Mode</Name>
+    <Symbol>LOCK</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Inv -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Inv (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/inv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+  </Data>
+ </Plugin>
+
+ <!-- Slew Rate Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Slew Rate Limiter (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Rise Time</Name>
+    <Symbol>RiseTime</Symbol>
+    <Value>60</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Fall Time</Name>
+    <Symbol>FallTime</Symbol>
+    <Value>60</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>system:capture_1</Source>
+   <Target>PulseAudio JACK Source:front-left</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 8/1:Saw</Source>
+   <Target>AMS Multiphase LFO (2):Freq (Hz)</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 8/1:Saw</Source>
+   <Target>AMS Multiphase LFO (2):Gain Triangle</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 8/1:Custom</Source>
+   <Target>AMS VCO3 (2):Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 8/1:Custom</Source>
+   <Target>AMS VCO3:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 8/1:Custom</Source>
+   <Target>AMS Inv:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 2/1:Square</Source>
+   <Target>AMS Sample&amp;Hold (2):Trigger</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 1/4:Saw</Source>
+   <Target>AMS Sample&amp;Hold:Trigger</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Ring Modulator:Output</Source>
+   <Target>AMS Ring Modulator (3):Modulation</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCO3:Out</Source>
+   <Target>AMS Ring Modulator (3):Carrier</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCO3:Out</Source>
+   <Target>Triple chorus:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCO3:Out</Source>
+   <Target>AMS Inv (2):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCO3 (2):Out</Source>
+   <Target>AMS Ring Modulator:Carrier</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCO3 (2):Out</Source>
+   <Target>Moog Low-Pass Filter 4:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 1/2:Triangle</Source>
+   <Target>Slew Rate Limiter (2):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 1/2:Triangle</Source>
+   <Target>Slew Rate Limiter:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 1/2:Custom</Source>
+   <Target>AMS VCA Exp:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 1/4t:Sine</Source>
+   <Target>AMS VCO3 (2):Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 1/4t:Triangle</Source>
+   <Target>AMS Ring Modulator:Modulation</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Stereo:Output L</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Stereo:Output R</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>x42 Whirl - Rotary Speaker:Left Output</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>x42 Whirl - Rotary Speaker:Right Output</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Slew Rate Limiter:CV Output</Source>
+   <Target>AMS VCO3 (2):PW</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCA Exp:Out</Source>
+   <Target>x42 Whirl - Rotary Speaker:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Ring Modulator (3):Output</Source>
+   <Target>AMS VCA Exp:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Noise2:Out</Source>
+   <Target>AMS Sample&amp;Hold:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Sample&amp;Hold:Output</Source>
+   <Target>AMS Sample&amp;Hold (2):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Sample&amp;Hold (2):Output</Source>
+   <Target>Moog Low-Pass Filter 4:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>Triple chorus:Output1</Source>
+   <Target>ZamVerb:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Triple chorus:Output2</Source>
+   <Target>ZamVerb:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 8 channels:Out Left</Source>
+   <Target>LSP Compressor Stereo:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 8 channels:Out Right</Source>
+   <Target>LSP Compressor Stereo:Input R</Target>
+  </Connection>
+  <Connection>
+   <Source>ZamVerb:Audio Output 1</Source>
+   <Target>3 Band EQ:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>ZamVerb:Audio Output 2</Source>
+   <Target>3 Band EQ:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Saw Out 90</Source>
+   <Target>Attenuverter Booster (2):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Saw Out 180</Source>
+   <Target>Triple chorus:Mod Amplitude 1</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Tri Out 45</Source>
+   <Target>Attenuverter Booster (3):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Tri Out 135</Source>
+   <Target>Triple chorus:Mod Amplitude 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4:Output</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 7</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Inv:Output</Source>
+   <Target>Attenuverter Booster:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCO3 (3):Out</Source>
+   <Target>B.Slizr:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS VCO3 (3):Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>B.Slizr:Audio Output 1</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 8</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 0</Source>
+   <Target>B.Slizr:Step 01</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 45</Source>
+   <Target>B.Slizr:Step 02</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 90</Source>
+   <Target>B.Slizr:Step 03</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 135</Source>
+   <Target>B.Slizr:Step 04</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 180</Source>
+   <Target>B.Slizr:Step 05</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 225</Source>
+   <Target>B.Slizr:Step 06</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 270</Source>
+   <Target>B.Slizr:Step 07</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Saw Out 315</Source>
+   <Target>B.Slizr:Step 08</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 0</Source>
+   <Target>B.Slizr:Step 09</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 45</Source>
+   <Target>B.Slizr:Step 10</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 90</Source>
+   <Target>B.Slizr:Step 11</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 135</Source>
+   <Target>B.Slizr:Step 12</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 180</Source>
+   <Target>B.Slizr:Step 13</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 225</Source>
+   <Target>B.Slizr:Step 14</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 270</Source>
+   <Target>B.Slizr:Step 15</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO (2):Tri Out 315</Source>
+   <Target>B.Slizr:Step 16</Target>
+  </Connection>
+  <Connection>
+   <Source>3 Band EQ:Audio Output 1</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 3</Target>
+  </Connection>
+  <Connection>
+   <Source>3 Band EQ:Audio Output 2</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 4</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (2):CV Output</Source>
+   <Target>Triple chorus:Mod Frequency 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (3):CV Output</Source>
+   <Target>Triple chorus:Mod Frequency 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Inv (2):Output</Source>
+   <Target>ZamVerb:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Inv (2):Output</Source>
+   <Target>ZamVerb:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Slew Rate Limiter (2):CV Output</Source>
+   <Target>AMS Multiphase LFO (2):Gain Saw</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>
