@@ -16,4 +16,5 @@ For Arch Linux users:
 * https://aur.archlinux.org/packages/dragonfly-reverb-git
 * https://www.archlinux.org/packages/community/x86_64/fomp.lv2
 * https://www.archlinux.org/packages/community/x86_64/setbfree
+* https://www.archlinux.org/packages/community/x86_64/x42-plugins
 * https://www.archlinux.org/packages/community/x86_64/lsp-plugins
