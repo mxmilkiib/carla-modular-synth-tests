@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.41986870765686</Value>
+    <Value>0.290603965520859</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.360133826732635</Value>
+    <Value>0.230607926845551</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.702426075935364</Value>
+    <Value>0.413997679948807</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.673466622829437</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.137073040008545</Value>
+    <Value>0.381314158439636</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.36660361289978</Value>
+    <Value>0.205126419663429</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>44.6524314880371</Value>
+    <Value>26.2287616729736</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>8.95555686950684</Value>
+    <Value>12.6531076431274</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>13.3964252471924</Value>
+    <Value>8.05725860595703</Value>
    </Parameter>
 
    <Parameter>
@@ -2001,7 +2001,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>LSP Compressor Stereo (2)</Name>
+   <Name>LSP Compressor Stereo</Name>
    <URI>http://lsp-plug.in/plugins/lv2/compressor_stereo</URI>
   </Info>
 
@@ -3322,6 +3322,662 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- AMS Stereo Mixer 2 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Stereo Mixer 2 channels</Name>
+   <URI>http://github.com/blablack/ams-lv2/stereomixer_2ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master Volume</Name>
+    <Symbol>masterVolume</Symbol>
+    <Value>0.999999940395355</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mute 1</Name>
+    <Symbol>mute1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>2</MappedMaximum>
+    <Value>0.649999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Pan 1</Name>
+    <Symbol>pan1</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mute 2</Name>
+    <Symbol>mute2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>2</MappedMaximum>
+    <Value>0.75</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Pan 2</Name>
+    <Symbol>pan2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV 0</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV 1</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Switchbox 2-1 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV Switchbox 2-1 (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-switch2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Channel</Name>
+    <Symbol>Switch</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS VC Envelope II -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS VC Envelope II</Name>
+   <URI>http://github.com/blablack/ams-lv2/vcenvii</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack Offset</Name>
+    <Symbol>attackOffset</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Decay Offset</Name>
+    <Symbol>decayOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sustain Offset</Name>
+    <Symbol>sustainOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Release Offset</Name>
+    <Symbol>releaseOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Attack Gain</Name>
+    <Symbol>attackGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay Gain</Name>
+    <Symbol>decayGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sustain Gain</Name>
+    <Symbol>sustainGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Release Gain</Name>
+    <Symbol>releaseGain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Stereo DJ X-Fade -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Stereo DJ X-Fade</Name>
+   <URI>http://gareus.org/oss/lv2/xfade</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Signal A/B</Name>
+    <Symbol>xfade</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>116</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <MidiCC>116</MidiCC>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Shape</Name>
+    <Symbol>shape</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- QMidiArp LFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>QMidiArp LFO</Name>
+   <URI>https://git.code.sf.net/p/qmidiarp/lfo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Amplitude</Name>
+    <Symbol>AMPLITUDE</Symbol>
+    <Value>127</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>OFFSET</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Resolution</Name>
+    <Symbol>RESOLUTION</Symbol>
+    <Value>8</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Length</Name>
+    <Symbol>LENGTH</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Frequency</Name>
+    <Symbol>FREQUENCY</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Output Channel</Name>
+    <Symbol>CH_OUT</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Input Channel</Name>
+    <Symbol>CH_IN</Symbol>
+    <Value>16</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Waveform</Name>
+    <Symbol>WAVEFORM</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Loop Mode</Name>
+    <Symbol>LOOPMODE</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Mute Output</Name>
+    <Symbol>MUTE</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Output CC#</Name>
+    <Symbol>CC_OUT</Symbol>
+    <Value>74</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Input CC#</Name>
+    <Symbol>CC_IN</Symbol>
+    <Value>76</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Index In 1</Name>
+    <Symbol>INDEX_IN1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Index In 2</Name>
+    <Symbol>INDEX_IN2</Symbol>
+    <Value>127</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Range In 1</Name>
+    <Symbol>RANGE_IN1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Range In 2</Name>
+    <Symbol>RANGE_IN2</Symbol>
+    <Value>127</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Note Off</Name>
+    <Symbol>ENABLE_NOTEOFF</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Restart</Name>
+    <Symbol>ENABLE_RESTARTBYKBD</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Trigger</Name>
+    <Symbol>ENABLE_TRIGBYKBD</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Trigger Legato</Name>
+    <Symbol>ENABLE_TRIGLEGATO</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Record</Name>
+    <Symbol>RECORD</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Defer mute</Name>
+    <Symbol>DEFER</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Phase</Name>
+    <Symbol>PHASE</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Transport Mode</Name>
+    <Symbol>TRANSPORT_MODE</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Internal Tempo</Name>
+    <Symbol>TEMPO</Symbol>
+    <Value>55</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#String</Type>
+    <Key>https://git.code.sf.net/p/qmidiarp#WAVEHEX</Key>
+    <Value>
+00003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f
+    </Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#String</Type>
+    <Key>https://git.code.sf.net/p/qmidiarp#MUTEHEX</Key>
+    <Value>
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    </Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Sherlock MIDI Inspector -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Sherlock MIDI Inspector</Name>
+   <URI>http://open-music-kontrollers.ch/lv2/sherlock#midi_inspector</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Overwrite</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Block</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Follow</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Key>
+    <Value>AQAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#block</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#follow</Key>
+    <Value>AQAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#pretty</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#trace</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#URID</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#filter</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
+    <Key>http://open-music-kontrollers.ch/lv2/sherlock#negate</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI to CV mono -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI to CV mono</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/midi-to-cv-mono</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Octave</Name>
+    <Symbol>Octave</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Semitone</Name>
+    <Symbol>Semitone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Cent</Name>
+    <Symbol>Cent</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Retrigger</Name>
+    <Symbol>Retrigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Panic</Name>
+    <Symbol>Panic</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -3381,19 +4037,19 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>Moog Low-Pass Filter 4:Output</Source>
-   <Target>LSP Compressor Stereo (2):Input L</Target>
-  </Connection>
-  <Connection>
-   <Source>Moog Low-Pass Filter 4:Output</Source>
-   <Target>LSP Compressor Stereo (2):Input R</Target>
-  </Connection>
-  <Connection>
-   <Source>Moog Low-Pass Filter 4:Output</Source>
    <Target>Dragonfly Hall Reverb:Audio Input 1</Target>
   </Connection>
   <Connection>
    <Source>Moog Low-Pass Filter 4:Output</Source>
    <Target>Dragonfly Hall Reverb:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4:Output</Source>
+   <Target>LSP Compressor Stereo:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4:Output</Source>
+   <Target>LSP Compressor Stereo:Input R</Target>
   </Connection>
   <Connection>
    <Source>ZLFO 64/1.:Triangle</Source>
@@ -3469,11 +4125,11 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 1</Source>
-   <Target>LSP Compressor Stereo (2):Input L</Target>
+   <Target>LSP Compressor Stereo:Input L</Target>
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 2</Source>
-   <Target>LSP Compressor Stereo (2):Input R</Target>
+   <Target>LSP Compressor Stereo:Input R</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster:CV Output</Source>
@@ -3488,12 +4144,12 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>AMS Slew Limiter (3):In</Target>
   </Connection>
   <Connection>
-   <Source>LSP Compressor Stereo (2):Output L</Source>
-   <Target>system:playback_1</Target>
+   <Source>LSP Compressor Stereo:Output L</Source>
+   <Target>Stereo DJ X-Fade:In B Left</Target>
   </Connection>
   <Connection>
-   <Source>LSP Compressor Stereo (2):Output R</Source>
-   <Target>system:playback_2</Target>
+   <Source>LSP Compressor Stereo:Output R</Source>
+   <Target>Stereo DJ X-Fade:In B Right</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
@@ -3578,6 +4234,46 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>Attenuverter Booster (10):CV Output</Source>
    <Target>Moog Low-Pass Filter 4:FM</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 2 channels:Out Left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 2 channels:Out Right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV 0:Output</Source>
+   <Target>CV Switchbox 2-1 (2):CV in1</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV 1:Output</Source>
+   <Target>AMS VC Envelope II:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV 1:Output</Source>
+   <Target>AMS VC Envelope II:Retrigger</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VC Envelope II:Out</Source>
+   <Target>CV meter (2):CV input</Target>
+  </Connection>
+  <Connection>
+   <Source>Stereo DJ X-Fade:Out Left</Source>
+   <Target>AMS Stereo Mixer 2 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Stereo DJ X-Fade:Out Right</Source>
+   <Target>AMS Stereo Mixer 2 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>QMidiArp LFO:events-out</Source>
+   <Target>Sherlock MIDI Inspector:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>QMidiArp LFO:events-out</Source>
+   <Target>Stereo DJ X-Fade:events-in</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
