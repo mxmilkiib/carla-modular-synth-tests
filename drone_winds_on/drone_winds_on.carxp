@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.453269094228745</Value>
+    <Value>0.408000200986862</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.00414415448904037</Value>
+    <Value>0.677475154399872</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.363444119691849</Value>
+    <Value>0.318175226449966</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.582186818122864</Value>
+    <Value>0.516662240028381</Value>
    </Parameter>
 
    <Parameter>
@@ -552,7 +552,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.0342804193496704</Value>
+    <Value>-0.160756230354309</Value>
    </Parameter>
 
    <Parameter>
@@ -998,42 +998,42 @@
     <Index>0</Index>
     <Name>Input gain</Name>
     <Symbol>port5</Symbol>
-    <Value>-0.699999988079071</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Frequency</Name>
     <Symbol>freq</Symbol>
-    <Value>0.0204760003834963</Value>
+    <Value>0.0900009050965309</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Exp FM gain</Name>
     <Symbol>exp_fm_gain</Symbol>
-    <Value>1.85913181304932</Value>
+    <Value>1.14660120010376</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Resonance</Name>
     <Symbol>res</Symbol>
-    <Value>0.167895168066025</Value>
+    <Value>0.499590486288071</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Resonance gain</Name>
     <Symbol>res_gain</Symbol>
-    <Value>0.0769860744476318</Value>
+    <Value>0.329999983310699</Value>
    </Parameter>
 
    <Parameter>
     <Index>5</Index>
     <Name>Filter poles</Name>
     <Symbol>poles</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -1557,7 +1557,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.637002885341644</Value>
+    <Value>0.00999999977648258</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.632919073104858</Value>
+    <Value>0.587650179862976</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.500831961631775</Value>
+    <Value>0.765363693237305</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>46.560302734375</Value>
+    <Value>59.8337593078613</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>29.5340309143066</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>16.6380939483643</Value>
+    <Value>1.48586583137512</Value>
    </Parameter>
 
    <Parameter>
@@ -1738,14 +1738,14 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>10</MappedMinimum>
     <MappedMaximum>60</MappedMaximum>
-    <Value>40</Value>
+    <Value>37.5</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Width</Name>
     <Symbol>width</Symbol>
-    <Value>100</Value>
+    <Value>75</Value>
    </Parameter>
 
    <Parameter>
@@ -2028,7 +2028,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.794327974319458</Value>
+    <Value>0.281838119029999</Value>
    </Parameter>
 
    <Parameter>
@@ -2412,7 +2412,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>90.2988052368164</Value>
+    <Value>5</Value>
    </Parameter>
 
    <Parameter>
@@ -3860,15 +3860,15 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>0</Index>
-    <Name>Overwrite</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
+    <Name>Follow</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Follow</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
+    <Name>Overwrite</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
     <Value>0</Value>
    </Parameter>
 
