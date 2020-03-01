@@ -146,7 +146,7 @@
     <Index>1</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -224,7 +224,7 @@
     <Index>0</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -256,7 +256,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.290603965520859</Value>
+    <Value>0.453269094228745</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +267,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.230607926845551</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +278,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.413997679948807</Value>
+    <Value>0.00414415448904037</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +289,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.363444119691849</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +314,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.381314158439636</Value>
+    <Value>0.582186818122864</Value>
    </Parameter>
 
    <Parameter>
@@ -346,7 +346,7 @@
     <Index>14</Index>
     <Name>VCO 2 - Wave Form</Name>
     <Symbol>vco2_waveForm</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -385,7 +385,7 @@
     <Index>19</Index>
     <Name>VCO 2 - Phi0</Name>
     <Symbol>vco2_phi0</Symbol>
-    <Value>0.100000001490116</Value>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
    <Parameter>
@@ -399,7 +399,7 @@
     <Index>21</Index>
     <Name>VCO 3 - Octave</Name>
     <Symbol>vco3_octave</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -438,14 +438,14 @@
     <Index>26</Index>
     <Name>VCO 4 - Wave Form</Name>
     <Symbol>vco4_waveForm</Symbol>
-    <Value>0</Value>
+    <Value>4</Value>
    </Parameter>
 
    <Parameter>
     <Index>27</Index>
     <Name>VCO 4 - Octave</Name>
     <Symbol>vco4_octave</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -459,7 +459,7 @@
     <Index>29</Index>
     <Name>VCO 4 - Harmonic</Name>
     <Symbol>vco4_harmonic</Symbol>
-    <Value>3</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -552,7 +552,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.880000114440918</Value>
+    <Value>-0.0342804193496704</Value>
    </Parameter>
 
    <Parameter>
@@ -1557,7 +1557,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.85999995470047</Value>
+    <Value>0.637002885341644</Value>
    </Parameter>
 
    <Parameter>
@@ -1578,7 +1578,7 @@
     <Index>3</Index>
     <Name>Saw Mode</Name>
     <Symbol>sawMode</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1643,7 +1643,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.205126419663429</Value>
+    <Value>0.632919073104858</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1661,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.500831961631775</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1705,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>26.2287616729736</Value>
+    <Value>46.560302734375</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1716,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.6531076431274</Value>
+    <Value>29.5340309143066</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1727,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>8.05725860595703</Value>
+    <Value>16.6380939483643</Value>
    </Parameter>
 
    <Parameter>
@@ -2028,7 +2028,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.223872110247612</Value>
+    <Value>0.794327974319458</Value>
    </Parameter>
 
    <Parameter>
@@ -2133,21 +2133,21 @@
     <Index>17</Index>
     <Name>Ratio</Name>
     <Symbol>cr</Symbol>
-    <Value>4</Value>
+    <Value>8.89343357086182</Value>
    </Parameter>
 
    <Parameter>
     <Index>18</Index>
     <Name>Knee</Name>
     <Symbol>kn</Symbol>
-    <Value>0.449219852685928</Value>
+    <Value>0.289946913719177</Value>
    </Parameter>
 
    <Parameter>
     <Index>19</Index>
     <Name>Makeup gain</Name>
     <Symbol>mk</Symbol>
-    <Value>1</Value>
+    <Value>1.27628135681152</Value>
    </Parameter>
 
    <Parameter>
@@ -2412,7 +2412,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>90.3333358764648</Value>
+    <Value>90.2988052368164</Value>
    </Parameter>
 
    <Parameter>
@@ -2777,14 +2777,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Time Up</Name>
     <Symbol>timeUp</Symbol>
-    <Value>0.5</Value>
+    <Value>0.200000017881393</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Time Down</Name>
     <Symbol>timeDown</Symbol>
-    <Value>0.5</Value>
+    <Value>0.200000017881393</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -2906,6 +2906,35 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Time Up</Name>
     <Symbol>timeUp</Symbol>
+    <Value>0.100000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.100000023841858</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Slew Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Slew Limiter (5)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
     <Value>0.5</Value>
    </Parameter>
 
@@ -2915,15 +2944,21 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Symbol>timeDown</Symbol>
     <Value>0.5</Value>
    </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
- <!-- Slew Rate Limiter -->
+ <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Slew Rate Limiter</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+   <Name>AMS Slew Limiter (6)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
   </Info>
 
   <Data>
@@ -2933,33 +2968,32 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>0</Index>
-    <Name>Rise Time</Name>
-    <Symbol>RiseTime</Symbol>
-    <Value>230</Value>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Fall Time</Name>
-    <Symbol>FallTime</Symbol>
-    <Value>230</Value>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
-   <Parameter>
-    <Index>2</Index>
-    <Name>BYPASS</Name>
-    <Symbol>BYPASS</Symbol>
-    <Value>1</Value>
-   </Parameter>
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
- <!-- Slew Rate Limiter -->
+ <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Slew Rate Limiter (2)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+   <Name>AMS Slew Limiter (7)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
   </Info>
 
   <Data>
@@ -2969,33 +3003,32 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>0</Index>
-    <Name>Rise Time</Name>
-    <Symbol>RiseTime</Symbol>
-    <Value>229</Value>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Fall Time</Name>
-    <Symbol>FallTime</Symbol>
-    <Value>227</Value>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
-   <Parameter>
-    <Index>2</Index>
-    <Name>BYPASS</Name>
-    <Symbol>BYPASS</Symbol>
-    <Value>1</Value>
-   </Parameter>
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
- <!-- Slew Rate Limiter -->
+ <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Slew Rate Limiter (3)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+   <Name>AMS Slew Limiter (8)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
   </Info>
 
   <Data>
@@ -3005,33 +3038,32 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>0</Index>
-    <Name>Rise Time</Name>
-    <Symbol>RiseTime</Symbol>
-    <Value>170</Value>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Fall Time</Name>
-    <Symbol>FallTime</Symbol>
-    <Value>160</Value>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
-   <Parameter>
-    <Index>2</Index>
-    <Name>BYPASS</Name>
-    <Symbol>BYPASS</Symbol>
-    <Value>1</Value>
-   </Parameter>
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
- <!-- Slew Rate Limiter -->
+ <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Slew Rate Limiter (4)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
+   <Name>AMS Slew Limiter (9)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
   </Info>
 
   <Data>
@@ -3041,68 +3073,31 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>0</Index>
-    <Name>Rise Time</Name>
-    <Symbol>RiseTime</Symbol>
-    <Value>143</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Fall Time</Name>
-    <Symbol>FallTime</Symbol>
-    <Value>150</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>BYPASS</Name>
-    <Symbol>BYPASS</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Slew Rate Limiter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Slew Rate Limiter (5)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-slew</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Rise Time</Name>
-    <Symbol>RiseTime</Symbol>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
     <MidiChannel>1</MidiChannel>
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
-    <MappedMaximum>1000</MappedMaximum>
-    <Value>177</Value>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Fall Time</Name>
-    <Symbol>FallTime</Symbol>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
     <MidiChannel>1</MidiChannel>
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
-    <MappedMaximum>1000</MappedMaximum>
-    <Value>213</Value>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
-   <Parameter>
-    <Index>2</Index>
-    <Name>BYPASS</Name>
-    <Symbol>BYPASS</Symbol>
-    <Value>0</Value>
-   </Parameter>
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -3364,7 +3359,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>2</MappedMaximum>
-    <Value>0.649999976158142</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3396,7 +3391,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>2</MappedMaximum>
-    <Value>0.75</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3807,7 +3802,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Type>http://lv2plug.in/ns/ext/atom#String</Type>
     <Key>https://git.code.sf.net/p/qmidiarp#WAVEHEX</Key>
     <Value>
-00003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f
+00003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e5960606060000000
     </Value>
    </CustomData>
 
@@ -3872,22 +3867,22 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>1</Index>
-    <Name>Block</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
+    <Name>Follow</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
-    <Name>Follow</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
+    <Name>Block</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
     <Key>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Key>
-    <Value>AQAAAA==</Value>
+    <Value>AAAAAA==</Value>
    </CustomData>
 
    <CustomData>
@@ -3899,7 +3894,7 @@ Shouts to the #lad and #lv2 crew on Freenode
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
     <Key>http://open-music-kontrollers.ch/lv2/sherlock#follow</Key>
-    <Value>AQAAAA==</Value>
+    <Value>AAAAAA==</Value>
    </CustomData>
 
    <CustomData>
@@ -3978,6 +3973,35 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter (4)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -4005,11 +4029,11 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>AMS Saw:Out</Source>
-   <Target>Slew Rate Limiter (5):CV Input</Target>
+   <Target>CV Switchbox 2-1:CV in2</Target>
   </Connection>
   <Connection>
    <Source>AMS Saw:Out</Source>
-   <Target>CV Switchbox 2-1:CV in2</Target>
+   <Target>AMS Slew Limiter (9):In</Target>
   </Connection>
   <Connection>
    <Source>AMS VC Organ - 4 Osc:Out</Source>
@@ -4069,15 +4093,15 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
-   <Target>Slew Rate Limiter (2):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Multiphase LFO:Saw Out 45</Source>
-   <Target>Slew Rate Limiter (3):CV Input</Target>
+   <Target>AMS Slew Limiter (5):In</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 90</Source>
    <Target>LFO Blender:LFO_2_PHASE</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Multiphase LFO:Saw Out 135</Source>
+   <Target>AMS Slew Limiter (7):In</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 180</Source>
@@ -4096,20 +4120,20 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>AMS VC Organ - 4 Osc:VCO 4 - Subharmonic</Target>
   </Connection>
   <Connection>
+   <Source>AMS Multiphase LFO:Saw Out 315</Source>
+   <Target>AMS Slew Limiter (6):In</Target>
+  </Connection>
+  <Connection>
    <Source>AMS Multiphase LFO:Tri Out 0</Source>
    <Target>LFO Blender:LFO_1_PHASE</Target>
   </Connection>
   <Connection>
+   <Source>AMS Multiphase LFO:Tri Out 0</Source>
+   <Target>AMS Slew Limiter (8):In</Target>
+  </Connection>
+  <Connection>
    <Source>AMS Multiphase LFO:Tri Out 90</Source>
    <Target>LFO Blender:LFO_3_PHASE</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Multiphase LFO:Tri Out 180</Source>
-   <Target>Slew Rate Limiter (4):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Multiphase LFO:Tri Out 270</Source>
-   <Target>Slew Rate Limiter:CV Input</Target>
   </Connection>
   <Connection>
    <Source>LFO Blender:LFO 1</Source>
@@ -4192,23 +4216,23 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Attenuverter Booster (4):CV Input</Target>
   </Connection>
   <Connection>
-   <Source>Slew Rate Limiter:CV Output</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 4</Target>
-  </Connection>
-  <Connection>
-   <Source>Slew Rate Limiter (2):CV Output</Source>
+   <Source>AMS Slew Limiter (5):Out</Source>
    <Target>AMS VC Organ - 4 Osc:Volume 1</Target>
   </Connection>
   <Connection>
-   <Source>Slew Rate Limiter (3):CV Output</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 2</Target>
+   <Source>AMS Slew Limiter (6):Out</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 4</Target>
   </Connection>
   <Connection>
-   <Source>Slew Rate Limiter (4):CV Output</Source>
+   <Source>AMS Slew Limiter (7):Out</Source>
    <Target>AMS VC Organ - 4 Osc:Volume 3</Target>
   </Connection>
   <Connection>
-   <Source>Slew Rate Limiter (5):CV Output</Source>
+   <Source>AMS Slew Limiter (8):Out</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter (9):Out</Source>
    <Target>CV Switchbox 2-1:CV in1</Target>
   </Connection>
   <Connection>
