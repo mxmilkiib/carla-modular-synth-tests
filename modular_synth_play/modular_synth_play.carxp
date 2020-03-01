@@ -23,7 +23,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -87,7 +87,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -172,7 +172,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -261,7 +261,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -297,7 +297,7 @@
     <Index>4</Index>
     <Name>Output Level</Name>
     <Symbol>outputLevel</Symbol>
-    <Value>0.5</Value>
+    <Value>0.995800018310547</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -311,7 +311,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -361,7 +361,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -411,7 +411,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -461,7 +461,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -546,7 +546,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -631,7 +631,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -716,7 +716,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -780,7 +780,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -830,7 +830,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -838,7 +838,7 @@
     <Index>0</Index>
     <Name>Select Sequence</Name>
     <Symbol>sequence</Symbol>
-    <Value>7</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -863,7 +863,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f0</Options>
 
@@ -906,7 +906,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -991,7 +991,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1055,7 +1055,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1105,7 +1105,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1169,7 +1169,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1219,7 +1219,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1304,7 +1304,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1368,7 +1368,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1418,7 +1418,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -1636,7 +1636,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1783,7 +1783,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f1</Options>
 
@@ -1826,7 +1826,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f1</Options>
 
@@ -1869,7 +1869,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x100</Options>
 
@@ -1899,64 +1899,6 @@
   </Data>
  </Plugin>
 
- <!-- CV meter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV meter</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Reset</Name>
-    <Symbol>Reset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- CV meter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV meter (3)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Reset</Name>
-    <Symbol>Reset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS Mixer 8 channels -->
  <Plugin>
   <Info>
@@ -1966,7 +1908,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2044,7 +1986,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2178,7 +2120,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2186,7 +2128,7 @@
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>1</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -2424,7 +2366,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f0</Options>
 
@@ -2467,7 +2409,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2552,7 +2494,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2629,7 +2571,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2693,7 +2635,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2743,7 +2685,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2828,7 +2770,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2905,7 +2847,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2969,7 +2911,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3019,7 +2961,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3104,7 +3046,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3181,7 +3123,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3245,7 +3187,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3295,7 +3237,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3352,7 +3294,7 @@
     <Index>7</Index>
     <Name>Phi0</Name>
     <Symbol>phi0</Symbol>
-    <Value>0</Value>
+    <Value>0.0131943002343178</Value>
    </Parameter>
 
    <Parameter>
@@ -3380,7 +3322,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3457,7 +3399,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3521,7 +3463,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3571,7 +3513,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3616,7 +3558,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3677,7 +3619,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -3937,7 +3879,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4008,7 +3950,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4030,7 +3972,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4038,7 +3980,7 @@
     <Index>0</Index>
     <Name>Attack Offset</Name>
     <Symbol>attackOffset</Symbol>
-    <Value>-1.60000002384186</Value>
+    <Value>-1.54999995231628</Value>
    </Parameter>
 
    <Parameter>
@@ -4059,7 +4001,7 @@
     <Index>3</Index>
     <Name>Release Offset</Name>
     <Symbol>releaseOffset</Symbol>
-    <Value>-8</Value>
+    <Value>8</Value>
    </Parameter>
 
    <Parameter>
@@ -4101,7 +4043,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4172,7 +4114,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4234,28 +4176,6 @@
   </Data>
  </Plugin>
 
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Attack</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>-0.980000019073486</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Attenuverter Booster -->
  <Plugin>
   <Info>
@@ -4265,7 +4185,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4273,7 +4193,7 @@
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>7.99999904632568</Value>
+    <Value>6.42424249649048</Value>
    </Parameter>
 
    <Parameter>
@@ -4315,7 +4235,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4386,7 +4306,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4462,28 +4382,6 @@
   </Data>
  </Plugin>
 
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Decay</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>-0.523588538169861</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Attenuverter Booster -->
  <Plugin>
   <Info>
@@ -4493,7 +4391,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4534,50 +4432,6 @@
   </Data>
  </Plugin>
 
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Sustain</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>0.299999982118607</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Control to CV -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Lead Release</Name>
-   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input</Name>
-    <Symbol>input</Symbol>
-    <Value>-1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Attenuverter Booster -->
  <Plugin>
   <Info>
@@ -4587,7 +4441,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4637,7 +4491,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4645,14 +4499,14 @@
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>7.99999952316284</Value>
+    <Value>8.19365310668945</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Offset</Name>
     <Symbol>Offset</Symbol>
-    <Value>0</Value>
+    <Value>-0.0447518303990364</Value>
    </Parameter>
 
    <Parameter>
@@ -4675,6 +4529,363 @@
     <Symbol>PluginEnabled</Symbol>
     <Value>1</Value>
    </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Carla&apos;s libjack -->
+ <Plugin>
+  <Info>
+   <Type>JACK</Type>
+   <Name>jack_midi_dump</Name>
+   <Filename>jack_midi_dump</Filename>
+   <Setup>001001d2D2H</Setup>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+  </Data>
+ </Plugin>
+
+ <!-- AMS CV Source -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS CV Source</Name>
+   <URI>http://github.com/blablack/ams-lv2/cvs</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>CV 1</Name>
+    <Symbol>cv1</Symbol>
+    <Value>0.449999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>CV Fine 1</Name>
+    <Symbol>cvFine1</Symbol>
+    <Value>-0.00828729290515184</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>CV 2</Name>
+    <Symbol>cv2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>CV Fine 2</Name>
+    <Symbol>cvFine2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>CV 3</Name>
+    <Symbol>cv3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>CV Fine 3</Name>
+    <Symbol>cvFine3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>CV 4</Name>
+    <Symbol>cv4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>CV Fine 4</Name>
+    <Symbol>cvFine4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV (4)</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>-0.780000030994415</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV (5)</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>-0.939999997615814</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV (6)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Control to CV (7)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-control</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Control</Name>
+    <Symbol>Control</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Parameter Modulation -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV Parameter Modulation</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-parameter-modulation</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Parameter Value</Name>
+    <Symbol>ParameterValue</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Modulation Depth</Name>
+    <Symbol>ModulationDepth</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BYPASS</Name>
+    <Symbol>BYPASS</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (Mono) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (Mono)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#Mono</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -4753,11 +4964,11 @@
   </Connection>
   <Connection>
    <Source>MIDI Generator:events-out</Source>
-   <Target>MIDI Key-Range Filter (2):events-in</Target>
+   <Target>MIDI Key-Range Filter:events-in</Target>
   </Connection>
   <Connection>
    <Source>MIDI Generator:events-out</Source>
-   <Target>MIDI Key-Range Filter:events-in</Target>
+   <Target>MIDI Key-Range Filter (2):events-in</Target>
   </Connection>
   <Connection>
    <Source>MIDI to CV Poly:Pitch 1</Source>
@@ -5124,10 +5335,6 @@
    <Target>Simple Scope (4 channel):In3</Target>
   </Connection>
   <Connection>
-   <Source>Lead Attack:Output</Source>
-   <Target>Attenuverter Booster:CV Input</Target>
-  </Connection>
-  <Connection>
    <Source>Attenuverter Booster:CV Output</Source>
    <Target>AMS VC Envelope II:Attack</Target>
   </Connection>
@@ -5176,10 +5383,6 @@
    <Target>Lead VCF 3:In</Target>
   </Connection>
   <Connection>
-   <Source>Lead Decay:Output</Source>
-   <Target>Attenuverter Booster (2):CV Input</Target>
-  </Connection>
-  <Connection>
    <Source>Attenuverter Booster (2):CV Output</Source>
    <Target>AMS VC Envelope II (2):Decay</Target>
   </Connection>
@@ -5201,10 +5404,6 @@
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (2):CV Output</Source>
-   <Target>CV meter (3):CV input</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (2):CV Output</Source>
    <Target>AMS VC Envelope II (6):Decay</Target>
   </Connection>
   <Connection>
@@ -5214,14 +5413,6 @@
   <Connection>
    <Source>Attenuverter Booster (2):CV Output</Source>
    <Target>AMS VC Envelope II (8):Decay</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Sustain:Output</Source>
-   <Target>Attenuverter Booster (3):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Lead Release:Output</Source>
-   <Target>Attenuverter Booster (4):CV Input</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (3):CV Output</Source>
@@ -5286,6 +5477,30 @@
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
    <Target>AMS VC Envelope II (7):Release</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS CV Source:CV Out 1</Source>
+   <Target>CV meter:CV input</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS CV Source:CV Out 1</Source>
+   <Target>Simple Scope (Mono):In</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV (2):CV Output</Source>
+   <Target>Attenuverter Booster (3):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV (4):Output</Source>
+   <Target>Attenuverter Booster:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV (5):Output</Source>
+   <Target>Attenuverter Booster (2):CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control to CV (6):CV Output</Source>
+   <Target>Attenuverter Booster (4):CV Input</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
