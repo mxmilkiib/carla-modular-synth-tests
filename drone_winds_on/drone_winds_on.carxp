@@ -74,7 +74,7 @@
     <Index>0</Index>
     <Name>Bpm</Name>
     <Symbol>Bpm</Symbol>
-    <Value>20</Value>
+    <Value>120</Value>
    </Parameter>
 
    <Parameter>
@@ -89,35 +89,6 @@
     <Name>Sync</Name>
     <Symbol>sync</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- CV meter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV meter</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Reset</Name>
-    <Symbol>Reset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -256,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.408000200986862</Value>
+    <Value>0.0966623947024345</Value>
    </Parameter>
 
    <Parameter>
@@ -267,7 +238,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.564969480037689</Value>
    </Parameter>
 
    <Parameter>
@@ -278,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.677475154399872</Value>
+    <Value>0.366137355566025</Value>
    </Parameter>
 
    <Parameter>
@@ -289,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.318175226449966</Value>
+    <Value>0.00683740573003888</Value>
    </Parameter>
 
    <Parameter>
@@ -314,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.516662240028381</Value>
+    <Value>0.376691102981567</Value>
    </Parameter>
 
    <Parameter>
@@ -346,7 +317,7 @@
     <Index>14</Index>
     <Name>VCO 2 - Wave Form</Name>
     <Symbol>vco2_waveForm</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -392,7 +363,7 @@
     <Index>20</Index>
     <Name>VCO 3 - Wave Form</Name>
     <Symbol>vco3_waveForm</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -445,7 +416,7 @@
     <Index>27</Index>
     <Name>VCO 4 - Octave</Name>
     <Symbol>vco4_octave</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -552,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.160756230354309</Value>
+    <Value>-0.620880007743835</Value>
    </Parameter>
 
    <Parameter>
@@ -998,14 +969,14 @@
     <Index>0</Index>
     <Name>Input gain</Name>
     <Symbol>port5</Symbol>
-    <Value>0</Value>
+    <Value>-4.90000009536743</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Frequency</Name>
     <Symbol>freq</Symbol>
-    <Value>0.0900009050965309</Value>
+    <Value>9.99999997475243e-07</Value>
    </Parameter>
 
    <Parameter>
@@ -1019,21 +990,21 @@
     <Index>3</Index>
     <Name>Resonance</Name>
     <Symbol>res</Symbol>
-    <Value>0.499590486288071</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Resonance gain</Name>
     <Symbol>res_gain</Symbol>
-    <Value>0.329999983310699</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>5</Index>
     <Name>Filter poles</Name>
     <Symbol>poles</Symbol>
-    <Value>2</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1625,7 +1596,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.564969539642334</Value>
    </Parameter>
 
    <Parameter>
@@ -1643,7 +1614,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.587650179862976</Value>
+    <Value>0.276312381029129</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,7 +1632,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.765363693237305</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -1705,7 +1676,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>59.8337593078613</Value>
+    <Value>37.136287689209</Value>
    </Parameter>
 
    <Parameter>
@@ -1716,7 +1687,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>0</Value>
+    <Value>38.4488563537598</Value>
    </Parameter>
 
    <Parameter>
@@ -1727,7 +1698,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>1.48586583137512</Value>
+    <Value>1.60930061340332</Value>
    </Parameter>
 
    <Parameter>
@@ -1738,14 +1709,14 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>10</MappedMinimum>
     <MappedMaximum>60</MappedMaximum>
-    <Value>37.5</Value>
+    <Value>40</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Width</Name>
     <Symbol>width</Symbol>
-    <Value>75</Value>
+    <Value>100</Value>
    </Parameter>
 
    <Parameter>
@@ -1787,14 +1758,14 @@
     <Index>10</Index>
     <Name>High Cut</Name>
     <Symbol>high_cut</Symbol>
-    <Value>6250</Value>
+    <Value>4000</Value>
    </Parameter>
 
    <Parameter>
     <Index>11</Index>
     <Name>High Cross</Name>
     <Symbol>high_xo</Symbol>
-    <Value>2800</Value>
+    <Value>7300</Value>
    </Parameter>
 
    <Parameter>
@@ -1992,224 +1963,6 @@
     <Index>4</Index>
     <Name>PluginEnabled</Name>
     <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- LSP Compressor Stereo -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>LSP Compressor Stereo</Name>
-   <URI>http://lsp-plug.in/plugins/lv2/compressor_stereo</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x1</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Bypass</Name>
-    <Symbol>bypass</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Input gain</Name>
-    <Symbol>g_in</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Output gain</Name>
-    <Symbol>g_out</Symbol>
-    <Value>0.281838119029999</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Pause graph analysis</Name>
-    <Symbol>pause</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Clear graph analysis</Name>
-    <Symbol>clear</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Sidechain type</Name>
-    <Symbol>sct</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Sidechain mode</Name>
-    <Symbol>scm</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Sidechain lookahead</Name>
-    <Symbol>sla</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Sidechain listen</Name>
-    <Symbol>scl</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Sidechain source</Name>
-    <Symbol>scs</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Sidechain reactivity</Name>
-    <Symbol>scr</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>Sidechain preamp</Name>
-    <Symbol>scp</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>Compression mode</Name>
-    <Symbol>cm</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>Attack level</Name>
-    <Symbol>al</Symbol>
-    <Value>0.251190006732941</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>Attack time</Name>
-    <Symbol>at</Symbol>
-    <Value>0.950725018978119</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>Relative release level</Name>
-    <Symbol>rrl</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>Release time</Name>
-    <Symbol>rt</Symbol>
-    <Value>100</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>17</Index>
-    <Name>Ratio</Name>
-    <Symbol>cr</Symbol>
-    <Value>8.89343357086182</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>18</Index>
-    <Name>Knee</Name>
-    <Symbol>kn</Symbol>
-    <Value>0.289946913719177</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>19</Index>
-    <Name>Makeup gain</Name>
-    <Symbol>mk</Symbol>
-    <Value>1.27628135681152</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>20</Index>
-    <Name>Dry gain</Name>
-    <Symbol>cdr</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>21</Index>
-    <Name>Wet gain</Name>
-    <Symbol>cwt</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>Sidechain level visibility</Name>
-    <Symbol>slv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>24</Index>
-    <Name>Envelope level visibility</Name>
-    <Symbol>elv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>25</Index>
-    <Name>Gain reduction visibility</Name>
-    <Symbol>grv</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>30</Index>
-    <Name>Input level visibility Left</Name>
-    <Symbol>ilv_l</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>31</Index>
-    <Name>Output level visibility Left</Name>
-    <Symbol>olv_l</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>34</Index>
-    <Name>Input level visibility Right</Name>
-    <Symbol>ilv_r</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>35</Index>
-    <Name>Output level visibility Right</Name>
-    <Symbol>olv_r</Symbol>
     <Value>1</Value>
    </Parameter>
   </Data>
@@ -3079,7 +2832,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.100000001490116</Value>
+    <Value>0.452357113361359</Value>
    </Parameter>
 
    <Parameter>
@@ -3090,7 +2843,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.100000001490116</Value>
+    <Value>0</Value>
    </Parameter>
 
    <CustomData>
@@ -3284,7 +3037,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Multiplier</Name>
     <Symbol>Multiplier</Symbol>
-    <Value>-0.0732302665710449</Value>
+    <Value>1.19999933242798</Value>
    </Parameter>
 
    <Parameter>
@@ -3562,7 +3315,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
     <MidiCC>116</MidiCC>
-    <Value>0</Value>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
@@ -3648,14 +3401,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>3</Index>
     <Name>Length</Name>
     <Symbol>LENGTH</Symbol>
-    <Value>3</Value>
+    <Value>11</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Frequency</Name>
     <Symbol>FREQUENCY</Symbol>
-    <Value>3</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3802,7 +3555,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Type>http://lv2plug.in/ns/ext/atom#String</Type>
     <Key>https://git.code.sf.net/p/qmidiarp#WAVEHEX</Key>
     <Value>
-00003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e5960606060000000
+00003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000000000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000000000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f3f1939774e596060606000003f3f3f00
     </Value>
    </CustomData>
 
@@ -3810,7 +3563,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Type>http://lv2plug.in/ns/ext/atom#String</Type>
     <Key>https://git.code.sf.net/p/qmidiarp#MUTEHEX</Key>
     <Value>
-000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     </Value>
    </CustomData>
   </Data>
@@ -4002,6 +3755,2055 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- LSP Multiband Compressor Stereo x8 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Multiband Compressor Stereo x8</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/mb_compressor_stereo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Compressor mode</Name>
+    <Symbol>mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Input gain</Name>
+    <Symbol>g_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Output gain</Name>
+    <Symbol>g_out</Symbol>
+    <Value>0.316227942705154</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Dry gain</Name>
+    <Symbol>g_dry</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Wet gain</Name>
+    <Symbol>g_wet</Symbol>
+    <Value>0.298538386821747</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>FFT reactivity</Name>
+    <Symbol>react</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift gain</Name>
+    <Symbol>shift</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Graph zoom</Name>
+    <Symbol>zoom</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Envelope boost</Name>
+    <Symbol>envb</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Band selection</Name>
+    <Symbol>bsel</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Band filter curves</Name>
+    <Symbol>flt</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Input FFT graph enable Left</Name>
+    <Symbol>ife_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Output FFT graph enable Left</Name>
+    <Symbol>ofe_l</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Input FFT graph enable Right</Name>
+    <Symbol>ife_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Output FFT graph enable Right</Name>
+    <Symbol>ofe_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Compression band enable 1</Name>
+    <Symbol>cbe_1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Split frequency 1</Name>
+    <Symbol>sf_1</Symbol>
+    <Value>40</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Compression band enable 2</Name>
+    <Symbol>cbe_2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Split frequency 2</Name>
+    <Symbol>sf_2</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Compression band enable 3</Name>
+    <Symbol>cbe_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Split frequency 3</Name>
+    <Symbol>sf_3</Symbol>
+    <Value>252</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Compression band enable 4</Name>
+    <Symbol>cbe_4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Split frequency 4</Name>
+    <Symbol>sf_4</Symbol>
+    <Value>632</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Compression band enable 5</Name>
+    <Symbol>cbe_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Split frequency 5</Name>
+    <Symbol>sf_5</Symbol>
+    <Value>1587</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Compression band enable 6</Name>
+    <Symbol>cbe_6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Split frequency 6</Name>
+    <Symbol>sf_6</Symbol>
+    <Value>3984</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Compression band enable 7</Name>
+    <Symbol>cbe_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Split frequency 7</Name>
+    <Symbol>sf_7</Symbol>
+    <Value>10000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Sidechain source 0</Name>
+    <Symbol>scs_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Sidechain mode 0</Name>
+    <Symbol>scm_0</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Sidechain lookahead 0</Name>
+    <Symbol>sla_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Sidechain reactivity 0</Name>
+    <Symbol>scr_0</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Sidechain preamp 0</Name>
+    <Symbol>scp_0</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Sidechain custom lo-cut 0</Name>
+    <Symbol>sclc_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Sidechain custom hi-cut 0</Name>
+    <Symbol>schc_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Sidechain lo-cut frequency 0</Name>
+    <Symbol>sclf_0</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Sidechain hi-cut frequency 0</Name>
+    <Symbol>schf_0</Symbol>
+    <Value>40</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Compression mode 0</Name>
+    <Symbol>cm_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Compressor enable 0</Name>
+    <Symbol>ce_0</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Solo band 0</Name>
+    <Symbol>bs_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Mute band 0</Name>
+    <Symbol>bm_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Attack level 0</Name>
+    <Symbol>al_0</Symbol>
+    <Value>0.371121257543564</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Attack time 0</Name>
+    <Symbol>at_0</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Relative release level 0</Name>
+    <Symbol>rrl_0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Release time 0</Name>
+    <Symbol>rt_0</Symbol>
+    <Value>5.38573980331421</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Ratio 0</Name>
+    <Symbol>cr_0</Symbol>
+    <Value>6.5058536529541</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Knee 0</Name>
+    <Symbol>kn_0</Symbol>
+    <Value>0.150986954569817</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Makeup gain 0</Name>
+    <Symbol>mk_0</Symbol>
+    <Value>3.92014384269714</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Hue  0</Name>
+    <Symbol>hue_0</Symbol>
+    <Value>0.0694443583488464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Sidechain source 1</Name>
+    <Symbol>scs_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Sidechain mode 1</Name>
+    <Symbol>scm_1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Sidechain lookahead 1</Name>
+    <Symbol>sla_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Sidechain reactivity 1</Name>
+    <Symbol>scr_1</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Sidechain preamp 1</Name>
+    <Symbol>scp_1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Sidechain custom lo-cut 1</Name>
+    <Symbol>sclc_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Sidechain custom hi-cut 1</Name>
+    <Symbol>schc_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Sidechain lo-cut frequency 1</Name>
+    <Symbol>sclf_1</Symbol>
+    <Value>40</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Sidechain hi-cut frequency 1</Name>
+    <Symbol>schf_1</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>69</Index>
+    <Name>Compression mode 1</Name>
+    <Symbol>cm_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>70</Index>
+    <Name>Compressor enable 1</Name>
+    <Symbol>ce_1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>71</Index>
+    <Name>Solo band 1</Name>
+    <Symbol>bs_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>72</Index>
+    <Name>Mute band 1</Name>
+    <Symbol>bm_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>73</Index>
+    <Name>Attack level 1</Name>
+    <Symbol>al_1</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>74</Index>
+    <Name>Attack time 1</Name>
+    <Symbol>at_1</Symbol>
+    <Value>0.0343397594988346</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>75</Index>
+    <Name>Relative release level 1</Name>
+    <Symbol>rrl_1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>76</Index>
+    <Name>Release time 1</Name>
+    <Symbol>rt_1</Symbol>
+    <Value>168.937683105469</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>77</Index>
+    <Name>Ratio 1</Name>
+    <Symbol>cr_1</Symbol>
+    <Value>3.75608921051025</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>78</Index>
+    <Name>Knee 1</Name>
+    <Symbol>kn_1</Symbol>
+    <Value>0.49338173866272</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>79</Index>
+    <Name>Makeup gain 1</Name>
+    <Symbol>mk_1</Symbol>
+    <Value>2.07892727851868</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>80</Index>
+    <Name>Hue  1</Name>
+    <Symbol>hue_1</Symbol>
+    <Value>0.125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>86</Index>
+    <Name>Sidechain source 2</Name>
+    <Symbol>scs_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>87</Index>
+    <Name>Sidechain mode 2</Name>
+    <Symbol>scm_2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>88</Index>
+    <Name>Sidechain lookahead 2</Name>
+    <Symbol>sla_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>89</Index>
+    <Name>Sidechain reactivity 2</Name>
+    <Symbol>scr_2</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>90</Index>
+    <Name>Sidechain preamp 2</Name>
+    <Symbol>scp_2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>91</Index>
+    <Name>Sidechain custom lo-cut 2</Name>
+    <Symbol>sclc_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>92</Index>
+    <Name>Sidechain custom hi-cut 2</Name>
+    <Symbol>schc_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>93</Index>
+    <Name>Sidechain lo-cut frequency 2</Name>
+    <Symbol>sclf_2</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>94</Index>
+    <Name>Sidechain hi-cut frequency 2</Name>
+    <Symbol>schf_2</Symbol>
+    <Value>252</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>95</Index>
+    <Name>Compression mode 2</Name>
+    <Symbol>cm_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>96</Index>
+    <Name>Compressor enable 2</Name>
+    <Symbol>ce_2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>97</Index>
+    <Name>Solo band 2</Name>
+    <Symbol>bs_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>98</Index>
+    <Name>Mute band 2</Name>
+    <Symbol>bm_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>99</Index>
+    <Name>Attack level 2</Name>
+    <Symbol>al_2</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>100</Index>
+    <Name>Attack time 2</Name>
+    <Symbol>at_2</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>101</Index>
+    <Name>Relative release level 2</Name>
+    <Symbol>rrl_2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>102</Index>
+    <Name>Release time 2</Name>
+    <Symbol>rt_2</Symbol>
+    <Value>24.0927562713623</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>103</Index>
+    <Name>Ratio 2</Name>
+    <Symbol>cr_2</Symbol>
+    <Value>3.85105109214783</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>104</Index>
+    <Name>Knee 2</Name>
+    <Symbol>kn_2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>105</Index>
+    <Name>Makeup gain 2</Name>
+    <Symbol>mk_2</Symbol>
+    <Value>1.79585564136505</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>106</Index>
+    <Name>Hue  2</Name>
+    <Symbol>hue_2</Symbol>
+    <Value>0.25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>112</Index>
+    <Name>Sidechain source 3</Name>
+    <Symbol>scs_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>113</Index>
+    <Name>Sidechain mode 3</Name>
+    <Symbol>scm_3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>114</Index>
+    <Name>Sidechain lookahead 3</Name>
+    <Symbol>sla_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>115</Index>
+    <Name>Sidechain reactivity 3</Name>
+    <Symbol>scr_3</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>116</Index>
+    <Name>Sidechain preamp 3</Name>
+    <Symbol>scp_3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>117</Index>
+    <Name>Sidechain custom lo-cut 3</Name>
+    <Symbol>sclc_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>118</Index>
+    <Name>Sidechain custom hi-cut 3</Name>
+    <Symbol>schc_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>119</Index>
+    <Name>Sidechain lo-cut frequency 3</Name>
+    <Symbol>sclf_3</Symbol>
+    <Value>252</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>120</Index>
+    <Name>Sidechain hi-cut frequency 3</Name>
+    <Symbol>schf_3</Symbol>
+    <Value>632</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>121</Index>
+    <Name>Compression mode 3</Name>
+    <Symbol>cm_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>122</Index>
+    <Name>Compressor enable 3</Name>
+    <Symbol>ce_3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>123</Index>
+    <Name>Solo band 3</Name>
+    <Symbol>bs_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>124</Index>
+    <Name>Mute band 3</Name>
+    <Symbol>bm_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>125</Index>
+    <Name>Attack level 3</Name>
+    <Symbol>al_3</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>126</Index>
+    <Name>Attack time 3</Name>
+    <Symbol>at_3</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>127</Index>
+    <Name>Relative release level 3</Name>
+    <Symbol>rrl_3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>128</Index>
+    <Name>Release time 3</Name>
+    <Symbol>rt_3</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>129</Index>
+    <Name>Ratio 3</Name>
+    <Symbol>cr_3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>130</Index>
+    <Name>Knee 3</Name>
+    <Symbol>kn_3</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>131</Index>
+    <Name>Makeup gain 3</Name>
+    <Symbol>mk_3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>132</Index>
+    <Name>Hue  3</Name>
+    <Symbol>hue_3</Symbol>
+    <Value>0.375</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>138</Index>
+    <Name>Sidechain source 4</Name>
+    <Symbol>scs_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>139</Index>
+    <Name>Sidechain mode 4</Name>
+    <Symbol>scm_4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>140</Index>
+    <Name>Sidechain lookahead 4</Name>
+    <Symbol>sla_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>141</Index>
+    <Name>Sidechain reactivity 4</Name>
+    <Symbol>scr_4</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>142</Index>
+    <Name>Sidechain preamp 4</Name>
+    <Symbol>scp_4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>143</Index>
+    <Name>Sidechain custom lo-cut 4</Name>
+    <Symbol>sclc_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>144</Index>
+    <Name>Sidechain custom hi-cut 4</Name>
+    <Symbol>schc_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>145</Index>
+    <Name>Sidechain lo-cut frequency 4</Name>
+    <Symbol>sclf_4</Symbol>
+    <Value>632</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>146</Index>
+    <Name>Sidechain hi-cut frequency 4</Name>
+    <Symbol>schf_4</Symbol>
+    <Value>1587</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>147</Index>
+    <Name>Compression mode 4</Name>
+    <Symbol>cm_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>148</Index>
+    <Name>Compressor enable 4</Name>
+    <Symbol>ce_4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>149</Index>
+    <Name>Solo band 4</Name>
+    <Symbol>bs_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>150</Index>
+    <Name>Mute band 4</Name>
+    <Symbol>bm_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>151</Index>
+    <Name>Attack level 4</Name>
+    <Symbol>al_4</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>152</Index>
+    <Name>Attack time 4</Name>
+    <Symbol>at_4</Symbol>
+    <Value>0.0708390697836876</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>153</Index>
+    <Name>Relative release level 4</Name>
+    <Symbol>rrl_4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>154</Index>
+    <Name>Release time 4</Name>
+    <Symbol>rt_4</Symbol>
+    <Value>0.569219589233398</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>155</Index>
+    <Name>Ratio 4</Name>
+    <Symbol>cr_4</Symbol>
+    <Value>4.87382698059082</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>156</Index>
+    <Name>Knee 4</Name>
+    <Symbol>kn_4</Symbol>
+    <Value>0.108726181089878</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>157</Index>
+    <Name>Makeup gain 4</Name>
+    <Symbol>mk_4</Symbol>
+    <Value>0.676839351654053</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>158</Index>
+    <Name>Hue  4</Name>
+    <Symbol>hue_4</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>164</Index>
+    <Name>Sidechain source 5</Name>
+    <Symbol>scs_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>165</Index>
+    <Name>Sidechain mode 5</Name>
+    <Symbol>scm_5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>166</Index>
+    <Name>Sidechain lookahead 5</Name>
+    <Symbol>sla_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>167</Index>
+    <Name>Sidechain reactivity 5</Name>
+    <Symbol>scr_5</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>168</Index>
+    <Name>Sidechain preamp 5</Name>
+    <Symbol>scp_5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>169</Index>
+    <Name>Sidechain custom lo-cut 5</Name>
+    <Symbol>sclc_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>170</Index>
+    <Name>Sidechain custom hi-cut 5</Name>
+    <Symbol>schc_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>171</Index>
+    <Name>Sidechain lo-cut frequency 5</Name>
+    <Symbol>sclf_5</Symbol>
+    <Value>1587</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>172</Index>
+    <Name>Sidechain hi-cut frequency 5</Name>
+    <Symbol>schf_5</Symbol>
+    <Value>3984</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>173</Index>
+    <Name>Compression mode 5</Name>
+    <Symbol>cm_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>174</Index>
+    <Name>Compressor enable 5</Name>
+    <Symbol>ce_5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>175</Index>
+    <Name>Solo band 5</Name>
+    <Symbol>bs_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>176</Index>
+    <Name>Mute band 5</Name>
+    <Symbol>bm_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>177</Index>
+    <Name>Attack level 5</Name>
+    <Symbol>al_5</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>178</Index>
+    <Name>Attack time 5</Name>
+    <Symbol>at_5</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>179</Index>
+    <Name>Relative release level 5</Name>
+    <Symbol>rrl_5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>180</Index>
+    <Name>Release time 5</Name>
+    <Symbol>rt_5</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>181</Index>
+    <Name>Ratio 5</Name>
+    <Symbol>cr_5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>182</Index>
+    <Name>Knee 5</Name>
+    <Symbol>kn_5</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>183</Index>
+    <Name>Makeup gain 5</Name>
+    <Symbol>mk_5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>184</Index>
+    <Name>Hue  5</Name>
+    <Symbol>hue_5</Symbol>
+    <Value>0.625</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>190</Index>
+    <Name>Sidechain source 6</Name>
+    <Symbol>scs_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>191</Index>
+    <Name>Sidechain mode 6</Name>
+    <Symbol>scm_6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>192</Index>
+    <Name>Sidechain lookahead 6</Name>
+    <Symbol>sla_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>193</Index>
+    <Name>Sidechain reactivity 6</Name>
+    <Symbol>scr_6</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>194</Index>
+    <Name>Sidechain preamp 6</Name>
+    <Symbol>scp_6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>195</Index>
+    <Name>Sidechain custom lo-cut 6</Name>
+    <Symbol>sclc_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>196</Index>
+    <Name>Sidechain custom hi-cut 6</Name>
+    <Symbol>schc_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>197</Index>
+    <Name>Sidechain lo-cut frequency 6</Name>
+    <Symbol>sclf_6</Symbol>
+    <Value>3984</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>198</Index>
+    <Name>Sidechain hi-cut frequency 6</Name>
+    <Symbol>schf_6</Symbol>
+    <Value>10000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>199</Index>
+    <Name>Compression mode 6</Name>
+    <Symbol>cm_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>200</Index>
+    <Name>Compressor enable 6</Name>
+    <Symbol>ce_6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>201</Index>
+    <Name>Solo band 6</Name>
+    <Symbol>bs_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>202</Index>
+    <Name>Mute band 6</Name>
+    <Symbol>bm_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>203</Index>
+    <Name>Attack level 6</Name>
+    <Symbol>al_6</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>204</Index>
+    <Name>Attack time 6</Name>
+    <Symbol>at_6</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>205</Index>
+    <Name>Relative release level 6</Name>
+    <Symbol>rrl_6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>206</Index>
+    <Name>Release time 6</Name>
+    <Symbol>rt_6</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>207</Index>
+    <Name>Ratio 6</Name>
+    <Symbol>cr_6</Symbol>
+    <Value>6.50585317611694</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>208</Index>
+    <Name>Knee 6</Name>
+    <Symbol>kn_6</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>209</Index>
+    <Name>Makeup gain 6</Name>
+    <Symbol>mk_6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>210</Index>
+    <Name>Hue  6</Name>
+    <Symbol>hue_6</Symbol>
+    <Value>0.75</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>216</Index>
+    <Name>Sidechain source 7</Name>
+    <Symbol>scs_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>217</Index>
+    <Name>Sidechain mode 7</Name>
+    <Symbol>scm_7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>218</Index>
+    <Name>Sidechain lookahead 7</Name>
+    <Symbol>sla_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>219</Index>
+    <Name>Sidechain reactivity 7</Name>
+    <Symbol>scr_7</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>220</Index>
+    <Name>Sidechain preamp 7</Name>
+    <Symbol>scp_7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>221</Index>
+    <Name>Sidechain custom lo-cut 7</Name>
+    <Symbol>sclc_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>222</Index>
+    <Name>Sidechain custom hi-cut 7</Name>
+    <Symbol>schc_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>223</Index>
+    <Name>Sidechain lo-cut frequency 7</Name>
+    <Symbol>sclf_7</Symbol>
+    <Value>10000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>224</Index>
+    <Name>Sidechain hi-cut frequency 7</Name>
+    <Symbol>schf_7</Symbol>
+    <Value>20000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>225</Index>
+    <Name>Compression mode 7</Name>
+    <Symbol>cm_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>226</Index>
+    <Name>Compressor enable 7</Name>
+    <Symbol>ce_7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>227</Index>
+    <Name>Solo band 7</Name>
+    <Symbol>bs_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>228</Index>
+    <Name>Mute band 7</Name>
+    <Symbol>bm_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>229</Index>
+    <Name>Attack level 7</Name>
+    <Symbol>al_7</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>230</Index>
+    <Name>Attack time 7</Name>
+    <Symbol>at_7</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>231</Index>
+    <Name>Relative release level 7</Name>
+    <Symbol>rrl_7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>232</Index>
+    <Name>Release time 7</Name>
+    <Symbol>rt_7</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>233</Index>
+    <Name>Ratio 7</Name>
+    <Symbol>cr_7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>234</Index>
+    <Name>Knee 7</Name>
+    <Symbol>kn_7</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>235</Index>
+    <Name>Makeup gain 7</Name>
+    <Symbol>mk_7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>236</Index>
+    <Name>Hue  7</Name>
+    <Symbol>hue_7</Symbol>
+    <Value>0.875</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Stereo Mixer 2 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Stereo Mixer 2 channels (2)</Name>
+   <URI>http://github.com/blablack/ams-lv2/stereomixer_2ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master Volume</Name>
+    <Symbol>masterVolume</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mute 1</Name>
+    <Symbol>mute1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Pan 1</Name>
+    <Symbol>pan1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mute 2</Name>
+    <Symbol>mute2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Pan 2</Name>
+    <Symbol>pan2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Stereo Mixer 8 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Stereo Mixer 8 channels</Name>
+   <URI>http://github.com/blablack/ams-lv2/stereomixer_8ch</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master Volume</Name>
+    <Symbol>masterVolume</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mute 1</Name>
+    <Symbol>mute1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Pan 1</Name>
+    <Symbol>pan1</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mute 2</Name>
+    <Symbol>mute2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Pan 2</Name>
+    <Symbol>pan2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Mute 3</Name>
+    <Symbol>mute3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Solo 3</Name>
+    <Symbol>solo3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Volume 3</Name>
+    <Symbol>volume3</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Pan 3</Name>
+    <Symbol>pan3</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Mute 4</Name>
+    <Symbol>mute4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Solo 4</Name>
+    <Symbol>solo4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Volume 4</Name>
+    <Symbol>volume4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Pan 4</Name>
+    <Symbol>pan4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Mute 5</Name>
+    <Symbol>mute5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Solo 5</Name>
+    <Symbol>solo5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Volume 5</Name>
+    <Symbol>volume5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Pan 5</Name>
+    <Symbol>pan5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Mute 6</Name>
+    <Symbol>mute6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Solo 6</Name>
+    <Symbol>solo6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Volume 6</Name>
+    <Symbol>volume6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Pan 6</Name>
+    <Symbol>pan6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Mute 7</Name>
+    <Symbol>mute7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Solo 7</Name>
+    <Symbol>solo7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Volume 7</Name>
+    <Symbol>volume7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Pan 7</Name>
+    <Symbol>pan7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Mute 8</Name>
+    <Symbol>mute8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Solo 8</Name>
+    <Symbol>solo8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Volume 8</Name>
+    <Symbol>volume8</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Pan 8</Name>
+    <Symbol>pan8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Calf Equalizer 8 Band -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Calf Equalizer 8 Band</Name>
+   <URI>http://calf.sourceforge.net/plugins/Equalizer8Band</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input Gain</Name>
+    <Symbol>level_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output Gain</Name>
+    <Symbol>level_out</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>HP Active</Name>
+    <Symbol>hp_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>HP Freq</Name>
+    <Symbol>hp_freq</Symbol>
+    <Value>30</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>HP Mode</Name>
+    <Symbol>hp_mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>HP Q</Name>
+    <Symbol>hp_q</Symbol>
+    <Value>0.707000017166138</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>LP Active</Name>
+    <Symbol>lp_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>LP Freq</Name>
+    <Symbol>lp_freq</Symbol>
+    <Value>18000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>LP Mode</Name>
+    <Symbol>lp_mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>LP Q</Name>
+    <Symbol>lp_q</Symbol>
+    <Value>0.707000017166138</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>LS Active</Name>
+    <Symbol>ls_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Level L</Name>
+    <Symbol>ls_level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Freq L</Name>
+    <Symbol>ls_freq</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>LS Q</Name>
+    <Symbol>ls_q</Symbol>
+    <Value>0.707000017166138</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>HS Active</Name>
+    <Symbol>hs_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Level H</Name>
+    <Symbol>hs_level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Freq H</Name>
+    <Symbol>hs_freq</Symbol>
+    <Value>5000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>HS Q</Name>
+    <Symbol>hs_q</Symbol>
+    <Value>0.707000017166138</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>F1 Active</Name>
+    <Symbol>p1_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Level 1</Name>
+    <Symbol>p1_level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Freq 1</Name>
+    <Symbol>p1_freq</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Q 1</Name>
+    <Symbol>p1_q</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>F2 Active</Name>
+    <Symbol>p2_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Level 2</Name>
+    <Symbol>p2_level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Freq 2</Name>
+    <Symbol>p2_freq</Symbol>
+    <Value>500</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Q 2</Name>
+    <Symbol>p2_q</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>F3 Active</Name>
+    <Symbol>p3_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Level 3</Name>
+    <Symbol>p3_level</Symbol>
+    <Value>1.94530963897705</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Freq 3</Name>
+    <Symbol>p3_freq</Symbol>
+    <Value>2000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Q 3</Name>
+    <Symbol>p3_q</Symbol>
+    <Value>3.46736884117126</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>F4 Active</Name>
+    <Symbol>p4_active</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Level 4</Name>
+    <Symbol>p4_level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Freq 4</Name>
+    <Symbol>p4_freq</Symbol>
+    <Value>5000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Q 4</Name>
+    <Symbol>p4_q</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Individual Filters</Name>
+    <Symbol>individuals</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Zoom</Name>
+    <Symbol>zoom</Symbol>
+    <Value>0.25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Analyzer Active</Name>
+    <Symbol>analyzer</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Analyzer Mode</Name>
+    <Symbol>analyzer_mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Spectr -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Spectr</Name>
+   <URI>http://gareus.org/oss/lv2/spectra#Mono</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>FFT Size</Name>
+    <Symbol>fftsize</Symbol>
+    <Value>4096</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>1/f scale</Name>
+    <Symbol>color</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Window Function</Name>
+    <Symbol>window</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -4014,10 +5816,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>PulseAudio JACK Sink:front-right</Source>
    <Target>system:playback_2</Target>
-  </Connection>
-  <Connection>
-   <Source>Random CV Generator:CV Output</Source>
-   <Target>CV meter:CV input</Target>
   </Connection>
   <Connection>
    <Source>Random CV Generator:CV Output</Source>
@@ -4069,15 +5867,23 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>Moog Low-Pass Filter 4:Output</Source>
-   <Target>LSP Compressor Stereo:Input L</Target>
+   <Target>AMS Stereo Mixer 8 channels:In 1</Target>
   </Connection>
   <Connection>
    <Source>Moog Low-Pass Filter 4:Output</Source>
-   <Target>LSP Compressor Stereo:Input R</Target>
+   <Target>AMS Stereo Mixer 8 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4:Output</Source>
+   <Target>Spectr:In</Target>
   </Connection>
   <Connection>
    <Source>ZLFO 64/1.:Triangle</Source>
    <Target>Moog Low-Pass Filter 4:Resonance Mod</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 64/1.:Triangle</Source>
+   <Target>AMS Slew Limiter (9):Time Up</Target>
   </Connection>
   <Connection>
    <Source>ZLFO 64/1.:Saw</Source>
@@ -4090,6 +5896,10 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>ZLFO 64/1.:Custom</Source>
    <Target>AMS Saw:Frequency</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 64/1.:Custom</Source>
+   <Target>AMS Slew Limiter (9):Time Down</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
@@ -4149,11 +5959,11 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 1</Source>
-   <Target>LSP Compressor Stereo:Input L</Target>
+   <Target>AMS Stereo Mixer 8 channels:In 3</Target>
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 2</Source>
-   <Target>LSP Compressor Stereo:Input R</Target>
+   <Target>AMS Stereo Mixer 8 channels:In 4</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster:CV Output</Source>
@@ -4166,14 +5976,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>Attenuverter Booster (3):CV Output</Source>
    <Target>AMS Slew Limiter (3):In</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Compressor Stereo:Output L</Source>
-   <Target>Stereo DJ X-Fade:In B Left</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Compressor Stereo:Output R</Source>
-   <Target>Stereo DJ X-Fade:In B Right</Target>
   </Connection>
   <Connection>
    <Source>Attenuverter Booster (4):CV Output</Source>
@@ -4298,6 +6100,30 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>QMidiArp LFO:events-out</Source>
    <Target>Stereo DJ X-Fade:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Multiband Compressor Stereo x8:Output L</Source>
+   <Target>Calf Equalizer 8 Band:In L</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Multiband Compressor Stereo x8:Output R</Source>
+   <Target>Calf Equalizer 8 Band:In R</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 8 channels:Out Left</Source>
+   <Target>LSP Multiband Compressor Stereo x8:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 8 channels:Out Right</Source>
+   <Target>LSP Multiband Compressor Stereo x8:Input R</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Equalizer 8 Band:Out L</Source>
+   <Target>Stereo DJ X-Fade:In A Left</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Equalizer 8 Band:Out R</Source>
+   <Target>Stereo DJ X-Fade:In A Right</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
