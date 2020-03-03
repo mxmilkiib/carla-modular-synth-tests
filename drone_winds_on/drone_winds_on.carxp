@@ -11,7 +11,7 @@
  </EngineSettings>
 
  <Transport>
-  <BeatsPerMinute>140</BeatsPerMinute>
+  <BeatsPerMinute>100</BeatsPerMinute>
  </Transport>
 
  <!-- Random CV Generator -->
@@ -227,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.30597448348999</Value>
+    <Value>0.358803451061249</Value>
    </Parameter>
 
    <Parameter>
@@ -249,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.575449466705322</Value>
+    <Value>0.628278434276581</Value>
    </Parameter>
 
    <Parameter>
@@ -260,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.216149508953094</Value>
+    <Value>0.268978446722031</Value>
    </Parameter>
 
    <Parameter>
@@ -285,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.335727453231812</Value>
+    <Value>0.537625432014465</Value>
    </Parameter>
 
    <Parameter>
@@ -363,14 +363,14 @@
     <Index>20</Index>
     <Name>VCO 3 - Wave Form</Name>
     <Symbol>vco3_waveForm</Symbol>
-    <Value>4</Value>
+    <Value>3</Value>
    </Parameter>
 
    <Parameter>
     <Index>21</Index>
     <Name>VCO 3 - Octave</Name>
     <Symbol>vco3_octave</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -409,7 +409,7 @@
     <Index>26</Index>
     <Name>VCO 4 - Wave Form</Name>
     <Symbol>vco4_waveForm</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -523,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.586666584014893</Value>
+    <Value>-0.500789523124695</Value>
    </Parameter>
 
    <Parameter>
@@ -534,7 +534,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.853333353996277</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -618,7 +618,7 @@
     <Index>21</Index>
     <Name>Node 1 value</Name>
     <Symbol>node_1_val</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1018,7 +1018,7 @@
     <Index>8</Index>
     <Name>Range min</Name>
     <Symbol>range_min</Symbol>
-    <Value>-0.693333327770233</Value>
+    <Value>-0.639999985694885</Value>
    </Parameter>
 
    <Parameter>
@@ -1464,7 +1464,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.653333246707916</Value>
+    <Value>0.00999999977648258</Value>
    </Parameter>
 
    <Parameter>
@@ -1550,7 +1550,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.485624462366104</Value>
+    <Value>0.53845340013504</Value>
    </Parameter>
 
    <Parameter>
@@ -1612,7 +1612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>8.69404983520508</Value>
+    <Value>34.0829429626465</Value>
    </Parameter>
 
    <Parameter>
@@ -1623,7 +1623,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>3.94855523109436</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1634,7 +1634,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>4.21176433563232</Value>
+    <Value>14.812180519104</Value>
    </Parameter>
 
    <Parameter>
@@ -2076,14 +2076,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>2</Index>
     <Name>Horn Level</Name>
     <Symbol>hornlvl</Symbol>
-    <Value>-4</Value>
+    <Value>-5.60000038146973</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Drum Level</Name>
     <Symbol>drumlvl</Symbol>
-    <Value>-3.94000053405762</Value>
+    <Value>-6.84000015258789</Value>
    </Parameter>
 
    <Parameter>
@@ -2101,7 +2101,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>63.6666564941406</Value>
+    <Value>5</Value>
    </Parameter>
 
    <Parameter>
@@ -2768,7 +2768,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.586666643619537</Value>
+    <Value>0.276819825172424</Value>
    </Parameter>
 
    <Parameter>
@@ -2779,7 +2779,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.586666643619537</Value>
+    <Value>0</Value>
    </Parameter>
 
    <CustomData>
@@ -2807,7 +2807,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Channel</Name>
     <Symbol>Switch</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3023,7 +3023,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>0.999999940395355</Value>
+    <Value>0.200000002980232</Value>
    </Parameter>
 
    <Parameter>
@@ -3247,10 +3247,9 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Name>Signal A/B</Name>
     <Symbol>xfade</Symbol>
     <MidiChannel>1</MidiChannel>
-    <MappedControlIndex>116</MappedControlIndex>
+    <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <MidiCC>116</MidiCC>
     <Value>1</Value>
    </Parameter>
 
@@ -3323,7 +3322,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>1</Index>
     <Name>Mute 1</Name>
     <Symbol>mute1</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3351,7 +3350,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>5</Index>
     <Name>Mute 2</Name>
     <Symbol>mute2</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3449,7 +3448,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>19</Index>
     <Name>Volume 5</Name>
     <Symbol>volume5</Symbol>
-    <Value>0.75</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3477,7 +3476,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>23</Index>
     <Name>Volume 6</Name>
     <Symbol>volume6</Symbol>
-    <Value>0.649999976158142</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3505,7 +3504,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>27</Index>
     <Name>Volume 7</Name>
     <Symbol>volume7</Symbol>
-    <Value>0.5</Value>
+    <Value>0.400000005960464</Value>
    </Parameter>
 
    <Parameter>
@@ -3533,7 +3532,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>31</Index>
     <Name>Volume 8</Name>
     <Symbol>volume8</Symbol>
-    <Value>0.5</Value>
+    <Value>0.400000005960464</Value>
    </Parameter>
 
    <Parameter>
@@ -3618,14 +3617,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>9</Index>
     <Name>LowPass Resonance</Name>
     <Symbol>LPQ</Symbol>
-    <Value>0.935892403125763</Value>
+    <Value>0.83458548784256</Value>
    </Parameter>
 
    <Parameter>
     <Index>10</Index>
     <Name>Lowshelf</Name>
     <Symbol>LSsec</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3653,14 +3652,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>14</Index>
     <Name>Section 1</Name>
     <Symbol>sec1</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>15</Index>
     <Name>Frequency 1</Name>
     <Symbol>freq1</Symbol>
-    <Value>1236.66857910156</Value>
+    <Value>1001.1474609375</Value>
    </Parameter>
 
    <Parameter>
@@ -3674,7 +3673,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>17</Index>
     <Name>Gain 1</Name>
     <Symbol>gain1</Symbol>
-    <Value>7</Value>
+    <Value>0.80000114440918</Value>
    </Parameter>
 
    <Parameter>
@@ -3688,7 +3687,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>19</Index>
     <Name>Frequency 2</Name>
     <Symbol>freq2</Symbol>
-    <Value>40.1995811462402</Value>
+    <Value>40</Value>
    </Parameter>
 
    <Parameter>
@@ -3702,7 +3701,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>21</Index>
     <Name>Gain 2</Name>
     <Symbol>gain2</Symbol>
-    <Value>13</Value>
+    <Value>0.200000762939453</Value>
    </Parameter>
 
    <Parameter>
@@ -3716,21 +3715,21 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>23</Index>
     <Name>Frequency 3</Name>
     <Symbol>freq3</Symbol>
-    <Value>1343.25219726562</Value>
+    <Value>1077.48913574219</Value>
    </Parameter>
 
    <Parameter>
     <Index>24</Index>
     <Name>Bandwidth 3</Name>
     <Symbol>q3</Symbol>
-    <Value>0.329876989126205</Value>
+    <Value>0.0654558762907982</Value>
    </Parameter>
 
    <Parameter>
     <Index>25</Index>
     <Name>Gain 3</Name>
     <Symbol>gain3</Symbol>
-    <Value>9</Value>
+    <Value>0.399999618530273</Value>
    </Parameter>
 
    <Parameter>
@@ -3772,14 +3771,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>31</Index>
     <Name>Highshelf Frequency</Name>
     <Symbol>HSfreq</Symbol>
-    <Value>5734.25439453125</Value>
+    <Value>5377.1396484375</Value>
    </Parameter>
 
    <Parameter>
     <Index>32</Index>
     <Name>Highshelf Bandwidth</Name>
     <Symbol>HSq</Symbol>
-    <Value>1.41421353816986</Value>
+    <Value>4</Value>
    </Parameter>
 
    <Parameter>
@@ -3810,7 +3809,7 @@ Shouts to the #lad and #lv2 crew on Freenode
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
     <Key>http://gareus.org/oss/lv2/fil4#fftmode</Key>
-    <Value>BxIAAA==</Value>
+    <Value>BhIAAA==</Value>
    </CustomData>
 
    <CustomData>
@@ -3842,7 +3841,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.000798084598500282</Value>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
@@ -3878,7 +3877,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -3910,7 +3909,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.30597448348999</Value>
+    <Value>0.358726799488068</Value>
    </Parameter>
 
    <Parameter>
@@ -3932,7 +3931,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.575449466705322</Value>
+    <Value>0.6282017827034</Value>
    </Parameter>
 
    <Parameter>
@@ -3943,7 +3942,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.216149508953094</Value>
+    <Value>0.268901795148849</Value>
    </Parameter>
 
    <Parameter>
@@ -4133,6 +4132,12 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Symbol>vco4_phi0</Symbol>
     <Value>3.73000001907349</Value>
    </Parameter>
+
+   <CustomData>
+    <Type>http://kxstudio.sf.net/ns/carla/property</Type>
+    <Key>CarlaSkinIsCompacted</Key>
+    <Value>false</Value>
+   </CustomData>
   </Data>
  </Plugin>
 
@@ -4202,7 +4207,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>7</Index>
     <Name>Sidechain lookahead</Name>
     <Symbol>sla</Symbol>
-    <Value>3.49999904632568</Value>
+    <Value>6.2999963760376</Value>
    </Parameter>
 
    <Parameter>
@@ -4272,14 +4277,14 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>17</Index>
     <Name>Ratio</Name>
     <Symbol>cr</Symbol>
-    <Value>2.27957606315613</Value>
+    <Value>3.31524014472961</Value>
    </Parameter>
 
    <Parameter>
     <Index>18</Index>
     <Name>Knee</Name>
     <Symbol>kn</Symbol>
-    <Value>0.56151407957077</Value>
+    <Value>0.508331537246704</Value>
    </Parameter>
 
    <Parameter>
@@ -4378,21 +4383,21 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>1</Index>
     <Name>Drive</Name>
     <Symbol>drive</Symbol>
-    <Value>45</Value>
+    <Value>63</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Level</Name>
     <Symbol>level</Symbol>
-    <Value>44</Value>
+    <Value>71</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Type</Name>
     <Symbol>type</Symbol>
-    <Value>1</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -4406,21 +4411,21 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>5</Index>
     <Name>Low-Pass Filter</Name>
     <Symbol>lpf</Symbol>
-    <Value>47</Value>
+    <Value>32</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
     <Name>High-Pass Filter</Name>
     <Symbol>hpf</Symbol>
-    <Value>0</Value>
+    <Value>127</Value>
    </Parameter>
 
    <Parameter>
     <Index>7</Index>
     <Name>Stereo</Name>
     <Symbol>stereo</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -4476,6 +4481,243 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- VC to Hz -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>VC to Hz</Name>
+   <URI>http://github.com/blablack/ams-lv2/vctohz</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Octave Offset</Name>
+    <Symbol>octaveOffset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Conversion Mode</Name>
+    <Symbol>conversionMode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster (11)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>-0.999999940395355</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS CV Source -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS CV Source</Name>
+   <URI>http://github.com/blablack/ams-lv2/cvs</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>CV 1</Name>
+    <Symbol>cv1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>CV Fine 1</Name>
+    <Symbol>cvFine1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>CV 2</Name>
+    <Symbol>cv2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>CV Fine 2</Name>
+    <Symbol>cvFine2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>CV 3</Name>
+    <Symbol>cv3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>CV Fine 3</Name>
+    <Symbol>cvFine3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>CV 4</Name>
+    <Symbol>cv4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>CV Fine 4</Name>
+    <Symbol>cvFine4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Slew Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Slew Limiter (10)</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV meter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV meter (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Reset</Name>
+    <Symbol>Reset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -4526,6 +4768,10 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>AMS Multiphase LFO:Freq (Hz)</Target>
   </Connection>
   <Connection>
+   <Source>ZLFO 64/1:Saw</Source>
+   <Target>VC to Hz:Input</Target>
+  </Connection>
+  <Connection>
    <Source>ZLFO 64/1.:Triangle</Source>
    <Target>AMS Slew Limiter (9):Time Up</Target>
   </Connection>
@@ -4544,6 +4790,10 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>ZLFO 64/1.:Custom</Source>
    <Target>AMS Slew Limiter (9):Time Down</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 64/1.:Custom</Source>
+   <Target>CV meter:CV input</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
@@ -4840,6 +5090,18 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>Cycle Shifter:Audio Output 1</Source>
    <Target>AMS Stereo Mixer 8 channels:In 8</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster (11):CV Output</Source>
+   <Target>Stereo DJ X-Fade:Signal A/B</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS CV Source:CV Out 1</Source>
+   <Target>AMS Slew Limiter (10):In</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter (10):Out</Source>
+   <Target>Attenuverter Booster (11):CV Input</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
