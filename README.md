@@ -3,8 +3,8 @@ To share some test projects.
 
 For information about LV2/JACK CV, see [this post](https://linuxmusicians.com/viewtopic.php?f=1&t=20701).
 
-## Video
-* [Carla + LV2 Modular Synth - "Drone Winds On2" 2020 02 20 04 17 30](https://www.youtube.com/watch?v=zUE8OKL7MS4)
+## Videos
+* [Modular Synth in Carla with LV2 plugins - YouTube](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - playlist, 4 and 2 are best, more non-drone to come
 
 ## Screenshots
 ![modular_synth_play.png](https://user-images.githubusercontent.com/108225/74800701-338e6f00-52cc-11ea-9cba-09f5231fcbea.png)
