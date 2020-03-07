@@ -480,14 +480,14 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>0</Value>
+    <Value>5.97145128250122</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>PW0</Name>
     <Symbol>pw0</Symbol>
-    <Value>0.313333332538605</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -519,7 +519,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>2.48215866088867</Value>
+    <Value>1.41950917243958</Value>
    </Parameter>
 
    <Parameter>
@@ -573,7 +573,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>0</Value>
+    <Value>5.97145128250122</Value>
    </Parameter>
 
    <Parameter>
@@ -612,7 +612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>2.48215866088867</Value>
+    <Value>1.41950917243958</Value>
    </Parameter>
 
    <Parameter>
@@ -666,7 +666,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>0</Value>
+    <Value>5.97145128250122</Value>
    </Parameter>
 
    <Parameter>
@@ -709,7 +709,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>2.48215866088867</Value>
+    <Value>1.41950917243958</Value>
    </Parameter>
 
    <Parameter>
@@ -763,7 +763,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>0</Value>
+    <Value>5.97145128250122</Value>
    </Parameter>
 
    <Parameter>
@@ -806,7 +806,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>2.48215866088867</Value>
+    <Value>1.41950917243958</Value>
    </Parameter>
 
    <Parameter>
@@ -899,21 +899,21 @@
     <Index>2</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>0.699999988079071</Value>
+    <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Volume 3</Name>
     <Symbol>volume3</Symbol>
-    <Value>0</Value>
+    <Value>0.0500000007450581</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Volume 4</Name>
     <Symbol>volume4</Symbol>
-    <Value>0.349999994039536</Value>
+    <Value>0.150000005960464</Value>
    </Parameter>
 
    <Parameter>
@@ -1077,7 +1077,11 @@
     <Index>2</Index>
     <Name>Decay Time</Name>
     <Symbol>decay</Symbol>
-    <Value>0.237259820103645</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.821219742298126</Value>
    </Parameter>
 
    <Parameter>
@@ -1239,7 +1243,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>2.48215866088867</Value>
+    <Value>1.41950917243958</Value>
    </Parameter>
 
    <Parameter>
@@ -1652,7 +1656,7 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
-    <Value>0</Value>
+    <Value>5.97145128250122</Value>
    </Parameter>
 
    <Parameter>
@@ -1681,7 +1685,7 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
-    <Value>2.48215699195862</Value>
+    <Value>1.41950833797455</Value>
    </Parameter>
 
    <Parameter>
@@ -1919,6 +1923,28 @@
   </Data>
  </Plugin>
 
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Decay</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -2139,6 +2165,10 @@
   <Connection>
    <Source>Wedge Gate Open:Output</Source>
    <Target>16 Step Sequencer:Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Freq Decay:Output</Source>
+   <Target>Freq Env:Decay Time</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
