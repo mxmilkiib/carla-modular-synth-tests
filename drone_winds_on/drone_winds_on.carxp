@@ -11,7 +11,7 @@
  </EngineSettings>
 
  <Transport>
-  <BeatsPerMinute>100</BeatsPerMinute>
+  <BeatsPerMinute>20</BeatsPerMinute>
  </Transport>
 
  <!-- Random CV Generator -->
@@ -227,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.358803451061249</Value>
+    <Value>0.197314858436584</Value>
    </Parameter>
 
    <Parameter>
@@ -238,7 +238,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.0775779709219933</Value>
    </Parameter>
 
    <Parameter>
@@ -249,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.628278434276581</Value>
+    <Value>0.0680837780237198</Value>
    </Parameter>
 
    <Parameter>
@@ -260,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.268978446722031</Value>
+    <Value>0.171468645334244</Value>
    </Parameter>
 
    <Parameter>
@@ -285,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.537625432014465</Value>
+    <Value>0.25826370716095</Value>
    </Parameter>
 
    <Parameter>
@@ -370,7 +370,7 @@
     <Index>21</Index>
     <Name>VCO 3 - Octave</Name>
     <Symbol>vco3_octave</Symbol>
-    <Value>1</Value>
+    <Value>2</Value>
    </Parameter>
 
    <Parameter>
@@ -523,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.500789523124695</Value>
+    <Value>-0.205755591392517</Value>
    </Parameter>
 
    <Parameter>
@@ -1471,14 +1471,14 @@
     <Index>1</Index>
     <Name>Gain Saw</Name>
     <Symbol>gainSaw</Symbol>
-    <Value>0.359299957752228</Value>
+    <Value>0.103384867310524</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Gain Triangle</Name>
     <Symbol>gainTriangle</Symbol>
-    <Value>1.04999995231628</Value>
+    <Value>0.424141585826874</Value>
    </Parameter>
 
    <Parameter>
@@ -1532,7 +1532,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -1550,7 +1550,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.53845340013504</Value>
+    <Value>0.0422375649213791</Value>
    </Parameter>
 
    <Parameter>
@@ -1568,7 +1568,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.3465636074543</Value>
    </Parameter>
 
    <Parameter>
@@ -1612,7 +1612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>34.0829429626465</Value>
+    <Value>23.0761394500732</Value>
    </Parameter>
 
    <Parameter>
@@ -1623,7 +1623,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>0</Value>
+    <Value>12.0427751541138</Value>
    </Parameter>
 
    <Parameter>
@@ -1634,7 +1634,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>14.812180519104</Value>
+    <Value>12.5848827362061</Value>
    </Parameter>
 
    <Parameter>
@@ -2768,7 +2768,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.276819825172424</Value>
+    <Value>0.40523362159729</Value>
    </Parameter>
 
    <Parameter>
@@ -3023,7 +3023,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>0.200000002980232</Value>
+    <Value>0.400000005960464</Value>
    </Parameter>
 
    <Parameter>
@@ -3877,7 +3877,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Octave</Name>
     <Symbol>octave</Symbol>
-    <Value>2</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3909,7 +3909,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.358726799488068</Value>
+    <Value>0.197314858436584</Value>
    </Parameter>
 
    <Parameter>
@@ -3920,7 +3920,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.0775779709219933</Value>
    </Parameter>
 
    <Parameter>
@@ -3931,7 +3931,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.6282017827034</Value>
+    <Value>0.0680837780237198</Value>
    </Parameter>
 
    <Parameter>
@@ -3942,7 +3942,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.268901795148849</Value>
+    <Value>0.171468645334244</Value>
    </Parameter>
 
    <Parameter>
@@ -4606,7 +4606,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>CV 1</Name>
     <Symbol>cv1</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -4714,6 +4714,42 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Name>PluginEnabled</Name>
     <Symbol>PluginEnabled</Symbol>
     <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Clock -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV Clock (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bpm</Name>
+    <Symbol>Bpm</Symbol>
+    <Value>106</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Divisions</Name>
+    <Symbol>Divisions</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sync</Name>
+    <Symbol>sync</Symbol>
+    <Value>0</Value>
    </Parameter>
   </Data>
  </Plugin>
