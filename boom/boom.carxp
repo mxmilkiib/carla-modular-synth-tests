@@ -2261,7 +2261,7 @@
     <Index>3</Index>
     <Name>Volume 1</Name>
     <Symbol>volume1</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -2289,7 +2289,7 @@
     <Index>7</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -4129,19 +4129,19 @@
   </Connection>
   <Connection>
    <Source>EsPhaser:Audio Output 1</Source>
-   <Target>AMS Stereo Mixer 8 channels:In 3</Target>
-  </Connection>
-  <Connection>
-   <Source>EsPhaser:Audio Output 1</Source>
    <Target>x42-Autotune:Input</Target>
   </Connection>
   <Connection>
-   <Source>EsPhaser:Audio Output 2</Source>
-   <Target>AMS Stereo Mixer 8 channels:In 4</Target>
+   <Source>EsPhaser:Audio Output 1</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 3</Target>
   </Connection>
   <Connection>
    <Source>EsPhaser:Audio Output 2</Source>
    <Target>x42-Autotune (3):Input</Target>
+  </Connection>
+  <Connection>
+   <Source>EsPhaser:Audio Output 2</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 4</Target>
   </Connection>
   <Connection>
    <Source>x42-Autotune:Output</Source>
