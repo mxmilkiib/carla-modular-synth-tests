@@ -11,7 +11,7 @@
  </EngineSettings>
 
  <Transport>
-  <BeatsPerMinute>160</BeatsPerMinute>
+  <BeatsPerMinute>120</BeatsPerMinute>
  </Transport>
 
  <!-- AMS VCA Lin -->
@@ -23,7 +23,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -73,7 +73,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -95,7 +95,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.0354813225567341</Value>
+    <Value>0.398106813430786</Value>
    </Parameter>
 
    <Parameter>
@@ -291,7 +291,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -299,7 +299,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>0.265274554491043</Value>
+    <Value>0.339999973773956</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -313,7 +313,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -346,7 +346,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>5.97145128250122</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -385,7 +385,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>1.41950750350952</Value>
+    <Value>3.06629657745361</Value>
    </Parameter>
 
    <Parameter>
@@ -406,7 +406,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -439,7 +439,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>5.97145128250122</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -478,7 +478,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>1.41950750350952</Value>
+    <Value>3.06629657745361</Value>
    </Parameter>
 
    <Parameter>
@@ -499,7 +499,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -532,7 +532,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>5.97145128250122</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -557,7 +557,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>1</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>4.33782386779785</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -575,7 +575,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>1.41950750350952</Value>
+    <Value>3.06629657745361</Value>
    </Parameter>
 
    <Parameter>
@@ -596,7 +596,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -629,7 +629,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>12</MappedMaximum>
-    <Value>5.97145128250122</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -654,7 +654,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>1</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>3.26724815368652</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -672,7 +672,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>1.41950750350952</Value>
+    <Value>3.06629657745361</Value>
    </Parameter>
 
    <Parameter>
@@ -693,7 +693,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -743,7 +743,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -765,21 +765,21 @@
     <Index>2</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>0.5</Value>
+    <Value>0.699999988079071</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Volume 3</Name>
     <Symbol>volume3</Symbol>
-    <Value>0.0500000007450581</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Volume 4</Name>
     <Symbol>volume4</Symbol>
-    <Value>0.150000005960464</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -821,7 +821,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -871,7 +871,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -921,7 +921,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -947,7 +947,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.821219742298126</Value>
+    <Value>0.667440056800842</Value>
    </Parameter>
 
    <Parameter>
@@ -975,7 +975,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -987,7 +987,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0105777056887746</Value>
+    <Value>0.0138323837891221</Value>
    </Parameter>
 
    <Parameter>
@@ -998,7 +998,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.779999971389771</Value>
+    <Value>0.138437747955322</Value>
    </Parameter>
 
    <Parameter>
@@ -1033,7 +1033,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1083,7 +1083,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1109,7 +1109,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>1.41950750350952</Value>
+    <Value>3.06629657745361</Value>
    </Parameter>
 
    <Parameter>
@@ -1326,7 +1326,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1473,12 +1473,12 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Kick Clock</Name>
+   <Name>Drum Clock</Name>
    <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock</URI>
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1486,7 +1486,7 @@
     <Index>0</Index>
     <Name>Bpm</Name>
     <Symbol>Bpm</Symbol>
-    <Value>140</Value>
+    <Value>160</Value>
    </Parameter>
 
    <Parameter>
@@ -1514,7 +1514,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1522,7 +1522,7 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
-    <Value>5.97145128250122</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -1543,7 +1543,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1551,7 +1551,7 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
-    <Value>1.41950833797455</Value>
+    <Value>3.06629824638367</Value>
    </Parameter>
 
    <Parameter>
@@ -1572,7 +1572,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1580,7 +1580,7 @@
     <Index>0</Index>
     <Name>Control Input</Name>
     <Symbol>in</Symbol>
-    <Value>0.0105777056887746</Value>
+    <Value>0.0138323837891221</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1594,7 +1594,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1602,7 +1602,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>0.779999971389771</Value>
+    <Value>0.138437747955322</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1616,7 +1616,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1624,7 +1624,7 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
-    <Value>4.33782720565796</Value>
+    <Value>0.300000041723251</Value>
    </Parameter>
 
    <Parameter>
@@ -1645,7 +1645,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1653,7 +1653,7 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
-    <Value>3.26724815368652</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
@@ -1661,35 +1661,6 @@
     <Name>Smoothing</Name>
     <Symbol>Smoothing</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- CV meter -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV meter</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Reset</Name>
-    <Symbol>Reset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1703,7 +1674,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1753,7 +1724,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1761,7 +1732,7 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>0</Value>
+    <Value>0.667440056800842</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1770,12 +1741,12 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Clock Divider</Name>
+   <Name>Clock Divider Slower</Name>
    <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock-divider</URI>
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1804,7 +1775,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1813,249 +1784,6 @@
     <Name>Delay</Name>
     <Symbol>delay</Symbol>
     <Value>5.36899995803833</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- FDNCymbal -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>FDNCymbal</Name>
-   <URI>https://github.com/ryukau/LV2Plugins/tree/master/FDNCymbal0.2</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Enabled</Name>
-    <Symbol>lv2_enabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>seed</Name>
-    <Symbol>seed</Symbol>
-    <Value>6583421</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>retriggerTime</Name>
-    <Symbol>retriggerTime</Symbol>
-    <MidiChannel>1</MidiChannel>
-    <MappedControlIndex>130</MappedControlIndex>
-    <MappedMinimum>0</MappedMinimum>
-    <MappedMaximum>1</MappedMaximum>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>retriggerStick</Name>
-    <Symbol>retriggerStick</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>retriggerTremolo</Name>
-    <Symbol>retriggerTremolo</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>fdn</Name>
-    <Symbol>fdn</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>fdnTime</Name>
-    <Symbol>fdnTime</Symbol>
-    <Value>0.0109126577153802</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>fdnFeedback</Name>
-    <Symbol>fdnFeedback</Symbol>
-    <Value>0.116415835916996</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>fdnCascadeMix</Name>
-    <Symbol>fdnCascadeMix</Symbol>
-    <Value>0.200000002980232</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>allpassMix</Name>
-    <Symbol>allpassMix</Symbol>
-    <Value>0.75</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>allpass1Saturation</Name>
-    <Symbol>allpass1Saturation</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>allpass1Time</Name>
-    <Symbol>allpass1Time</Symbol>
-    <Value>0.00100000004749745</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>allpass1Feedback</Name>
-    <Symbol>allpass1Feedback</Symbol>
-    <Value>0.957157731056213</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>allpass1HighpassCutoff</Name>
-    <Symbol>allpass1HighpassCutoff</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>allpass2Time</Name>
-    <Symbol>allpass2Time</Symbol>
-    <Value>0.00100000004749745</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>allpass2Feedback</Name>
-    <Symbol>allpass2Feedback</Symbol>
-    <Value>0.899999976158142</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>allpass2HighpassCutoff</Name>
-    <Symbol>allpass2HighpassCutoff</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>17</Index>
-    <Name>tremoloMix</Name>
-    <Symbol>tremoloMix</Symbol>
-    <Value>0.200000002980232</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>18</Index>
-    <Name>tremoloDepth</Name>
-    <Symbol>tremoloDepth</Symbol>
-    <Value>0.800000011920929</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>19</Index>
-    <Name>tremoloFrequency</Name>
-    <Symbol>tremoloFrequency</Symbol>
-    <Value>4</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>20</Index>
-    <Name>tremoloDelayTime</Name>
-    <Symbol>tremoloDelayTime</Symbol>
-    <Value>3.50515474565327e-05</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>21</Index>
-    <Name>randomTremoloDepth</Name>
-    <Symbol>randomTremoloDepth</Symbol>
-    <Value>0.349999994039536</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>22</Index>
-    <Name>randomTremoloFrequency</Name>
-    <Symbol>randomTremoloFrequency</Symbol>
-    <Value>0.349999994039536</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>randomTremoloDelayTime</Name>
-    <Symbol>randomTremoloDelayTime</Symbol>
-    <Value>0.349999994039536</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>24</Index>
-    <Name>stick</Name>
-    <Symbol>stick</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>25</Index>
-    <Name>stickDecay</Name>
-    <Symbol>stickDecay</Symbol>
-    <Value>0.100000001490116</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>26</Index>
-    <Name>stickToneMix</Name>
-    <Symbol>stickToneMix</Symbol>
-    <Value>0.00100000004749745</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>27</Index>
-    <Name>stickPulseMix</Name>
-    <Symbol>stickPulseMix</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>28</Index>
-    <Name>stickVelvetMix</Name>
-    <Symbol>stickVelvetMix</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>29</Index>
-    <Name>smoothness</Name>
-    <Symbol>smoothness</Symbol>
-    <Value>0.00499999988824129</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>30</Index>
-    <Name>gain</Name>
-    <Symbol>gain</Symbol>
-    <Value>0.952980697154999</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>31</Index>
-    <Name>pitchBend</Name>
-    <Symbol>pitchBend</Symbol>
-    <Value>0.5</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -2069,7 +1797,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -2154,28 +1882,28 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f1</Options>
 
    <Parameter>
     <Index>0</Index>
+    <Name>Block</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
     <Name>Follow</Name>
     <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>1</Index>
+    <Index>2</Index>
     <Name>Overwrite</Name>
     <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Block</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
     <Value>0</Value>
    </Parameter>
 
@@ -2232,7 +1960,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2261,14 +1989,14 @@
     <Index>3</Index>
     <Name>Volume 1</Name>
     <Symbol>volume1</Symbol>
-    <Value>0.449999988079071</Value>
+    <Value>0.300000011920929</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Pan 1</Name>
     <Symbol>pan1</Symbol>
-    <Value>-1</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -2289,14 +2017,14 @@
     <Index>7</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>0.449999988079071</Value>
+    <Value>0.300000011920929</Value>
    </Parameter>
 
    <Parameter>
     <Index>8</Index>
     <Name>Pan 2</Name>
     <Symbol>pan2</Symbol>
-    <Value>1</Value>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
@@ -2429,7 +2157,7 @@
     <Index>27</Index>
     <Name>Volume 7</Name>
     <Symbol>volume7</Symbol>
-    <Value>0.850000023841858</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -2457,7 +2185,7 @@
     <Index>31</Index>
     <Name>Volume 8</Name>
     <Symbol>volume8</Symbol>
-    <Value>1</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -2478,7 +2206,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2500,7 +2228,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2531,258 +2259,12 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>AMS Stereo Mixer 8 channels (2)</Name>
-   <URI>http://github.com/blablack/ams-lv2/stereomixer_8ch</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Master Volume</Name>
-    <Symbol>masterVolume</Symbol>
-    <Value>0.349999994039536</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Mute 1</Name>
-    <Symbol>mute1</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Solo 1</Name>
-    <Symbol>solo1</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Volume 1</Name>
-    <Symbol>volume1</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Pan 1</Name>
-    <Symbol>pan1</Symbol>
-    <Value>-0.800000011920929</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Mute 2</Name>
-    <Symbol>mute2</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Solo 2</Name>
-    <Symbol>solo2</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Volume 2</Name>
-    <Symbol>volume2</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Pan 2</Name>
-    <Symbol>pan2</Symbol>
-    <Value>-0.400000005960464</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Mute 3</Name>
-    <Symbol>mute3</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Solo 3</Name>
-    <Symbol>solo3</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>Volume 3</Name>
-    <Symbol>volume3</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>Pan 3</Name>
-    <Symbol>pan3</Symbol>
-    <Value>0.300000011920929</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>Mute 4</Name>
-    <Symbol>mute4</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>Solo 4</Name>
-    <Symbol>solo4</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>Volume 4</Name>
-    <Symbol>volume4</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>Pan 4</Name>
-    <Symbol>pan4</Symbol>
-    <Value>0.600000023841858</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>17</Index>
-    <Name>Mute 5</Name>
-    <Symbol>mute5</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>18</Index>
-    <Name>Solo 5</Name>
-    <Symbol>solo5</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>19</Index>
-    <Name>Volume 5</Name>
-    <Symbol>volume5</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>20</Index>
-    <Name>Pan 5</Name>
-    <Symbol>pan5</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>21</Index>
-    <Name>Mute 6</Name>
-    <Symbol>mute6</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>22</Index>
-    <Name>Solo 6</Name>
-    <Symbol>solo6</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>Volume 6</Name>
-    <Symbol>volume6</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>24</Index>
-    <Name>Pan 6</Name>
-    <Symbol>pan6</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>25</Index>
-    <Name>Mute 7</Name>
-    <Symbol>mute7</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>26</Index>
-    <Name>Solo 7</Name>
-    <Symbol>solo7</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>27</Index>
-    <Name>Volume 7</Name>
-    <Symbol>volume7</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>28</Index>
-    <Name>Pan 7</Name>
-    <Symbol>pan7</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>29</Index>
-    <Name>Mute 8</Name>
-    <Symbol>mute8</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>30</Index>
-    <Name>Solo 8</Name>
-    <Symbol>solo8</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>31</Index>
-    <Name>Volume 8</Name>
-    <Symbol>volume8</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>32</Index>
-    <Name>Pan 8</Name>
-    <Symbol>pan8</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- AMS Stereo Mixer 8 channels -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
    <Name>AMS Stereo Mixer 8 channels (3)</Name>
    <URI>http://github.com/blablack/ams-lv2/stereomixer_8ch</URI>
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2818,7 +2300,7 @@
     <Index>4</Index>
     <Name>Pan 1</Name>
     <Symbol>pan1</Symbol>
-    <Value>0</Value>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
@@ -2846,14 +2328,14 @@
     <Index>8</Index>
     <Name>Pan 2</Name>
     <Symbol>pan2</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>9</Index>
     <Name>Mute 3</Name>
     <Symbol>mute3</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -2874,14 +2356,14 @@
     <Index>12</Index>
     <Name>Pan 3</Name>
     <Symbol>pan3</Symbol>
-    <Value>0</Value>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
     <Index>13</Index>
     <Name>Mute 4</Name>
     <Symbol>mute4</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -2902,7 +2384,7 @@
     <Index>16</Index>
     <Name>Pan 4</Name>
     <Symbol>pan4</Symbol>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3015,98 +2497,6 @@
     <Name>Pan 8</Name>
     <Symbol>pan8</Symbol>
     <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- LSP Delay Compensator Stereo -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>LSP Delay Compensator Stereo</Name>
-   <URI>http://lsp-plug.in/plugins/lv2/comp_delay_stereo</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x1</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Bypass</Name>
-    <Symbol>bypass</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Mode</Name>
-    <Symbol>mode</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Ramping</Name>
-    <Symbol>ramp</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Samples</Name>
-    <Symbol>samp</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Meters</Name>
-    <Symbol>m</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Centimeters</Name>
-    <Symbol>cm</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Temperature</Name>
-    <Symbol>t</Symbol>
-    <Value>20</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Time</Name>
-    <Symbol>time</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Dry amount</Name>
-    <Symbol>dry</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Wet amount</Name>
-    <Symbol>wet</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Output gain</Name>
-    <Symbol>g_out</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3120,7 +2510,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -3142,7 +2532,7 @@
     <Index>2</Index>
     <Name>frequency</Name>
     <Symbol>frequency</Symbol>
-    <Value>0.113246135413647</Value>
+    <Value>0.382205784320831</Value>
    </Parameter>
 
    <Parameter>
@@ -3219,7 +2609,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f1</Options>
 
@@ -3381,7 +2771,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x3f1</Options>
 
@@ -3543,7 +2933,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -3551,14 +2941,14 @@
     <Index>0</Index>
     <Name>Select Sequence</Name>
     <Symbol>sequence</Symbol>
-    <Value>6</Value>
+    <Value>7</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>BPM</Name>
     <Symbol>bpm</Symbol>
-    <Value>186.599990844727</Value>
+    <Value>159.399993896484</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3572,7 +2962,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3599,92 +2989,6 @@
   </Data>
  </Plugin>
 
- <!-- Retriggerable ADSR Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Retriggerable ADSR Envelope</Name>
-   <URI>http://drobilla.net/plugins/blop/adsr_gt</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Time</Name>
-    <Symbol>attack</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Time</Name>
-    <Symbol>decay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Level</Name>
-    <Symbol>sustain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Time</Name>
-    <Symbol>release</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Retriggerable ADSR Envelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Retriggerable ADSR Envelope (2)</Name>
-   <URI>http://drobilla.net/plugins/blop/adsr_gt</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Attack Time</Name>
-    <Symbol>attack</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Decay Time</Name>
-    <Symbol>decay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Sustain Level</Name>
-    <Symbol>sustain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Release Time</Name>
-    <Symbol>release</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Moog Low-Pass Filter 4 -->
  <Plugin>
   <Info>
@@ -3694,7 +2998,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3709,7 +3013,11 @@
     <Index>1</Index>
     <Name>Frequency</Name>
     <Symbol>freq</Symbol>
-    <Value>0.0507789999246597</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999997475243e-07</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.0180190000683069</Value>
    </Parameter>
 
    <Parameter>
@@ -3749,6 +3057,1293 @@
   </Data>
  </Plugin>
 
+ <!-- CV Gate -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV Gate (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-gate</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>OpeningThreshold</Name>
+    <Symbol>OpeningThreshold</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>ClosingThreshold</Name>
+    <Symbol>ClosingThreshold</Symbol>
+    <Value>0.572614133358002</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- ZLFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZLFO</Name>
+   <URI>https://www.zrythm.org/plugins/ZLFO</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gate</Name>
+    <Symbol>gate</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Trigger</Name>
+    <Symbol>trigger</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gated mode</Name>
+    <Symbol>gated_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Sync rate</Name>
+    <Symbol>sync_rate</Symbol>
+    <Value>9</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sync rate type</Name>
+    <Symbol>sync_rate_type</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Shift</Name>
+    <Symbol>shift</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Range min</Name>
+    <Symbol>range_min</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Range max</Name>
+    <Symbol>range_max</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Step mode</Name>
+    <Symbol>step_mode</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Free running</Name>
+    <Symbol>free_running</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Grid step</Name>
+    <Symbol>grid_step</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>H invert</Name>
+    <Symbol>hinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>V invert</Name>
+    <Symbol>vinvert</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Sine toggle</Name>
+    <Symbol>sine_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Saw toggle</Name>
+    <Symbol>saw_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Square toggle</Name>
+    <Symbol>square_toggle</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Triangle toggle</Name>
+    <Symbol>triangle_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Custom toggle</Name>
+    <Symbol>custom_toggle</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Node 1 position</Name>
+    <Symbol>node_1_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Node 1 value</Name>
+    <Symbol>node_1_val</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Node 1 curve</Name>
+    <Symbol>node_1_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Node 2 position</Name>
+    <Symbol>node_2_pos</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Node 2 value</Name>
+    <Symbol>node_2_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Node 2 curve</Name>
+    <Symbol>node_2_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Node 3 position</Name>
+    <Symbol>node_3_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Node 3 value</Name>
+    <Symbol>node_3_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Node 3 curve</Name>
+    <Symbol>node_3_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Node 4 position</Name>
+    <Symbol>node_4_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Node 4 value</Name>
+    <Symbol>node_4_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Node 4 curve</Name>
+    <Symbol>node_4_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Node 5 position</Name>
+    <Symbol>node_5_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Node 5 value</Name>
+    <Symbol>node_5_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Node 5 curve</Name>
+    <Symbol>node_5_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Node 6 position</Name>
+    <Symbol>node_6_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>Node 6 value</Name>
+    <Symbol>node_6_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Node 6 curve</Name>
+    <Symbol>node_6_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Node 7 position</Name>
+    <Symbol>node_7_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Node 7 value</Name>
+    <Symbol>node_7_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Node 7 curve</Name>
+    <Symbol>node_7_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Node 8 position</Name>
+    <Symbol>node_8_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Node 8 value</Name>
+    <Symbol>node_8_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Node 8 curve</Name>
+    <Symbol>node_8_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Node 9 position</Name>
+    <Symbol>node_9_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Node 9 value</Name>
+    <Symbol>node_9_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Node 9 curve</Name>
+    <Symbol>node_9_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Node 10 position</Name>
+    <Symbol>node_10_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Node 10 value</Name>
+    <Symbol>node_10_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Node 10 curve</Name>
+    <Symbol>node_10_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Node 11 position</Name>
+    <Symbol>node_11_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Node 11 value</Name>
+    <Symbol>node_11_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Node 11 curve</Name>
+    <Symbol>node_11_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Node 12 position</Name>
+    <Symbol>node_12_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Node 12 value</Name>
+    <Symbol>node_12_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>55</Index>
+    <Name>Node 12 curve</Name>
+    <Symbol>node_12_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>56</Index>
+    <Name>Node 13 position</Name>
+    <Symbol>node_13_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>57</Index>
+    <Name>Node 13 value</Name>
+    <Symbol>node_13_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>58</Index>
+    <Name>Node 13 curve</Name>
+    <Symbol>node_13_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>59</Index>
+    <Name>Node 14 position</Name>
+    <Symbol>node_14_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>60</Index>
+    <Name>Node 14 value</Name>
+    <Symbol>node_14_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>61</Index>
+    <Name>Node 14 curve</Name>
+    <Symbol>node_14_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>62</Index>
+    <Name>Node 15 position</Name>
+    <Symbol>node_15_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>63</Index>
+    <Name>Node 15 value</Name>
+    <Symbol>node_15_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>64</Index>
+    <Name>Node 15 curve</Name>
+    <Symbol>node_15_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>65</Index>
+    <Name>Node 16 position</Name>
+    <Symbol>node_16_pos</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>66</Index>
+    <Name>Node 16 value</Name>
+    <Symbol>node_16_val</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>67</Index>
+    <Name>Node 16 curve</Name>
+    <Symbol>node_16_curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>68</Index>
+    <Name>Node count</Name>
+    <Symbol>num_nodes</Symbol>
+    <Value>2</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Stereo Mixer 8 channels -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Stereo Mixer 8 channels (4)</Name>
+   <URI>http://github.com/blablack/ams-lv2/stereomixer_8ch</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Master Volume</Name>
+    <Symbol>masterVolume</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Mute 1</Name>
+    <Symbol>mute1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Solo 1</Name>
+    <Symbol>solo1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Volume 1</Name>
+    <Symbol>volume1</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Pan 1</Name>
+    <Symbol>pan1</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Mute 2</Name>
+    <Symbol>mute2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Solo 2</Name>
+    <Symbol>solo2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Volume 2</Name>
+    <Symbol>volume2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Pan 2</Name>
+    <Symbol>pan2</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Mute 3</Name>
+    <Symbol>mute3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Solo 3</Name>
+    <Symbol>solo3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Volume 3</Name>
+    <Symbol>volume3</Symbol>
+    <Value>0.0500000007450581</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Pan 3</Name>
+    <Symbol>pan3</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Mute 4</Name>
+    <Symbol>mute4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Solo 4</Name>
+    <Symbol>solo4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Volume 4</Name>
+    <Symbol>volume4</Symbol>
+    <Value>0.0500000007450581</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Pan 4</Name>
+    <Symbol>pan4</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Mute 5</Name>
+    <Symbol>mute5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Solo 5</Name>
+    <Symbol>solo5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Volume 5</Name>
+    <Symbol>volume5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Pan 5</Name>
+    <Symbol>pan5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Mute 6</Name>
+    <Symbol>mute6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Solo 6</Name>
+    <Symbol>solo6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Volume 6</Name>
+    <Symbol>volume6</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Pan 6</Name>
+    <Symbol>pan6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Mute 7</Name>
+    <Symbol>mute7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Solo 7</Name>
+    <Symbol>solo7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Volume 7</Name>
+    <Symbol>volume7</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Pan 7</Name>
+    <Symbol>pan7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Mute 8</Name>
+    <Symbol>mute8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Solo 8</Name>
+    <Symbol>solo8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Volume 8</Name>
+    <Symbol>volume8</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Pan 8</Name>
+    <Symbol>pan8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Clock Divider -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Clock Divider Faster</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock-divider</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Switchbox 2-1 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV Switchbox 2-1</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-switch2</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Channel</Name>
+    <Symbol>Switch</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Moog Low-Pass Filter 4 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Moog Low-Pass Filter 4 (2)</Name>
+   <URI>http://drobilla.net/plugins/fomp/mvclpf4</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input gain</Name>
+    <Symbol>port5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>0.00916666630655527</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Exp FM gain</Name>
+    <Symbol>exp_fm_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Resonance</Name>
+    <Symbol>res</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Resonance gain</Name>
+    <Symbol>res_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Filter poles</Name>
+    <Symbol>poles</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Output gain</Name>
+    <Symbol>out_gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Dragonfly Plate Reverb -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Dragonfly Plate Reverb</Name>
+   <URI>urn:dragonfly:plate</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Dry Level</Name>
+    <Symbol>dry_level</Symbol>
+    <Value>87.7300643920898</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Wet Level</Name>
+    <Symbol>early_level</Symbol>
+    <Value>85.8895721435547</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Algorithm</Name>
+    <Symbol>algorithm</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Width</Name>
+    <Symbol>width</Symbol>
+    <Value>50</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Predelay</Name>
+    <Symbol>predelay</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Decay</Name>
+    <Symbol>decay</Symbol>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Low Cut</Name>
+    <Symbol>low_cut</Symbol>
+    <Value>200</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>High Cut</Name>
+    <Symbol>high_cut</Symbol>
+    <Value>16000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Dampen</Name>
+    <Symbol>early_damp</Symbol>
+    <Value>13000</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#String</Type>
+    <Key>urn:distrho:preset</Key>
+    <Value>Foil Tray</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- FDNCymbal -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>FDNCymbal</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/FDNCymbal0.2</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enabled</Name>
+    <Symbol>lv2_enabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>seed</Name>
+    <Symbol>seed</Symbol>
+    <Value>7647357</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>retriggerTime</Name>
+    <Symbol>retriggerTime</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>retriggerStick</Name>
+    <Symbol>retriggerStick</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>retriggerTremolo</Name>
+    <Symbol>retriggerTremolo</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>fdn</Name>
+    <Symbol>fdn</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>fdnTime</Name>
+    <Symbol>fdnTime</Symbol>
+    <Value>0.0119882477447391</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>fdnFeedback</Name>
+    <Symbol>fdnFeedback</Symbol>
+    <Value>0.141724228858948</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>fdnCascadeMix</Name>
+    <Symbol>fdnCascadeMix</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>allpassMix</Name>
+    <Symbol>allpassMix</Symbol>
+    <Value>0.75</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>allpass1Saturation</Name>
+    <Symbol>allpass1Saturation</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>allpass1Time</Name>
+    <Symbol>allpass1Time</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>allpass1Feedback</Name>
+    <Symbol>allpass1Feedback</Symbol>
+    <Value>0.957157731056213</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>allpass1HighpassCutoff</Name>
+    <Symbol>allpass1HighpassCutoff</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>allpass2Time</Name>
+    <Symbol>allpass2Time</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>allpass2Feedback</Name>
+    <Symbol>allpass2Feedback</Symbol>
+    <Value>0.899999976158142</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>allpass2HighpassCutoff</Name>
+    <Symbol>allpass2HighpassCutoff</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>tremoloMix</Name>
+    <Symbol>tremoloMix</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>tremoloDepth</Name>
+    <Symbol>tremoloDepth</Symbol>
+    <Value>0.800000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>tremoloFrequency</Name>
+    <Symbol>tremoloFrequency</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>tremoloDelayTime</Name>
+    <Symbol>tremoloDelayTime</Symbol>
+    <Value>3.50515474565327e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>randomTremoloDepth</Name>
+    <Symbol>randomTremoloDepth</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>randomTremoloFrequency</Name>
+    <Symbol>randomTremoloFrequency</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>randomTremoloDelayTime</Name>
+    <Symbol>randomTremoloDelayTime</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>stick</Name>
+    <Symbol>stick</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>stickDecay</Name>
+    <Symbol>stickDecay</Symbol>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>stickToneMix</Name>
+    <Symbol>stickToneMix</Symbol>
+    <Value>0.00100000004749745</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>stickPulseMix</Name>
+    <Symbol>stickPulseMix</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>stickVelvetMix</Name>
+    <Symbol>stickVelvetMix</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>smoothness</Name>
+    <Symbol>smoothness</Symbol>
+    <Value>0.00499999988824129</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1.74229550361633</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>pitchBend</Name>
+    <Symbol>pitchBend</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Slew Limiter -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Slew Limiter</Name>
+   <URI>http://github.com/blablack/ams-lv2/slew</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Time Up</Name>
+    <Symbol>timeUp</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Time Down</Name>
+    <Symbol>timeDown</Symbol>
+    <Value>5.90000009536743</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS Hysteresis -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS Hysteresis</Name>
+   <URI>http://github.com/blablack/ams-lv2/hysteresis</URI>
+  </Info>
+
+  <Data>
+   <Active>No</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Center</Name>
+    <Symbol>center</Symbol>
+    <Value>0.025000000372529</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Overlap</Name>
+    <Symbol>overlap</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Low Slope</Name>
+    <Symbol>lowSlope</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>High Slope</Name>
+    <Symbol>highSlope</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <!-- Simple Scope (4 channel) -->
  <Plugin>
   <Info>
@@ -3758,14 +4353,14 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
     <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>DQAAAA==</Value>
+    <Value>CgAAAA==</Value>
    </CustomData>
 
    <CustomData>
@@ -3804,24 +4399,36 @@
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>SimpleScreenRecorder:in_1</Target>
+  </Connection>
+  <Connection>
    <Source>PulseAudio JACK Sink:front-right</Source>
    <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Sawtooth VCA:Out</Source>
    <Target>AMS Mixer 8 channels:In 3</Target>
   </Connection>
   <Connection>
-   <Source>Sawtooth VCA:Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (2):In 3</Target>
-  </Connection>
-  <Connection>
    <Source>LSP Compressor Stereo:Output L</Source>
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
+   <Source>LSP Compressor Stereo:Output L</Source>
+   <Target>SimpleScreenRecorder:in_1</Target>
+  </Connection>
+  <Connection>
    <Source>LSP Compressor Stereo:Output R</Source>
    <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Stereo:Output R</Source>
+   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Pulse PW:Output</Source>
@@ -3848,32 +4455,16 @@
    <Target>AMS Mixer 8 channels:In 1</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Exp:Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (2):In 1</Target>
-  </Connection>
-  <Connection>
    <Source>AMS Mixer 8 channels:Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (3):In 1</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Mixer 8 channels:Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (3):In 2</Target>
+   <Target>Moog Low-Pass Filter 4 (2):Input</Target>
   </Connection>
   <Connection>
    <Source>Pluse VCA:Out</Source>
    <Target>AMS Mixer 8 channels:In 4</Target>
   </Connection>
   <Connection>
-   <Source>Pluse VCA:Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (2):In 4</Target>
-  </Connection>
-  <Connection>
    <Source>AMS VCA Exp (4):Out</Source>
    <Target>AMS Mixer 8 channels:In 2</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS VCA Exp (4):Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (2):In 2</Target>
   </Connection>
   <Connection>
    <Source>Freq Env:Envelope Out</Source>
@@ -3920,10 +4511,6 @@
    <Target>AMS Mixer 8 channels:In 5</Target>
   </Connection>
   <Connection>
-   <Source>STSP VCA:Out</Source>
-   <Target>AMS Stereo Mixer 8 channels (2):In 5</Target>
-  </Connection>
-  <Connection>
    <Source>S / T / S / P:Out</Source>
    <Target>STSP VCA:In 1</Target>
   </Connection>
@@ -3964,20 +4551,12 @@
    <Target>S / T / S / P:Frequency</Target>
   </Connection>
   <Connection>
-   <Source>Kick Clock:pulse</Source>
-   <Target>Gain Env:Trigger</Target>
+   <Source>Drum Clock:pulse</Source>
+   <Target>Clock Divider Slower:ClockIn</Target>
   </Connection>
   <Connection>
-   <Source>Kick Clock:pulse</Source>
-   <Target>16 Step Sequencer:Step Trigger</Target>
-  </Connection>
-  <Connection>
-   <Source>Kick Clock:pulse</Source>
-   <Target>Clock Divider:ClockIn</Target>
-  </Connection>
-  <Connection>
-   <Source>Kick Clock:square</Source>
-   <Target>Freq Env:Driving Signal</Target>
+   <Source>Drum Clock:pulse</Source>
+   <Target>Clock Divider Faster:ClockIn</Target>
   </Connection>
   <Connection>
    <Source>Semitone:CV Output</Source>
@@ -4040,52 +4619,36 @@
    <Target>Freq Env:Decay Time</Target>
   </Connection>
   <Connection>
-   <Source>Clock Divider:ClockOut1</Source>
+   <Source>Clock Divider Slower:ClockOut1</Source>
    <Target>AMS Sample&amp;Hold:Trigger</Target>
   </Connection>
   <Connection>
-   <Source>Clock Divider:ClockOut1</Source>
+   <Source>Clock Divider Slower:ClockOut1</Source>
    <Target>AMS Delay:Input</Target>
   </Connection>
   <Connection>
-   <Source>Clock Divider:ClockOut1</Source>
-   <Target>Simple Scope (4 channel):In1</Target>
+   <Source>Clock Divider Slower:ClockOut2</Source>
+   <Target>CV Switchbox 2-1:CV in1</Target>
   </Connection>
   <Connection>
-   <Source>Clock Divider:ClockOut3</Source>
+   <Source>Clock Divider Slower:ClockOut4</Source>
+   <Target>CV Switchbox 2-1:CV in1</Target>
+  </Connection>
+  <Connection>
+   <Source>Clock Divider Slower:ClockOut6</Source>
    <Target>MIDI-Trigger:Input audio source</Target>
   </Connection>
   <Connection>
-   <Source>Clock Divider:ClockOut4</Source>
+   <Source>Clock Divider Slower:ClockOut7</Source>
    <Target>MIDI-Trigger:Input audio source</Target>
   </Connection>
   <Connection>
-   <Source>Clock Divider:ClockOut8</Source>
-   <Target>FDNCymbal:retriggerTime</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Delay:Output</Source>
-   <Target>Simple Scope (4 channel):In2</Target>
+   <Source>Clock Divider Slower:ClockOut8</Source>
+   <Target>AMS Slew Limiter:In</Target>
   </Connection>
   <Connection>
    <Source>AMS Delay:Output</Source>
    <Target>AMS Sample&amp;Hold:Trigger</Target>
-  </Connection>
-  <Connection>
-   <Source>FDNCymbal:Audio Output 1</Source>
-   <Target>AMS Stereo Mixer 8 channels:In 1</Target>
-  </Connection>
-  <Connection>
-   <Source>FDNCymbal:Audio Output 1</Source>
-   <Target>EsPhaser:Audio Input 1</Target>
-  </Connection>
-  <Connection>
-   <Source>FDNCymbal:Audio Output 2</Source>
-   <Target>AMS Stereo Mixer 8 channels:In 2</Target>
-  </Connection>
-  <Connection>
-   <Source>FDNCymbal:Audio Output 2</Source>
-   <Target>EsPhaser:Audio Input 2</Target>
   </Connection>
   <Connection>
    <Source>MIDI-Trigger:events-out</Source>
@@ -4097,35 +4660,27 @@
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 8 channels:Out Left</Source>
-   <Target>LSP Compressor Stereo:Input L</Target>
+   <Target>AMS Stereo Mixer 8 channels (4):In 3</Target>
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 8 channels:Out Right</Source>
-   <Target>LSP Compressor Stereo:Input R</Target>
+   <Target>AMS Stereo Mixer 8 channels (4):In 4</Target>
   </Connection>
   <Connection>
    <Source>AMS Sample&amp;Hold:Output</Source>
-   <Target>Moog Low-Pass Filter 4:Exp FM</Target>
+   <Target>CV Gate (2):CV Input</Target>
   </Connection>
   <Connection>
    <Source>AMS Noise2:Out</Source>
    <Target>AMS Sample&amp;Hold:Input</Target>
   </Connection>
   <Connection>
-   <Source>AMS Stereo Mixer 8 channels (2):Out Left</Source>
-   <Target>LSP Delay Compensator Stereo:Input L</Target>
+   <Source>AMS Stereo Mixer 8 channels (3):Out Left</Source>
+   <Target>AMS Stereo Mixer 8 channels (4):In 1</Target>
   </Connection>
   <Connection>
-   <Source>AMS Stereo Mixer 8 channels (2):Out Right</Source>
-   <Target>LSP Delay Compensator Stereo:Input R</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Delay Compensator Stereo:Output L</Source>
-   <Target>AMS Stereo Mixer 8 channels (3):In 3</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Delay Compensator Stereo:Output R</Source>
-   <Target>AMS Stereo Mixer 8 channels (3):In 4</Target>
+   <Source>AMS Stereo Mixer 8 channels (3):Out Right</Source>
+   <Target>AMS Stereo Mixer 8 channels (4):In 2</Target>
   </Connection>
   <Connection>
    <Source>EsPhaser:Audio Output 1</Source>
@@ -4166,6 +4721,86 @@
   <Connection>
    <Source>Moog Low-Pass Filter 4:Output</Source>
    <Target>AMS Stereo Mixer 8 channels:In 7</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4:Output</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 8</Target>
+  </Connection>
+  <Connection>
+   <Source>CV Gate (2):CV Output</Source>
+   <Target>Moog Low-Pass Filter 4:Exp FM</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO:Square</Source>
+   <Target>CV Gate (2):Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 8 channels (4):Out Left</Source>
+   <Target>LSP Compressor Stereo:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Stereo Mixer 8 channels (4):Out Right</Source>
+   <Target>LSP Compressor Stereo:Input R</Target>
+  </Connection>
+  <Connection>
+   <Source>CV Switchbox 2-1:CV out</Source>
+   <Target>Freq Env:Driving Signal</Target>
+  </Connection>
+  <Connection>
+   <Source>CV Switchbox 2-1:CV out</Source>
+   <Target>16 Step Sequencer:Step Trigger</Target>
+  </Connection>
+  <Connection>
+   <Source>CV Switchbox 2-1:CV out</Source>
+   <Target>Gain Env:Trigger</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4 (2):Output</Source>
+   <Target>AMS Stereo Mixer 8 channels (3):In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Moog Low-Pass Filter 4 (2):Output</Source>
+   <Target>AMS Stereo Mixer 8 channels (3):In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>Dragonfly Plate Reverb:Audio Output 1</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Dragonfly Plate Reverb:Audio Output 2</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>FDNCymbal:Audio Output 1</Source>
+   <Target>Dragonfly Plate Reverb:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>FDNCymbal:Audio Output 1</Source>
+   <Target>EsPhaser:Audio Input 1</Target>
+  </Connection>
+  <Connection>
+   <Source>FDNCymbal:Audio Output 2</Source>
+   <Target>Dragonfly Plate Reverb:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>FDNCymbal:Audio Output 2</Source>
+   <Target>EsPhaser:Audio Input 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter:Out</Source>
+   <Target>AMS Hysteresis:In</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter:Out</Source>
+   <Target>Simple Scope (4 channel):In2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Hysteresis:Out</Source>
+   <Target>FDNCymbal:retriggerTime</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Hysteresis:Out</Source>
+   <Target>Simple Scope (4 channel):In1</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
