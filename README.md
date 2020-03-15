@@ -18,6 +18,7 @@ For Arch Linux users:
 * https://www.archlinux.org/packages/community/x86_64/lsp-plugins
 
 ## Not requirements but neat
+* https://aur.archlinux.org/packages/swh-lv2-git/
 * https://aur.archlinux.org/packages/caps-lv2-git
 * https://aur.archlinux.org/packages/ams-mod-lv2-git
 * https://aur.archlinux.org/packages/bsequencer-git
