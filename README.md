@@ -21,8 +21,11 @@ For Arch Linux users:
 * https://aur.archlinux.org/packages/swh-lv2-git
 * https://aur.archlinux.org/packages/caps-lv2-git
 * https://aur.archlinux.org/packages/ams-mod-lv2-git
-* https://aur.archlinux.org/packages/bsequencer-git
 * https://aur.archlinux.org/packages/vcf.lv2-git
+* https://aur.archlinux.org/packages/njl.lv2-git
+* https://aur.archlinux.org/packages/uhhyou.lv2-git
+* https://aur.archlinux.org/packages/bsequencer-git
+* https://aur.archlinux.org/packages/screcord.lv2-git
 
 ## Videos
 * [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist, 4 and 2 are best, more non-drone to come
