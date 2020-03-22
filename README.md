@@ -16,6 +16,7 @@ For Arch Linux users:
 * https://www.archlinux.org/packages/community/x86_64/setbfree
 * https://www.archlinux.org/packages/community/x86_64/x42-plugins
 * https://www.archlinux.org/packages/community/x86_64/lsp-plugins
+* https://aur.archlinux.org/packages/uhhyou.lv2-git
 
 ## Not requirements but neat
 * https://aur.archlinux.org/packages/swh-lv2-git
