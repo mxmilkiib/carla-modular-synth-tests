@@ -11,7 +11,7 @@
  </EngineSettings>
 
  <Transport>
-  <BeatsPerMinute>33</BeatsPerMinute>
+  <BeatsPerMinute>23</BeatsPerMinute>
  </Transport>
 
  <!-- Random CV Generator -->
@@ -227,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.124999567866325</Value>
+    <Value>0.167895331978798</Value>
    </Parameter>
 
    <Parameter>
@@ -238,7 +238,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.670932710170746</Value>
+    <Value>0.318970173597336</Value>
    </Parameter>
 
    <Parameter>
@@ -249,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.202538222074509</Value>
+    <Value>0.0386642478406429</Value>
    </Parameter>
 
    <Parameter>
@@ -260,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0991533547639847</Value>
+    <Value>0.142049118876457</Value>
    </Parameter>
 
    <Parameter>
@@ -285,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.114914894104004</Value>
+    <Value>0.560979127883911</Value>
    </Parameter>
 
    <Parameter>
@@ -523,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.159844040870667</Value>
+    <Value>0.382917881011963</Value>
    </Parameter>
 
    <Parameter>
@@ -1464,7 +1464,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.151065275073051</Value>
+    <Value>0.100284069776535</Value>
    </Parameter>
 
    <Parameter>
@@ -1532,7 +1532,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.670932710170746</Value>
+    <Value>0.318970173597336</Value>
    </Parameter>
 
    <Parameter>
@@ -1550,7 +1550,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.176692008972168</Value>
+    <Value>0.0128180310130119</Value>
    </Parameter>
 
    <Parameter>
@@ -1568,7 +1568,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.246791109442711</Value>
+    <Value>0.105171427130699</Value>
    </Parameter>
 
    <Parameter>
@@ -1612,7 +1612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.0978374481201</Value>
+    <Value>16.0086669921875</Value>
    </Parameter>
 
    <Parameter>
@@ -1623,7 +1623,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>19.0375232696533</Value>
+    <Value>18.6730079650879</Value>
    </Parameter>
 
    <Parameter>
@@ -1634,7 +1634,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.8183002471924</Value>
+    <Value>6.74444532394409</Value>
    </Parameter>
 
    <Parameter>
@@ -2101,7 +2101,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>15.6957244873047</Value>
+    <Value>5.05344295501709</Value>
    </Parameter>
 
    <Parameter>
@@ -2768,7 +2768,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.267603814601898</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -2779,7 +2779,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.159844040870667</Value>
+    <Value>0.382917881011963</Value>
    </Parameter>
 
    <CustomData>
@@ -3023,7 +3023,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>0.449999988079071</Value>
+    <Value>0.5</Value>
    </Parameter>
 
    <Parameter>
@@ -3909,7 +3909,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.124999567866325</Value>
+    <Value>0.167895331978798</Value>
    </Parameter>
 
    <Parameter>
@@ -3920,7 +3920,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.670932710170746</Value>
+    <Value>0.318970173597336</Value>
    </Parameter>
 
    <Parameter>
@@ -3931,7 +3931,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.202538222074509</Value>
+    <Value>0.0386642478406429</Value>
    </Parameter>
 
    <Parameter>
@@ -3942,7 +3942,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0991533547639847</Value>
+    <Value>0.142049118876457</Value>
    </Parameter>
 
    <Parameter>
