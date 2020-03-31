@@ -1855,84 +1855,6 @@
   </Data>
  </Plugin>
 
- <!-- Sherlock MIDI Inspector -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Sherlock MIDI Inspector</Name>
-   <URI>http://open-music-kontrollers.ch/lv2/sherlock#midi_inspector</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f1</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Block</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Follow</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Overwrite</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#block</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#follow</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#pretty</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#trace</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#URID</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#filter</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Bool</Type>
-    <Key>http://open-music-kontrollers.ch/lv2/sherlock#negate</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
  <!-- AMS Stereo Mixer 8 channels -->
  <Plugin>
   <Info>
@@ -2069,7 +1991,7 @@
     <Index>17</Index>
     <Name>Mute 5</Name>
     <Symbol>mute5</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -2083,7 +2005,7 @@
     <Index>19</Index>
     <Name>Volume 5</Name>
     <Symbol>volume5</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -2097,7 +2019,7 @@
     <Index>21</Index>
     <Name>Mute 6</Name>
     <Symbol>mute6</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -2111,7 +2033,7 @@
     <Index>23</Index>
     <Name>Volume 6</Name>
     <Symbol>volume6</Symbol>
-    <Value>1</Value>
+    <Value>0.449999988079071</Value>
    </Parameter>
 
    <Parameter>
@@ -2930,7 +2852,7 @@
     <Index>1</Index>
     <Name>BPM</Name>
     <Symbol>bpm</Symbol>
-    <Value>159.399993896484</Value>
+    <Value>193.399993896484</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3280,7 +3202,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0</Value>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -3512,7 +3434,11 @@
     <Index>1</Index>
     <Name>Time Down</Name>
     <Symbol>timeDown</Symbol>
-    <Value>5.90000009536743</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
+    <Value>10</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4349,6 +4275,130 @@
   </Data>
  </Plugin>
 
+ <!-- AMS LFO -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO</Name>
+   <URI>http://github.com/blablack/ams-lv2/lfo</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <Value>0.200000002980232</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>3.84999990463257</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (4 channel) (2)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>CgAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Attenuverter Booster -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Attenuverter Booster</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Multiplier</Name>
+    <Symbol>Multiplier</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Offset</Name>
+    <Symbol>Offset</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Mode</Name>
+    <Symbol>Mode</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Smoothing</Name>
+    <Symbol>Smoothing</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>PluginEnabled</Name>
+    <Symbol>PluginEnabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>system:capture_1</Source>
@@ -4564,10 +4614,6 @@
   </Connection>
   <Connection>
    <Source>MIDI-Trigger:events-out</Source>
-   <Target>Sherlock MIDI Inspector:events-in</Target>
-  </Connection>
-  <Connection>
-   <Source>MIDI-Trigger:events-out</Source>
    <Target>FDNCymbal:events-in</Target>
   </Connection>
   <Connection>
@@ -4577,6 +4623,10 @@
   <Connection>
    <Source>AMS Stereo Mixer 8 channels:Out Right</Source>
    <Target>AMS Stereo Mixer 8 channels (4):In 4</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Sample&amp;Hold:Output</Source>
+   <Target>Simple Scope (4 channel) (2):In2</Target>
   </Connection>
   <Connection>
    <Source>AMS Noise2:Out</Source>
@@ -4623,10 +4673,6 @@
    <Target>LSP Compressor Stereo:Input R</Target>
   </Connection>
   <Connection>
-   <Source>Snare Gate:CV Output</Source>
-   <Target>Freq Env (2):Driving Signal</Target>
-  </Connection>
-  <Connection>
    <Source>Moog Low-Pass Filter 4 (2):Output</Source>
    <Target>AMS Stereo Mixer 8 channels (3):In 1</Target>
   </Connection>
@@ -4649,6 +4695,10 @@
   <Connection>
    <Source>AMS Hysteresis:Out</Source>
    <Target>FDNCymbal:retriggerTime</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Hysteresis:Out</Source>
+   <Target>Simple Scope (4 channel) (2):In2</Target>
   </Connection>
   <Connection>
    <Source>Moog Low-Pass Filter 4 (3):Output</Source>
@@ -4683,20 +4733,28 @@
    <Target>Snare Gate:CV Input</Target>
   </Connection>
   <Connection>
+   <Source>Clock Divider Slower:ClockOut2</Source>
+   <Target>AMS VC Switch:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Clock Divider Slower:ClockOut4</Source>
+   <Target>MIDI-Trigger:Input audio source</Target>
+  </Connection>
+  <Connection>
+   <Source>Clock Divider Slower:ClockOut5</Source>
+   <Target>AMS VC Switch:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Clock Divider Slower:ClockOut7</Source>
+   <Target>MIDI-Trigger:Input audio source</Target>
+  </Connection>
+  <Connection>
    <Source>Drums Gate:CV Output</Source>
    <Target>Clock Divider Slower:ClockIn</Target>
   </Connection>
   <Connection>
    <Source>Drums Gate:CV Output</Source>
    <Target>Clock Divider Faster:ClockIn</Target>
-  </Connection>
-  <Connection>
-   <Source>Snare Sine:Out</Source>
-   <Target>Snare Sine Gain:In 1</Target>
-  </Connection>
-  <Connection>
-   <Source>Snare Noise:Out</Source>
-   <Target>AMS VCA Exp (3):In 1</Target>
   </Connection>
   <Connection>
    <Source>Kick Gate:CV Output</Source>
@@ -4711,8 +4769,20 @@
    <Target>Freq Env:Driving Signal</Target>
   </Connection>
   <Connection>
+   <Source>Snare Gate:CV Output</Source>
+   <Target>Freq Env (2):Driving Signal</Target>
+  </Connection>
+  <Connection>
    <Source>MIDI to CV trigger:Output</Source>
    <Target>Clock Divider Slower:Reset</Target>
+  </Connection>
+  <Connection>
+   <Source>Snare Sine:Out</Source>
+   <Target>Snare Sine Gain:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>Snare Noise:Out</Source>
+   <Target>AMS VCA Exp (3):In 1</Target>
   </Connection>
   <Connection>
    <Source>Freq Env (2):Envelope Out</Source>
@@ -4731,14 +4801,6 @@
    <Target>Snare Sine:Exp FM</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Exp (3):Out</Source>
-   <Target>AMS Stereo Mixer 4 channels:In 3</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS VCA Exp (3):Out</Source>
-   <Target>AMS Stereo Mixer 4 channels:In 4</Target>
-  </Connection>
-  <Connection>
    <Source>Snare Sine Gain:Out</Source>
    <Target>AMS Stereo Mixer 4 channels:In 1</Target>
   </Connection>
@@ -4747,12 +4809,32 @@
    <Target>AMS Stereo Mixer 4 channels:In 2</Target>
   </Connection>
   <Connection>
+   <Source>AMS VCA Exp (3):Out</Source>
+   <Target>AMS Stereo Mixer 4 channels:In 3</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS VCA Exp (3):Out</Source>
+   <Target>AMS Stereo Mixer 4 channels:In 4</Target>
+  </Connection>
+  <Connection>
    <Source>AMS Stereo Mixer 4 channels:Out Left</Source>
    <Target>AMS Stereo Mixer 8 channels:In 1</Target>
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 4 channels:Out Right</Source>
    <Target>AMS Stereo Mixer 8 channels:In 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO:Sine</Source>
+   <Target>Simple Scope (4 channel) (2):In1</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO:Rectangle</Source>
+   <Target>Attenuverter Booster:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Attenuverter Booster:CV Output</Source>
+   <Target>AMS Slew Limiter:Time Down</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
