@@ -227,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.197314858436584</Value>
+    <Value>0.000820679299067706</Value>
    </Parameter>
 
    <Parameter>
@@ -238,7 +238,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0775779709219933</Value>
+    <Value>0.00673741893842816</Value>
    </Parameter>
 
    <Parameter>
@@ -249,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0680837780237198</Value>
+    <Value>0.0783593282103539</Value>
    </Parameter>
 
    <Parameter>
@@ -260,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.171468645334244</Value>
+    <Value>0.181744202971458</Value>
    </Parameter>
 
    <Parameter>
@@ -285,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.25826370716095</Value>
+    <Value>0.0617480278015137</Value>
    </Parameter>
 
    <Parameter>
@@ -523,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>-0.205755591392517</Value>
+    <Value>0.529503464698792</Value>
    </Parameter>
 
    <Parameter>
@@ -1464,7 +1464,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.00999999977648258</Value>
+    <Value>0.127102896571159</Value>
    </Parameter>
 
    <Parameter>
@@ -1550,7 +1550,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0422375649213791</Value>
+    <Value>0.0525131113827229</Value>
    </Parameter>
 
    <Parameter>
@@ -1568,7 +1568,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.3465636074543</Value>
+    <Value>0.43087899684906</Value>
    </Parameter>
 
    <Parameter>
@@ -1612,7 +1612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>23.0761394500732</Value>
+    <Value>34.0243682861328</Value>
    </Parameter>
 
    <Parameter>
@@ -1623,7 +1623,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.0427751541138</Value>
+    <Value>24.0361595153809</Value>
    </Parameter>
 
    <Parameter>
@@ -1634,7 +1634,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>12.5848827362061</Value>
+    <Value>0.634590864181519</Value>
    </Parameter>
 
    <Parameter>
@@ -2101,7 +2101,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>5</Value>
+    <Value>5.05180883407593</Value>
    </Parameter>
 
    <Parameter>
@@ -2768,7 +2768,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.40523362159729</Value>
+    <Value>0.570379257202148</Value>
    </Parameter>
 
    <Parameter>
@@ -2779,7 +2779,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0</Value>
+    <Value>0.529503464698792</Value>
    </Parameter>
 
    <CustomData>
@@ -3250,7 +3250,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0.139664798974991</Value>
    </Parameter>
 
    <Parameter>
@@ -3909,7 +3909,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.197314858436584</Value>
+    <Value>0.000820679299067706</Value>
    </Parameter>
 
    <Parameter>
@@ -3920,7 +3920,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0775779709219933</Value>
+    <Value>0.00673741893842816</Value>
    </Parameter>
 
    <Parameter>
@@ -3931,7 +3931,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0680837780237198</Value>
+    <Value>0.0783593282103539</Value>
    </Parameter>
 
    <Parameter>
@@ -3942,7 +3942,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.171468645334244</Value>
+    <Value>0.181744202971458</Value>
    </Parameter>
 
    <Parameter>
@@ -4156,9 +4156,9 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>0</Index>
-    <Name>Bypass</Name>
-    <Symbol>bypass</Symbol>
-    <Value>0</Value>
+    <Name>Enabled</Name>
+    <Symbol>enabled</Symbol>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -4289,69 +4289,76 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>19</Index>
+    <Name>Boost threshold</Name>
+    <Symbol>bth</Symbol>
+    <Value>0.000250000011874363</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
     <Name>Makeup gain</Name>
     <Symbol>mk</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>20</Index>
+    <Index>21</Index>
     <Name>Dry gain</Name>
     <Symbol>cdr</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>21</Index>
+    <Index>22</Index>
     <Name>Wet gain</Name>
     <Symbol>cwt</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>23</Index>
+    <Index>24</Index>
     <Name>Sidechain level visibility</Name>
     <Symbol>slv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>24</Index>
+    <Index>25</Index>
     <Name>Envelope level visibility</Name>
     <Symbol>elv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>25</Index>
+    <Index>26</Index>
     <Name>Gain reduction visibility</Name>
     <Symbol>grv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>30</Index>
+    <Index>31</Index>
     <Name>Input level visibility Left</Name>
     <Symbol>ilv_l</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>31</Index>
+    <Index>32</Index>
     <Name>Output level visibility Left</Name>
     <Symbol>olv_l</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>34</Index>
+    <Index>35</Index>
     <Name>Input level visibility Right</Name>
     <Symbol>ilv_r</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>35</Index>
+    <Index>36</Index>
     <Name>Output level visibility Right</Name>
     <Symbol>olv_r</Symbol>
     <Value>1</Value>
