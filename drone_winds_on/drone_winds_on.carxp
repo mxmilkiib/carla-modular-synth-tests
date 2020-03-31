@@ -23,7 +23,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -66,7 +66,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -102,7 +102,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -187,7 +187,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -227,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.167895331978798</Value>
+    <Value>0.0401567406952381</Value>
    </Parameter>
 
    <Parameter>
@@ -238,7 +238,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.318970173597336</Value>
+    <Value>0.329489171504974</Value>
    </Parameter>
 
    <Parameter>
@@ -249,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0386642478406429</Value>
+    <Value>0.117695391178131</Value>
    </Parameter>
 
    <Parameter>
@@ -260,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.142049118876457</Value>
+    <Value>0.0143105247989297</Value>
    </Parameter>
 
    <Parameter>
@@ -285,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.560979127883911</Value>
+    <Value>0.265192985534668</Value>
    </Parameter>
 
    <Parameter>
@@ -462,7 +462,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -523,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.382917881011963</Value>
+    <Value>0.586666703224182</Value>
    </Parameter>
 
    <Parameter>
@@ -961,7 +961,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1452,7 +1452,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1464,7 +1464,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.100284069776535</Value>
+    <Value>0.146666675806046</Value>
    </Parameter>
 
    <Parameter>
@@ -1499,7 +1499,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -1532,7 +1532,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.318970173597336</Value>
+    <Value>0.329489171504974</Value>
    </Parameter>
 
    <Parameter>
@@ -1550,7 +1550,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0128180310130119</Value>
+    <Value>0.0918491780757904</Value>
    </Parameter>
 
    <Parameter>
@@ -1568,7 +1568,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.105171427130699</Value>
+    <Value>0.753630757331848</Value>
    </Parameter>
 
    <Parameter>
@@ -1600,7 +1600,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1612,7 +1612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>16.0086669921875</Value>
+    <Value>4.92361879348755</Value>
    </Parameter>
 
    <Parameter>
@@ -1623,7 +1623,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>18.6730079650879</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -1634,7 +1634,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>6.74444532394409</Value>
+    <Value>11.6900997161865</Value>
    </Parameter>
 
    <Parameter>
@@ -1763,7 +1763,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1813,7 +1813,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1863,7 +1863,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1913,7 +1913,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1963,7 +1963,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2006,7 +2006,7 @@
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2054,7 +2054,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2101,7 +2101,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>5</MappedMinimum>
     <MappedMaximum>200</MappedMaximum>
-    <Value>5.05344295501709</Value>
+    <Value>5</Value>
    </Parameter>
 
    <Parameter>
@@ -2329,7 +2329,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2379,7 +2379,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2408,7 +2408,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2458,7 +2458,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2487,7 +2487,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2537,7 +2537,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2587,7 +2587,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2616,7 +2616,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2651,7 +2651,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2686,7 +2686,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2721,7 +2721,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2756,7 +2756,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2768,7 +2768,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0</Value>
+    <Value>0.586666703224182</Value>
    </Parameter>
 
    <Parameter>
@@ -2779,7 +2779,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>0.382917881011963</Value>
+    <Value>0.586666703224182</Value>
    </Parameter>
 
    <CustomData>
@@ -2799,7 +2799,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2821,7 +2821,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2850,7 +2850,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2886,7 +2886,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2915,7 +2915,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2965,7 +2965,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3015,7 +3015,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3101,7 +3101,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3123,7 +3123,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3145,7 +3145,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3167,7 +3167,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3238,7 +3238,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3278,7 +3278,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3307,7 +3307,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3315,7 +3315,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>0</Index>
     <Name>Master Volume</Name>
     <Symbol>masterVolume</Symbol>
-    <Value>1</Value>
+    <Value>1.39999997615814</Value>
    </Parameter>
 
    <Parameter>
@@ -3553,7 +3553,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3829,7 +3829,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3869,7 +3869,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3909,7 +3909,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.167895331978798</Value>
+    <Value>0.0401567406952381</Value>
    </Parameter>
 
    <Parameter>
@@ -3920,7 +3920,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.318970173597336</Value>
+    <Value>0.329489171504974</Value>
    </Parameter>
 
    <Parameter>
@@ -3931,7 +3931,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0386642478406429</Value>
+    <Value>0.117695391178131</Value>
    </Parameter>
 
    <Parameter>
@@ -3942,7 +3942,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.142049118876457</Value>
+    <Value>0.0143105247989297</Value>
    </Parameter>
 
    <Parameter>
@@ -4150,7 +4150,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -4284,7 +4284,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>18</Index>
     <Name>Knee</Name>
     <Symbol>kn</Symbol>
-    <Value>0.508331537246704</Value>
+    <Value>0.632727921009064</Value>
    </Parameter>
 
    <Parameter>
@@ -4375,7 +4375,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -4453,7 +4453,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -4482,7 +4482,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
   </Data>
@@ -4497,7 +4497,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4526,7 +4526,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4555,7 +4555,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4605,7 +4605,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4676,7 +4676,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4705,7 +4705,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4734,7 +4734,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>Yes</Active>
+   <Active>No</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
