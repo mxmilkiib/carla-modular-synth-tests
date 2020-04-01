@@ -3122,7 +3122,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3358,7 +3358,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>10</Value>
+    <Value>0</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3932,7 +3932,7 @@
    <CustomData>
     <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
     <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>CgAAAA==</Value>
+    <Value>DQAAAA==</Value>
    </CustomData>
 
    <CustomData>
@@ -4449,7 +4449,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0</Value>
+    <Value>0.798812806606293</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4526,49 +4526,6 @@
   </Data>
  </Plugin>
 
- <!-- Range Translator -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Range Translator</Name>
-   <URI>http://drobilla.net/plugins/omins/range_trans</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input Min</Name>
-    <Symbol>port0</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Input Max</Name>
-    <Symbol>port1</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Output Min</Name>
-    <Symbol>port2</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Output Max</Name>
-    <Symbol>port3</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS LFO2 - Freq -->
  <Plugin>
   <Info>
@@ -4605,12 +4562,76 @@
   </Data>
  </Plugin>
 
- <!-- Range Translator -->
+ <!-- The Function -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>Range Translator (2)</Name>
-   <URI>http://drobilla.net/plugins/omins/range_trans</URI>
+   <Name>The Function</Name>
+   <URI>http://arcticanaudio.com/plugins/thefunction</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Gain L</Name>
+    <Symbol>gain_l</Symbol>
+    <Value>0.44244322180748</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Gain R</Name>
+    <Symbol>gain_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Phase L</Name>
+    <Symbol>phase_l</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Phase R</Name>
+    <Symbol>phase_r</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Pan L</Name>
+    <Symbol>pan_l</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Pan R</Name>
+    <Symbol>pan_r</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Amplitude Modifier -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Amplitude Modifier</Name>
+   <URI>http://github.com/blablack/ams-lv2/amplitude</URI>
   </Info>
 
   <Data>
@@ -4620,29 +4641,29 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Input Min</Name>
-    <Symbol>port0</Symbol>
-    <Value>0</Value>
+    <Name>Old Min</Name>
+    <Symbol>oldMin</Symbol>
+    <Value>-1</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Input Max</Name>
-    <Symbol>port1</Symbol>
+    <Name>Old Max</Name>
+    <Symbol>oldMax</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
-    <Name>Output Min</Name>
-    <Symbol>port2</Symbol>
-    <Value>0</Value>
+    <Name>New Min</Name>
+    <Symbol>newMin</Symbol>
+    <Value>0.0931871607899666</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
-    <Name>Output Max</Name>
-    <Symbol>port3</Symbol>
+    <Name>New Max</Name>
+    <Symbol>newMax</Symbol>
     <Value>1</Value>
    </Parameter>
   </Data>
@@ -4903,11 +4924,11 @@
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 8 channels (4):Out Left</Source>
-   <Target>LSP Compressor Stereo:Input L</Target>
+   <Target>The Function:Audio Input 1</Target>
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 8 channels (4):Out Right</Source>
-   <Target>LSP Compressor Stereo:Input R</Target>
+   <Target>The Function:Audio Input 2</Target>
   </Connection>
   <Connection>
    <Source>Moog Low-Pass Filter 4 (2):Output</Source>
@@ -5078,10 +5099,6 @@
    <Target>Moog High-Pass Filter 1:Input</Target>
   </Connection>
   <Connection>
-   <Source>AMS VCA Exp (2):Out</Source>
-   <Target>Simple Scope (4 channel):In1</Target>
-  </Connection>
-  <Connection>
    <Source>Hi-hat Gate:CV Output</Source>
    <Target>Freq Env (3):Driving Signal</Target>
   </Connection>
@@ -5099,11 +5116,19 @@
   </Connection>
   <Connection>
    <Source>AMS LFO (2):Sine</Source>
-   <Target>Range Translator:Input</Target>
+   <Target>Amplitude Modifier:Input</Target>
   </Connection>
   <Connection>
-   <Source>AMS LFO (2):Sine</Source>
+   <Source>Amplitude Modifier:Output</Source>
    <Target>Freq Env (3):Release Time</Target>
+  </Connection>
+  <Connection>
+   <Source>The Function:Audio Output 1</Source>
+   <Target>LSP Compressor Stereo:Input L</Target>
+  </Connection>
+  <Connection>
+   <Source>The Function:Audio Output 2</Source>
+   <Target>LSP Compressor Stereo:Input R</Target>
   </Connection>
  </ExternalPatchbay>
 </CARLA-PROJECT>
