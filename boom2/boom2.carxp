@@ -2740,7 +2740,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -2976,7 +2976,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>10</MappedMaximum>
-    <Value>10</Value>
+    <Value>0</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -3999,7 +3999,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.785520970821381</Value>
+    <Value>0.997194707393646</Value>
    </Parameter>
   </Data>
  </Plugin>
