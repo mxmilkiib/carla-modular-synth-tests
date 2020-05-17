@@ -34,5 +34,6 @@ For Arch Linux users:
 ![kick.png](https://user-images.githubusercontent.com/108225/76136424-3063e480-6029-11ea-901b-fa94db2b649c.png)
 ![drone_winds_on.png](https://user-images.githubusercontent.com/108225/74863027-1944a780-5345-11ea-8792-9e94e9a8ff73.png)
 ![3zlfo.png](https://i.imgur.com/zBMBqTT.png)
+![boom2.png](https://user-images.githubusercontent.com/108225/79204775-fc07f300-7e34-11ea-9a8a-53845487c195.png)
 
 
