@@ -1,0 +1,1019 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>false</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>999</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>50</BeatsPerMinute>
+ </Transport>
+
+ <!-- CV_PolyLoopEnvelope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_PolyLoopEnvelope</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>107.557739257812</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>-15.5520009994507</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0.0335544385015965</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0.0725277960300446</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s2DecayTime</Name>
+    <Symbol>s2DecayTime</Symbol>
+    <Value>0.0436427295207977</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s3DecayTime</Name>
+    <Symbol>s3DecayTime</Symbol>
+    <Value>0.0432585999369621</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s4DecayTime</Name>
+    <Symbol>s4DecayTime</Symbol>
+    <Value>0.0558799542486668</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s5DecayTime</Name>
+    <Symbol>s5DecayTime</Symbol>
+    <Value>0.0499999932944775</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s6DecayTime</Name>
+    <Symbol>s6DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s7DecayTime</Name>
+    <Symbol>s7DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>s2HoldTime</Name>
+    <Symbol>s2HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>s3HoldTime</Name>
+    <Symbol>s3HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>s4HoldTime</Name>
+    <Symbol>s4HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>s5HoldTime</Name>
+    <Symbol>s5HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>s6HoldTime</Name>
+    <Symbol>s6HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>s7HoldTime</Name>
+    <Symbol>s7HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>0.968000054359436</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>s2Level</Name>
+    <Symbol>s2Level</Symbol>
+    <Value>-1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>s3Level</Name>
+    <Symbol>s3Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>s4Level</Name>
+    <Symbol>s4Level</Symbol>
+    <Value>0.968000054359436</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>s5Level</Name>
+    <Symbol>s5Level</Symbol>
+    <Value>0.031999945640564</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>s6Level</Name>
+    <Symbol>s6Level</Symbol>
+    <Value>0.0200001001358032</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>s7Level</Name>
+    <Symbol>s7Level</Symbol>
+    <Value>-0.264000058174133</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>-5.24799919128418</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>4.2239990234375</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>s2Curve</Name>
+    <Symbol>s2Curve</Symbol>
+    <Value>-2.04800033569336</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>s3Curve</Name>
+    <Symbol>s3Curve</Symbol>
+    <Value>1.79199981689453</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>s4Curve</Name>
+    <Symbol>s4Curve</Symbol>
+    <Value>-2.43200016021729</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>s5Curve</Name>
+    <Symbol>s5Curve</Symbol>
+    <Value>2.75200080871582</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>s6Curve</Name>
+    <Symbol>s6Curve</Symbol>
+    <Value>-4.03200054168701</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>s7Curve</Name>
+    <Symbol>s7Curve</Symbol>
+    <Value>-7.04000091552734</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (4 channel)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>BQAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAAAYAQAARwMAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAABAAAAAANYJS0KamZk+AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAB7vUNAAEQJP8BtW8AAAIA/AACAPwAAAAAAAEDBAAAAAAAAgD8AAAAAAABAQQAAAAAAAIA/AAAAAAAAEEIAAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Generator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Generator</Name>
+   <URI>http://gareus.org/oss/lv2/midigen</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Select Sequence</Name>
+    <Symbol>sequence</Symbol>
+    <Value>7</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>BPM</Name>
+    <Symbol>bpm</Symbol>
+    <Value>120</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV to Audio -->
+ <Plugin>
+  <Info>
+   <Type>INTERNAL</Type>
+   <Name>CV to Audio</Name>
+   <Label>cv2audio</Label>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Briwall Limiter</Name>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- LSP Compressor Mono -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>LSP Compressor Mono</Name>
+   <URI>http://lsp-plug.in/plugins/lv2/compressor_mono</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Enabled</Name>
+    <Symbol>enabled</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input gain</Name>
+    <Symbol>g_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output gain</Name>
+    <Symbol>g_out</Symbol>
+    <Value>0.0630956962704659</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Pause graph analysis</Name>
+    <Symbol>pause</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Clear graph analysis</Name>
+    <Symbol>clear</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Sidechain type</Name>
+    <Symbol>sct</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Sidechain mode</Name>
+    <Symbol>scm</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Sidechain lookahead</Name>
+    <Symbol>sla</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Sidechain listen</Name>
+    <Symbol>scl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Sidechain reactivity</Name>
+    <Symbol>scr</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Sidechain preamp</Name>
+    <Symbol>scp</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Compression mode</Name>
+    <Symbol>cm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Attack level</Name>
+    <Symbol>al</Symbol>
+    <Value>0.251190006732941</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Attack time</Name>
+    <Symbol>at</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Relative release level</Name>
+    <Symbol>rrl</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Release time</Name>
+    <Symbol>rt</Symbol>
+    <Value>100</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Ratio</Name>
+    <Symbol>cr</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Knee</Name>
+    <Symbol>kn</Symbol>
+    <Value>0.501179993152618</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Boost threshold</Name>
+    <Symbol>bth</Symbol>
+    <Value>0.000250000011874363</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Makeup gain</Name>
+    <Symbol>mk</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Dry gain</Name>
+    <Symbol>cdr</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Wet gain</Name>
+    <Symbol>cwt</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Sidechain level visibility</Name>
+    <Symbol>slv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Envelope level visibility</Name>
+    <Symbol>elv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Gain reduction visibility</Name>
+    <Symbol>grv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Input level visibility</Name>
+    <Symbol>ilv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Output level visibility</Name>
+    <Symbol>olv</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO2 - Freq -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO2 - Freq</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/ams-lv2/lfo2_freq</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999974737875e-05</MappedMinimum>
+    <MappedMaximum>100</MappedMaximum>
+    <Value>3.8311779499054</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO2 - Freq -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO2 - Freq (2)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/ams-lv2/lfo2_freq</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999974737875e-05</MappedMinimum>
+    <MappedMaximum>100</MappedMaximum>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO2 - Freq -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO2 - Freq (3)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/ams-lv2/lfo2_freq</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999974737875e-05</MappedMinimum>
+    <MappedMaximum>100</MappedMaximum>
+    <Value>9.99999974737875e-05</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO2 - Freq -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO2 - Freq (4)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/ams-lv2/lfo2_freq</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999974737875e-05</MappedMinimum>
+    <MappedMaximum>100</MappedMaximum>
+    <Value>4.76002359390259</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO2 - Freq -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO2 - Freq (5)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/ams-lv2/lfo2_freq</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999974737875e-05</MappedMinimum>
+    <MappedMaximum>100</MappedMaximum>
+    <Value>1.54433870315552</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- AMS LFO2 - Freq -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>AMS LFO2 - Freq (6)</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/ams-lv2/lfo2_freq</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Wave Form</Name>
+    <Symbol>waveForm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Freq</Name>
+    <Symbol>freq</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>9.99999974737875e-05</MappedMinimum>
+    <MappedMaximum>100</MappedMaximum>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Phi0</Name>
+    <Symbol>phi0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- MIDI Clock Generator -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>MIDI Clock Generator</Name>
+   <URI>http://gareus.org/oss/lv2/mclk</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Generator Mode</Name>
+    <Symbol>mode</Symbol>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Sync</Name>
+    <Symbol>sync</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>BPM</Name>
+    <Symbol>bpm</Symbol>
+    <Value>120</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Transport</Name>
+    <Symbol>transport</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Rewind</Name>
+    <Symbol>rewind</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV Clock -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV Clock</Name>
+   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bpm</Name>
+    <Symbol>Bpm</Symbol>
+    <Value>88</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Divisions</Name>
+    <Symbol>Divisions</Symbol>
+    <Value>4</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Sync</Name>
+    <Symbol>sync</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-left</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>PulseAudio JACK Sink:front-right</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>CV_PolyLoopEnvelope:Output</Source>
+   <Target>Simple Scope (4 channel):In1</Target>
+  </Connection>
+  <Connection>
+   <Source>CV_PolyLoopEnvelope:Output</Source>
+   <Target>CV to Audio:CV Input</Target>
+  </Connection>
+  <Connection>
+   <Source>MIDI Generator:events-out</Source>
+   <Target>CV_PolyLoopEnvelope:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>CV to Audio:Audio Output</Source>
+   <Target>LSP Compressor Mono:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Mono:Output</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>LSP Compressor Mono:Output</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq:Output</Source>
+   <Target>CV_PolyLoopEnvelope:Curve1</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq:Output</Source>
+   <Target>Simple Scope (4 channel):In2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq:Output</Source>
+   <Target>AMS LFO2 - Freq (2):Freq</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (2):Output</Source>
+   <Target>CV_PolyLoopEnvelope:Curve2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (2):Output</Source>
+   <Target>AMS LFO2 - Freq (3):Freq</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (3):Output</Source>
+   <Target>CV_PolyLoopEnvelope:Curve3</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (3):Output</Source>
+   <Target>AMS LFO2 - Freq (4):Freq</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (4):Output</Source>
+   <Target>CV_PolyLoopEnvelope:Curve4</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (4):Output</Source>
+   <Target>AMS LFO2 - Freq (5):Freq</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (5):Output</Source>
+   <Target>CV_PolyLoopEnvelope:Curve5</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (5):Output</Source>
+   <Target>AMS LFO2 - Freq:Freq</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS LFO2 - Freq (6):Output</Source>
+   <Target>CV_PolyLoopEnvelope:Curve6</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

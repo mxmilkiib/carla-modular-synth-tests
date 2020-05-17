@@ -79,9 +79,9 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Bypass</Name>
-    <Symbol>bypass</Symbol>
-    <Value>0</Value>
+    <Name>Enabled</Name>
+    <Symbol>enabled</Symbol>
+    <Value>1</Value>
    </Parameter>
 
    <Parameter>
@@ -212,69 +212,76 @@
 
    <Parameter>
     <Index>19</Index>
+    <Name>Boost threshold</Name>
+    <Symbol>bth</Symbol>
+    <Value>0.000250000011874363</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
     <Name>Makeup gain</Name>
     <Symbol>mk</Symbol>
     <Value>0.376889944076538</Value>
    </Parameter>
 
    <Parameter>
-    <Index>20</Index>
+    <Index>21</Index>
     <Name>Dry gain</Name>
     <Symbol>cdr</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>21</Index>
+    <Index>22</Index>
     <Name>Wet gain</Name>
     <Symbol>cwt</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>23</Index>
+    <Index>24</Index>
     <Name>Sidechain level visibility</Name>
     <Symbol>slv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>24</Index>
+    <Index>25</Index>
     <Name>Envelope level visibility</Name>
     <Symbol>elv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>25</Index>
+    <Index>26</Index>
     <Name>Gain reduction visibility</Name>
     <Symbol>grv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>30</Index>
+    <Index>31</Index>
     <Name>Input level visibility Left</Name>
     <Symbol>ilv_l</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>31</Index>
+    <Index>32</Index>
     <Name>Output level visibility Left</Name>
     <Symbol>olv_l</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>34</Index>
+    <Index>35</Index>
     <Name>Input level visibility Right</Name>
     <Symbol>ilv_r</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>35</Index>
+    <Index>36</Index>
     <Name>Output level visibility Right</Name>
     <Symbol>olv_r</Symbol>
     <Value>1</Value>
@@ -1888,22 +1895,22 @@
 
    <Parameter>
     <Index>0</Index>
-    <Name>Block</Name>
-    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
     <Name>Follow</Name>
     <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#follow</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>2</Index>
+    <Index>1</Index>
     <Name>Overwrite</Name>
     <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#overwrite</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Block</Name>
+    <Symbol>http://open-music-kontrollers.ch/lv2/sherlock#block</Symbol>
     <Value>0</Value>
    </Parameter>
 
@@ -4399,16 +4406,8 @@
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
-   <Source>PulseAudio JACK Sink:front-left</Source>
-   <Target>SimpleScreenRecorder:in_1</Target>
-  </Connection>
-  <Connection>
    <Source>PulseAudio JACK Sink:front-right</Source>
    <Target>system:playback_2</Target>
-  </Connection>
-  <Connection>
-   <Source>PulseAudio JACK Sink:front-right</Source>
-   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Sawtooth VCA:Out</Source>
@@ -4419,16 +4418,8 @@
    <Target>system:playback_1</Target>
   </Connection>
   <Connection>
-   <Source>LSP Compressor Stereo:Output L</Source>
-   <Target>SimpleScreenRecorder:in_1</Target>
-  </Connection>
-  <Connection>
    <Source>LSP Compressor Stereo:Output R</Source>
    <Target>system:playback_2</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Compressor Stereo:Output R</Source>
-   <Target>SimpleScreenRecorder:in_2</Target>
   </Connection>
   <Connection>
    <Source>Pulse PW:Output</Source>
