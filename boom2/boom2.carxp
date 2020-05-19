@@ -95,7 +95,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>0.177827894687653</Value>
+    <Value>0.0158489253371954</Value>
    </Parameter>
 
    <Parameter>
@@ -306,6 +306,10 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
     <Value>0.339999973773956</Value>
    </Parameter>
   </Data>
@@ -1425,6 +1429,10 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
     <Value>0</Value>
    </Parameter>
 
@@ -1454,6 +1462,10 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
     <Value>2.50673866271973</Value>
    </Parameter>
 
@@ -1483,7 +1495,11 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
-    <Value>0.37100738286972</Value>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -1505,6 +1521,10 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
     <Value>0.300000041723251</Value>
    </Parameter>
 
@@ -1534,6 +1554,10 @@
     <Index>0</Index>
     <Name>Control</Name>
     <Symbol>Control</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>0</MappedMinimum>
+    <MappedMaximum>10</MappedMaximum>
     <Value>10</Value>
    </Parameter>
 
@@ -3357,51 +3381,6 @@
   </Data>
  </Plugin>
 
- <!-- Simple Scope (4 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (4 channel)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>DgAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
  <!-- AMS VCA Exp -->
  <Plugin>
   <Info>
@@ -3890,7 +3869,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.101525090634823</Value>
+    <Value>0.842427432537079</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -4010,51 +3989,6 @@
   </Data>
  </Plugin>
 
- <!-- Simple Scope (4 channel) -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Simple Scope (4 channel) (2)</Name>
-   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
-    <Value>DQAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
-    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
-    <Value>BAAAAAYAAAAAAAAAAAAAAAAASEIAAAA/AAAAAA==</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
-    <Value>BAAAAAYAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAIA/</Value>
-   </CustomData>
-
-   <CustomData>
-    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
-    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
-    <Value>AAAAAA==</Value>
-   </CustomData>
-  </Data>
- </Plugin>
-
  <!-- Control to CV -->
  <Plugin>
   <Info>
@@ -4072,6 +4006,10 @@
     <Index>0</Index>
     <Name>Input</Name>
     <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
     <Value>1</Value>
    </Parameter>
   </Data>
@@ -4108,7 +4046,7 @@
     <Index>2</Index>
     <Name>Output gain</Name>
     <Symbol>g_out</Symbol>
-    <Value>1.00000035762787</Value>
+    <Value>0.630957663059235</Value>
    </Parameter>
 
    <Parameter>
@@ -4491,49 +4429,6 @@
   </Data>
  </Plugin>
 
- <!-- Range Translator -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Range Translator (3)</Name>
-   <URI>http://drobilla.net/plugins/omins/range_trans</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Input Min</Name>
-    <Symbol>port0</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Input Max</Name>
-    <Symbol>port1</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Output Min</Name>
-    <Symbol>port2</Symbol>
-    <Value>0.512328743934631</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Output Max</Name>
-    <Symbol>port3</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Simple Scope (4 channel) -->
  <Plugin>
   <Info>
@@ -4576,582 +4471,6 @@
     <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
     <Value>AAAAAA==</Value>
    </CustomData>
-  </Data>
- </Plugin>
-
- <!-- CV_PolyLoopEnvelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV_PolyLoopEnvelope</Name>
-   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>gain</Name>
-    <Symbol>gain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>rate</Name>
-    <Symbol>rate</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>rateKeyFollow</Name>
-    <Symbol>rateKeyFollow</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>loopStart</Name>
-    <Symbol>loopStart</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>loopEnd</Name>
-    <Symbol>loopEnd</Symbol>
-    <Value>8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>releaseTime</Name>
-    <Symbol>releaseTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>releaseCurve</Name>
-    <Symbol>releaseCurve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>s0DecayTime</Name>
-    <Symbol>s0DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>s1DecayTime</Name>
-    <Symbol>s1DecayTime</Symbol>
-    <Value>0.433451354503632</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>s2DecayTime</Name>
-    <Symbol>s2DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>s3DecayTime</Name>
-    <Symbol>s3DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>s4DecayTime</Name>
-    <Symbol>s4DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>s5DecayTime</Name>
-    <Symbol>s5DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>s6DecayTime</Name>
-    <Symbol>s6DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>s7DecayTime</Name>
-    <Symbol>s7DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>s0HoldTime</Name>
-    <Symbol>s0HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>s1HoldTime</Name>
-    <Symbol>s1HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>17</Index>
-    <Name>s2HoldTime</Name>
-    <Symbol>s2HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>18</Index>
-    <Name>s3HoldTime</Name>
-    <Symbol>s3HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>19</Index>
-    <Name>s4HoldTime</Name>
-    <Symbol>s4HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>20</Index>
-    <Name>s5HoldTime</Name>
-    <Symbol>s5HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>21</Index>
-    <Name>s6HoldTime</Name>
-    <Symbol>s6HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>22</Index>
-    <Name>s7HoldTime</Name>
-    <Symbol>s7HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>s0Level</Name>
-    <Symbol>s0Level</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>24</Index>
-    <Name>s1Level</Name>
-    <Symbol>s1Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>25</Index>
-    <Name>s2Level</Name>
-    <Symbol>s2Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>26</Index>
-    <Name>s3Level</Name>
-    <Symbol>s3Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>27</Index>
-    <Name>s4Level</Name>
-    <Symbol>s4Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>28</Index>
-    <Name>s5Level</Name>
-    <Symbol>s5Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>29</Index>
-    <Name>s6Level</Name>
-    <Symbol>s6Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>30</Index>
-    <Name>s7Level</Name>
-    <Symbol>s7Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>31</Index>
-    <Name>s0Curve</Name>
-    <Symbol>s0Curve</Symbol>
-    <Value>2.55999946594238</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>32</Index>
-    <Name>s1Curve</Name>
-    <Symbol>s1Curve</Symbol>
-    <Value>1.85599899291992</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>33</Index>
-    <Name>s2Curve</Name>
-    <Symbol>s2Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>34</Index>
-    <Name>s3Curve</Name>
-    <Symbol>s3Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>35</Index>
-    <Name>s4Curve</Name>
-    <Symbol>s4Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>36</Index>
-    <Name>s5Curve</Name>
-    <Symbol>s5Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>37</Index>
-    <Name>s6Curve</Name>
-    <Symbol>s6Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>38</Index>
-    <Name>s7Curve</Name>
-    <Symbol>s7Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- CV_PolyLoopEnvelope -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV_PolyLoopEnvelope (2)</Name>
-   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x3f0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>gain</Name>
-    <Symbol>gain</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>rate</Name>
-    <Symbol>rate</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>rateKeyFollow</Name>
-    <Symbol>rateKeyFollow</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>loopStart</Name>
-    <Symbol>loopStart</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>loopEnd</Name>
-    <Symbol>loopEnd</Symbol>
-    <Value>8</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>releaseTime</Name>
-    <Symbol>releaseTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>releaseCurve</Name>
-    <Symbol>releaseCurve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>s0DecayTime</Name>
-    <Symbol>s0DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>s1DecayTime</Name>
-    <Symbol>s1DecayTime</Symbol>
-    <Value>0.0933119654655457</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>s2DecayTime</Name>
-    <Symbol>s2DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>s3DecayTime</Name>
-    <Symbol>s3DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>s4DecayTime</Name>
-    <Symbol>s4DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>s5DecayTime</Name>
-    <Symbol>s5DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>s6DecayTime</Name>
-    <Symbol>s6DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>s7DecayTime</Name>
-    <Symbol>s7DecayTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>15</Index>
-    <Name>s0HoldTime</Name>
-    <Symbol>s0HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>16</Index>
-    <Name>s1HoldTime</Name>
-    <Symbol>s1HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>17</Index>
-    <Name>s2HoldTime</Name>
-    <Symbol>s2HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>18</Index>
-    <Name>s3HoldTime</Name>
-    <Symbol>s3HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>19</Index>
-    <Name>s4HoldTime</Name>
-    <Symbol>s4HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>20</Index>
-    <Name>s5HoldTime</Name>
-    <Symbol>s5HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>21</Index>
-    <Name>s6HoldTime</Name>
-    <Symbol>s6HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>22</Index>
-    <Name>s7HoldTime</Name>
-    <Symbol>s7HoldTime</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>s0Level</Name>
-    <Symbol>s0Level</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>24</Index>
-    <Name>s1Level</Name>
-    <Symbol>s1Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>25</Index>
-    <Name>s2Level</Name>
-    <Symbol>s2Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>26</Index>
-    <Name>s3Level</Name>
-    <Symbol>s3Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>27</Index>
-    <Name>s4Level</Name>
-    <Symbol>s4Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>28</Index>
-    <Name>s5Level</Name>
-    <Symbol>s5Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>29</Index>
-    <Name>s6Level</Name>
-    <Symbol>s6Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>30</Index>
-    <Name>s7Level</Name>
-    <Symbol>s7Level</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>31</Index>
-    <Name>s0Curve</Name>
-    <Symbol>s0Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>32</Index>
-    <Name>s1Curve</Name>
-    <Symbol>s1Curve</Symbol>
-    <Value>-0.511999130249023</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>33</Index>
-    <Name>s2Curve</Name>
-    <Symbol>s2Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>34</Index>
-    <Name>s3Curve</Name>
-    <Symbol>s3Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>35</Index>
-    <Name>s4Curve</Name>
-    <Symbol>s4Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>36</Index>
-    <Name>s5Curve</Name>
-    <Symbol>s5Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>37</Index>
-    <Name>s6Curve</Name>
-    <Symbol>s6Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>38</Index>
-    <Name>s7Curve</Name>
-    <Symbol>s7Curve</Symbol>
-    <Value>0</Value>
-   </Parameter>
   </Data>
  </Plugin>
 
@@ -5581,7 +4900,7 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>CV_Gate16</Name>
+   <Name>Control of Kick</Name>
    <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_Gate16</URI>
   </Info>
 
@@ -5942,6 +5261,409 @@
   </Data>
  </Plugin>
 
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Level</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.441176414489746</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Curve</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>0.857493877410889</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Level</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Control to CV -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Curve</Name>
+   <URI>http://github.com/blablack/ams-lv2/controltocv</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Input</Name>
+    <Symbol>input</Symbol>
+    <MidiChannel>1</MidiChannel>
+    <MappedControlIndex>130</MappedControlIndex>
+    <MappedMinimum>-1</MappedMinimum>
+    <MappedMaximum>1</MappedMaximum>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Simple Scope (4 channel) -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Simple Scope (4 channel)</Name>
+   <URI>http://gareus.org/oss/lv2/sisco#4chan</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_grid</Key>
+    <Value>DAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_curs</Key>
+    <Value>BAAAAAcAAACgAAAA4AEAAAEAAAABAAAA</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_trig</Key>
+    <Value>BAAAAAYAAAAAAAAAAACgQAAAh0EAAAA/AAAAAA==</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Vector</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_chn</Key>
+    <Value>BAAAAAYAAAAAAIA/AAAAAAAAEMIAAIA/AACAPwAAAAAAAEDBAACAPwAAgD8AAAAAAABAQQAAgD8AAIA/AAAAAAAAEEIAAIA/</Value>
+   </CustomData>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#Int</Type>
+    <Key>http://gareus.org/oss/lv2/sisco#ui_state_misc</Key>
+    <Value>AAAAAA==</Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gain Env</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_PolyLoopEnvelope2 -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Freq Env</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_PolyLoopEnvelope2</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x3f0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>gain</Name>
+    <Symbol>gain</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>rate</Name>
+    <Symbol>rate</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>rateKeyFollow</Name>
+    <Symbol>rateKeyFollow</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>rateSlideTime</Name>
+    <Symbol>rateSlideTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>loopStart</Name>
+    <Symbol>loopStart</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>loopEnd</Name>
+    <Symbol>loopEnd</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>releaseTime</Name>
+    <Symbol>releaseTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>releaseCurve</Name>
+    <Symbol>releaseCurve</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>s0DecayTime</Name>
+    <Symbol>s0DecayTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>s1DecayTime</Name>
+    <Symbol>s1DecayTime</Symbol>
+    <Value>0.000524288101587445</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>s0HoldTime</Name>
+    <Symbol>s0HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>s1HoldTime</Name>
+    <Symbol>s1HoldTime</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>s0Level</Name>
+    <Symbol>s0Level</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>s1Level</Name>
+    <Symbol>s1Level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>s0Curve</Name>
+    <Symbol>s0Curve</Symbol>
+    <Value>-15.7440013885498</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>s1Curve</Name>
+    <Symbol>s1Curve</Symbol>
+    <Value>1.02400016784668</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
  <ExternalPatchbay>
   <Connection>
    <Source>PulseAudio JACK Sink:front-left</Source>
@@ -6089,7 +5811,7 @@
   </Connection>
   <Connection>
    <Source>Gain Decay:Output</Source>
-   <Target>Range Translator (3):Input</Target>
+   <Target>Gain Env:Decay1</Target>
   </Connection>
   <Connection>
    <Source>Saw Edge:CV Output</Source>
@@ -6213,15 +5935,15 @@
   </Connection>
   <Connection>
    <Source>Kick Gate:CV Output</Source>
-   <Target>CV_PolyLoopEnvelope:Trig/Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Kick Gate:CV Output</Source>
-   <Target>CV_PolyLoopEnvelope (2):Trig/Gate</Target>
-  </Connection>
-  <Connection>
-   <Source>Kick Gate:CV Output</Source>
    <Target>Simple Scope (4 channel):In1</Target>
+  </Connection>
+  <Connection>
+   <Source>Kick Gate:CV Output</Source>
+   <Target>Gain Env:Trig/Gate</Target>
+  </Connection>
+  <Connection>
+   <Source>Kick Gate:CV Output</Source>
+   <Target>Freq Env:Trig/Gate</Target>
   </Connection>
   <Connection>
    <Source>Snare Gate:CV Output</Source>
@@ -6320,8 +6042,40 @@
    <Target>Freq Env (3):Release Time</Target>
   </Connection>
   <Connection>
+   <Source>Control of Kick:Output0</Source>
+   <Target>Gain Level:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output1</Source>
+   <Target>Gain Decay:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output2</Source>
+   <Target>Gain Curve:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output3</Source>
+   <Target>Freq Decay:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output4</Source>
+   <Target>Freq Level:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output5</Source>
+   <Target>Freq Curve:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output6</Source>
+   <Target>Exp FM Gain:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output7</Source>
+   <Target>Semitone:Control</Target>
+  </Connection>
+  <Connection>
    <Source>Freq Decay:Output</Source>
-   <Target>CV_PolyLoopEnvelope (2):Decay1</Target>
+   <Target>Freq Env:Decay1</Target>
   </Connection>
   <Connection>
    <Source>LSP Compressor Stereo (2):Output L</Source>
@@ -6350,54 +6104,6 @@
   <Connection>
    <Source>Range Translator:Output</Source>
    <Target>CV to Audio (3):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope:Output</Source>
-   <Target>Sine VCA Exp:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope:Output</Source>
-   <Target>AMS VCA Triangle:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope:Output</Source>
-   <Target>Sawtooth VCA:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope:Output</Source>
-   <Target>Pluse VCA:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope:Output</Source>
-   <Target>STSP VCA:Main Gain</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope:Output</Source>
-   <Target>Simple Scope (4 channel):In2</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope (2):Output</Source>
-   <Target>Saw:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope (2):Output</Source>
-   <Target>Triangle:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope (2):Output</Source>
-   <Target>Sine:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope (2):Output</Source>
-   <Target>Pluse:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope (2):Output</Source>
-   <Target>S / T / S / P:Exp FM</Target>
-  </Connection>
-  <Connection>
-   <Source>CV_PolyLoopEnvelope (2):Output</Source>
-   <Target>Simple Scope (4 channel):In3</Target>
   </Connection>
   <Connection>
    <Source>Control of Gates:Output0</Source>
@@ -6431,5 +6137,293 @@
    <Source>CV to Audio:Audio Output</Source>
    <Target>MIDI-Trigger:Input audio source</Target>
   </Connection>
+  <Connection>
+   <Source>Control of Kick:Output8</Source>
+   <Target>Saw Edge:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output9</Source>
+   <Target>Pulse PW:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Control of Kick:Output10</Source>
+   <Target>Pluse Edge:Control</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Level:Output</Source>
+   <Target>Gain Env:Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Curve:Output</Source>
+   <Target>Gain Env:Curve1</Target>
+  </Connection>
+  <Connection>
+   <Source>Freq Level:Output</Source>
+   <Target>Freq Env:Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Freq Curve:Output</Source>
+   <Target>Freq Env:Curve1</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Env:Output</Source>
+   <Target>AMS VCA Triangle:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Env:Output</Source>
+   <Target>Sawtooth VCA:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Env:Output</Source>
+   <Target>Pluse VCA:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Env:Output</Source>
+   <Target>STSP VCA:Main Gain</Target>
+  </Connection>
+  <Connection>
+   <Source>Gain Env:Output</Source>
+   <Target>Simple Scope (4 channel):In2</Target>
+  </Connection>
+  <Connection>
+   <Source>Freq Env:Output</Source>
+   <Target>Simple Scope (4 channel):In3</Target>
+  </Connection>
+  <Positions>
+   <Position x1="1088" y1="1092">
+    <Name>Carla</Name>
+   </Position>
+   <Position x1="4438" y1="1454">
+    <Name>system</Name>
+   </Position>
+   <Position x1="4027" y1="1711">
+    <Name>PulseAudio JACK Sink</Name>
+   </Position>
+   <Position x1="1675" y1="49">
+    <Name>a2j</Name>
+   </Position>
+   <Position x1="4400" y1="1728">
+    <Name>PulseAudio JACK Source</Name>
+   </Position>
+   <Position x1="2740" y1="762">
+    <Name>Sawtooth VCA</Name>
+   </Position>
+   <Position x1="4130" y1="1333">
+    <Name>LSP Compressor Stereo</Name>
+   </Position>
+   <Position x1="1074" y1="1045">
+    <Name>Pulse PW</Name>
+   </Position>
+   <Position x1="2519" y1="329">
+    <Name>Sine</Name>
+   </Position>
+   <Position x1="2522" y1="547">
+    <Name>Triangle</Name>
+   </Position>
+   <Position x1="2527" y1="748">
+    <Name>Saw</Name>
+   </Position>
+   <Position x1="2526" y1="976">
+    <Name>Pluse</Name>
+   </Position>
+   <Position x1="2746" y1="253">
+    <Name>Sine VCA Exp</Name>
+   </Position>
+   <Position x1="2966" y1="714">
+    <Name>AMS Mixer 8 channels</Name>
+   </Position>
+   <Position x1="2736" y1="985">
+    <Name>Pluse VCA</Name>
+   </Position>
+   <Position x1="2717" y1="565">
+    <Name>AMS VCA Triangle</Name>
+   </Position>
+   <Position x1="2743" y1="1180">
+    <Name>STSP VCA</Name>
+   </Position>
+   <Position x1="2527" y1="1194">
+    <Name>S / T / S / P</Name>
+   </Position>
+   <Position x1="1821" y1="477">
+    <Name>16 Step Sequencer</Name>
+   </Position>
+   <Position x1="521" y1="2003">
+    <Name>Drum Clock</Name>
+   </Position>
+   <Position x1="1076" y1="842">
+    <Name>Semitone</Name>
+   </Position>
+   <Position x1="1075" y1="772">
+    <Name>Exp FM Gain</Name>
+   </Position>
+   <Position x1="1057" y1="319">
+    <Name>Gain Decay</Name>
+   </Position>
+   <Position x1="1072" y1="964">
+    <Name>Saw Edge</Name>
+   </Position>
+   <Position x1="1078" y1="1123">
+    <Name>Pluse Edge</Name>
+   </Position>
+   <Position x1="1590" y1="477">
+    <Name>Wedge Gate Open</Name>
+   </Position>
+   <Position x1="2211" y1="2110">
+    <Name>MIDI-Trigger</Name>
+   </Position>
+   <Position x1="3497" y1="1913">
+    <Name>AMS Stereo Mixer 8 channels</Name>
+   </Position>
+   <Position x1="2854" y1="2140">
+    <Name>EsPhaser</Name>
+   </Position>
+   <Position x1="3107" y1="2132">
+    <Name>x42-Autotune</Name>
+   </Position>
+   <Position x1="3105" y1="2207">
+    <Name>x42-Autotune (3)</Name>
+   </Position>
+   <Position x1="2883" y1="2245">
+    <Name>MIDI Generator</Name>
+   </Position>
+   <Position x1="3828" y1="1336">
+    <Name>AMS Stereo Mixer 8 channels (4)</Name>
+   </Position>
+   <Position x1="2622" y1="2137">
+    <Name>FDNCymbal</Name>
+   </Position>
+   <Position x1="2272" y1="2214">
+    <Name>AMS Slew Limiter</Name>
+   </Position>
+   <Position x1="2455" y1="2222">
+    <Name>AMS Hysteresis</Name>
+   </Position>
+   <Position x1="1503" y1="2280">
+    <Name>AMS VC Switch</Name>
+   </Position>
+   <Position x1="1018" y1="1835">
+    <Name>Clock Divider Slower</Name>
+   </Position>
+   <Position x1="1020" y1="2100">
+    <Name>Clock Divider Faster</Name>
+   </Position>
+   <Position x1="772" y1="1965">
+    <Name>Drums Gate</Name>
+   </Position>
+   <Position x1="1366" y1="1338">
+    <Name>Kick Gate</Name>
+   </Position>
+   <Position x1="1378" y1="1795">
+    <Name>Snare Gate</Name>
+   </Position>
+   <Position x1="169" y1="1835">
+    <Name>MIDI to CV trigger</Name>
+   </Position>
+   <Position x1="2144" y1="1646">
+    <Name>Snare Sine</Name>
+   </Position>
+   <Position x1="2065" y1="1830">
+    <Name>Snare Noise</Name>
+   </Position>
+   <Position x1="1860" y1="1725">
+    <Name>Freq Env (2)</Name>
+   </Position>
+   <Position x1="2338" y1="1645">
+    <Name>Snare Sine Gain</Name>
+   </Position>
+   <Position x1="2336" y1="1800">
+    <Name>AMS VCA Exp (3)</Name>
+   </Position>
+   <Position x1="2614" y1="1646">
+    <Name>AMS Stereo Mixer 4 channels</Name>
+   </Position>
+   <Position x1="1864" y1="2294">
+    <Name>AMS LFO</Name>
+   </Position>
+   <Position x1="2068" y1="2290">
+    <Name>Attenuverter Booster</Name>
+   </Position>
+   <Position x1="2258" y1="2553">
+    <Name>AMS Noise2 (2)</Name>
+   </Position>
+   <Position x1="2601" y1="2583">
+    <Name>AMS VCA Exp (2)</Name>
+   </Position>
+   <Position x1="1376" y1="2594">
+    <Name>Hi-hat Gate</Name>
+   </Position>
+   <Position x1="2295" y1="2617">
+    <Name>Freq Env (3)</Name>
+   </Position>
+   <Position x1="3030" y1="2577">
+    <Name>Moog High-Pass Filter 1</Name>
+   </Position>
+   <Position x1="1855" y1="2694">
+    <Name>AMS LFO (2)</Name>
+   </Position>
+   <Position x1="2116" y1="2678">
+    <Name>Amplitude Modifier</Name>
+   </Position>
+   <Position x1="1068" y1="512">
+    <Name>Freq Decay</Name>
+   </Position>
+   <Position x1="3479" y1="722">
+    <Name>LSP Compressor Stereo (2)</Name>
+   </Position>
+   <Position x1="3239" y1="692">
+    <Name>Glame Lowpass Filter</Name>
+   </Position>
+   <Position x1="3229" y1="777">
+    <Name>Glame Lowpass Filter (2)</Name>
+   </Position>
+   <Position x1="2557" y1="2734">
+    <Name>DIN Meter (Stereo)</Name>
+   </Position>
+   <Position x1="2329" y1="2784">
+    <Name>CV to Audio (3)</Name>
+   </Position>
+   <Position x1="2563" y1="2837">
+    <Name>Simple Scope (Mono)</Name>
+   </Position>
+   <Position x1="2119" y1="2790">
+    <Name>Range Translator</Name>
+   </Position>
+   <Position x1="1646" y1="1491">
+    <Name>Simple Scope (4 channel) (3)</Name>
+   </Position>
+   <Position x1="473" y1="1347">
+    <Name>Control of Gates</Name>
+   </Position>
+   <Position x1="1381" y1="2037">
+    <Name>Cra Cymb Gate</Name>
+   </Position>
+   <Position x1="1854" y1="2080">
+    <Name>CV to Audio</Name>
+   </Position>
+   <Position x1="1056" y1="247">
+    <Name>Gain Level</Name>
+   </Position>
+   <Position x1="1058" y1="392">
+    <Name>Gain Curve</Name>
+   </Position>
+   <Position x1="1067" y1="585">
+    <Name>Freq Level</Name>
+   </Position>
+   <Position x1="1070" y1="664">
+    <Name>Freq Curve</Name>
+   </Position>
+   <Position x1="1989" y1="784">
+    <Name>Simple Scope (4 channel)</Name>
+   </Position>
+   <Position x1="1725" y1="667">
+    <Name>Gain Env</Name>
+   </Position>
+   <Position x1="1740" y1="1007">
+    <Name>Freq Env</Name>
+   </Position>
+   <Position x1="584" y1="525" pluginId="65">
+    <Name>Control of Kick</Name>
+   </Position>
+  </Positions>
  </ExternalPatchbay>
 </CARLA-PROJECT>
