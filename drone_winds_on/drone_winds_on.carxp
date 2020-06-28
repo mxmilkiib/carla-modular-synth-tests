@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE CARLA-PROJECT>
-<CARLA-PROJECT VERSION='2.0'>
+<CARLA-PROJECT VERSION='2.2'>
  <EngineSettings>
   <ForceStereo>false</ForceStereo>
   <PreferPluginBridges>false</PreferPluginBridges>
@@ -23,7 +23,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -66,7 +66,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -102,7 +102,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -187,7 +187,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -227,7 +227,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0401567406952381</Value>
+    <Value>0.180060684680939</Value>
    </Parameter>
 
    <Parameter>
@@ -238,7 +238,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.329489171504974</Value>
+    <Value>0.0508296005427837</Value>
    </Parameter>
 
    <Parameter>
@@ -249,7 +249,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.117695391178131</Value>
+    <Value>0.219150766730309</Value>
    </Parameter>
 
    <Parameter>
@@ -260,7 +260,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0143105247989297</Value>
+    <Value>0.154214471578598</Value>
    </Parameter>
 
    <Parameter>
@@ -285,7 +285,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.265192985534668</Value>
+    <Value>0.631385803222656</Value>
    </Parameter>
 
    <Parameter>
@@ -457,12 +457,12 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>ZLFO 64/1</Name>
+   <Name>ZLFO 64.1</Name>
    <URI>https://www.zrythm.org/plugins/ZLFO</URI>
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -523,7 +523,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>-1</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.586666703224182</Value>
+    <Value>-0.508954107761383</Value>
    </Parameter>
 
    <Parameter>
@@ -956,12 +956,12 @@
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>ZLFO 64/1.</Name>
+   <Name>ZLFO 64.1. (2)</Name>
    <URI>https://www.zrythm.org/plugins/ZLFO</URI>
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1452,7 +1452,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1464,7 +1464,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.00999999977648258</MappedMinimum>
     <MappedMaximum>20</MappedMaximum>
-    <Value>0.146666675806046</Value>
+    <Value>0.00999999977648258</Value>
    </Parameter>
 
    <Parameter>
@@ -1499,7 +1499,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -1532,7 +1532,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0.100000001490116</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.329489171504974</Value>
+    <Value>0.219150766730309</Value>
    </Parameter>
 
    <Parameter>
@@ -1550,7 +1550,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0918491780757904</Value>
+    <Value>0.0249833837151527</Value>
    </Parameter>
 
    <Parameter>
@@ -1568,7 +1568,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.753630757331848</Value>
+    <Value>0.204990819096565</Value>
    </Parameter>
 
    <Parameter>
@@ -1600,7 +1600,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -1612,7 +1612,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>4.92361879348755</Value>
+    <Value>0.844204246997833</Value>
    </Parameter>
 
    <Parameter>
@@ -1623,7 +1623,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>0</Value>
+    <Value>0.794266700744629</Value>
    </Parameter>
 
    <Parameter>
@@ -1634,7 +1634,7 @@
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>100</MappedMaximum>
-    <Value>11.6900997161865</Value>
+    <Value>0.887446224689484</Value>
    </Parameter>
 
    <Parameter>
@@ -1754,206 +1754,6 @@
   </Data>
  </Plugin>
 
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (2)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>2.19999980926514</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>1.09999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (3)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (4)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>4</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0.399999886751175</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Control Port Logarithm -->
  <Plugin>
   <Info>
@@ -1963,7 +1763,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2006,7 +1806,7 @@
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2054,7 +1854,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2320,56 +2120,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (5)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>7.81936550140381</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
@@ -2379,7 +2129,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2395,56 +2145,6 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Name>Time Down</Name>
     <Symbol>timeDown</Symbol>
     <Value>0.200000002980232</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (6)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>3.40000009536743</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -2458,7 +2158,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2478,106 +2178,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (7)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (8)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS Slew Limiter -->
  <Plugin>
   <Info>
@@ -2587,7 +2187,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2616,7 +2216,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2651,7 +2251,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2686,7 +2286,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2721,7 +2321,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2756,7 +2356,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2799,7 +2399,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2821,7 +2421,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2850,7 +2450,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2886,7 +2486,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -2906,106 +2506,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (9)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>10</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Attenuverter Booster -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Attenuverter Booster (10)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-attenuverter</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Multiplier</Name>
-    <Symbol>Multiplier</Symbol>
-    <Value>1.19999933242798</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Offset</Name>
-    <Symbol>Offset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mode</Name>
-    <Symbol>Mode</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Smoothing</Name>
-    <Symbol>Smoothing</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- AMS Stereo Mixer 2 channels -->
  <Plugin>
   <Info>
@@ -3015,7 +2515,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3101,7 +2601,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3123,7 +2623,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3145,7 +2645,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3167,7 +2667,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3238,7 +2738,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3278,7 +2778,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3307,7 +2807,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3322,7 +2822,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>1</Index>
     <Name>Mute 1</Name>
     <Symbol>mute1</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3336,7 +2836,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>3</Index>
     <Name>Volume 1</Name>
     <Symbol>volume1</Symbol>
-    <Value>1</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -3350,7 +2850,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>5</Index>
     <Name>Mute 2</Name>
     <Symbol>mute2</Symbol>
-    <Value>1</Value>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
@@ -3364,7 +2864,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <Index>7</Index>
     <Name>Volume 2</Name>
     <Symbol>volume2</Symbol>
-    <Value>1</Value>
+    <Value>0.100000001490116</Value>
    </Parameter>
 
    <Parameter>
@@ -3553,7 +3053,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3829,7 +3329,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3869,7 +3369,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -3909,7 +3409,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0401567406952381</Value>
+    <Value>0.180060684680939</Value>
    </Parameter>
 
    <Parameter>
@@ -3920,7 +3420,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.329489171504974</Value>
+    <Value>0.0508296005427837</Value>
    </Parameter>
 
    <Parameter>
@@ -3931,7 +3431,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.117695391178131</Value>
+    <Value>0.219150766730309</Value>
    </Parameter>
 
    <Parameter>
@@ -3942,7 +3442,7 @@ Shouts to the #lad and #lv2 crew on Freenode
     <MappedControlIndex>130</MappedControlIndex>
     <MappedMinimum>0</MappedMinimum>
     <MappedMaximum>1</MappedMaximum>
-    <Value>0.0143105247989297</Value>
+    <Value>0.154214471578598</Value>
    </Parameter>
 
    <Parameter>
@@ -4150,7 +3650,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x1</Options>
 
@@ -4240,125 +3740,153 @@ Shouts to the #lad and #lv2 crew on Freenode
 
    <Parameter>
     <Index>12</Index>
+    <Name>High-pass filter mode</Name>
+    <Symbol>shpm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>High-pass filter frequency</Name>
+    <Symbol>shpf</Symbol>
+    <Value>10</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Low-pass filter mode</Name>
+    <Symbol>slpm</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Low-pass filter frequency</Name>
+    <Symbol>slpf</Symbol>
+    <Value>20000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
     <Name>Compression mode</Name>
     <Symbol>cm</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>13</Index>
+    <Index>17</Index>
     <Name>Attack level</Name>
     <Symbol>al</Symbol>
     <Value>0.251190006732941</Value>
    </Parameter>
 
    <Parameter>
-    <Index>14</Index>
+    <Index>18</Index>
     <Name>Attack time</Name>
     <Symbol>at</Symbol>
     <Value>20</Value>
    </Parameter>
 
    <Parameter>
-    <Index>15</Index>
+    <Index>19</Index>
     <Name>Relative release level</Name>
     <Symbol>rrl</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>16</Index>
+    <Index>20</Index>
     <Name>Release time</Name>
     <Symbol>rt</Symbol>
     <Value>100</Value>
    </Parameter>
 
    <Parameter>
-    <Index>17</Index>
+    <Index>21</Index>
     <Name>Ratio</Name>
     <Symbol>cr</Symbol>
     <Value>3.31524014472961</Value>
    </Parameter>
 
    <Parameter>
-    <Index>18</Index>
+    <Index>22</Index>
     <Name>Knee</Name>
     <Symbol>kn</Symbol>
     <Value>0.632727921009064</Value>
    </Parameter>
 
    <Parameter>
-    <Index>19</Index>
+    <Index>23</Index>
     <Name>Boost threshold</Name>
     <Symbol>bth</Symbol>
     <Value>0.000250000011874363</Value>
    </Parameter>
 
    <Parameter>
-    <Index>20</Index>
+    <Index>24</Index>
     <Name>Makeup gain</Name>
     <Symbol>mk</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>21</Index>
+    <Index>25</Index>
     <Name>Dry gain</Name>
     <Symbol>cdr</Symbol>
     <Value>0</Value>
    </Parameter>
 
    <Parameter>
-    <Index>22</Index>
+    <Index>26</Index>
     <Name>Wet gain</Name>
     <Symbol>cwt</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>24</Index>
+    <Index>28</Index>
     <Name>Sidechain level visibility</Name>
     <Symbol>slv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>25</Index>
+    <Index>29</Index>
     <Name>Envelope level visibility</Name>
     <Symbol>elv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>26</Index>
+    <Index>30</Index>
     <Name>Gain reduction visibility</Name>
     <Symbol>grv</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>31</Index>
+    <Index>35</Index>
     <Name>Input level visibility Left</Name>
     <Symbol>ilv_l</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>32</Index>
+    <Index>36</Index>
     <Name>Output level visibility Left</Name>
     <Symbol>olv_l</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>35</Index>
+    <Index>39</Index>
     <Name>Input level visibility Right</Name>
     <Symbol>ilv_r</Symbol>
     <Value>1</Value>
    </Parameter>
 
    <Parameter>
-    <Index>36</Index>
+    <Index>40</Index>
     <Name>Output level visibility Right</Name>
     <Symbol>olv_r</Symbol>
     <Value>1</Value>
@@ -4375,7 +3903,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -4453,7 +3981,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x4</Options>
 
@@ -4477,12 +4005,12 @@ Shouts to the #lad and #lv2 crew on Freenode
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>K14/RMS Meter (Stereo)</Name>
+   <Name>K14.RMS Meter (Stereo)</Name>
    <URI>http://gareus.org/oss/lv2/meters#K14stereo</URI>
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
   </Data>
@@ -4497,7 +4025,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4517,35 +4045,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- VC to Hz -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>VC to Hz</Name>
-   <URI>http://github.com/blablack/ams-lv2/vctohz</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Octave Offset</Name>
-    <Symbol>octaveOffset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Conversion Mode</Name>
-    <Symbol>conversionMode</Symbol>
-    <Value>0</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
  <!-- Attenuverter Booster -->
  <Plugin>
   <Info>
@@ -4555,7 +4054,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4605,7 +4104,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4676,7 +4175,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
@@ -4696,76 +4195,179 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Data>
  </Plugin>
 
- <!-- CV meter -->
+ <!-- CV_LinearMap -->
  <Plugin>
   <Info>
    <Type>LV2</Type>
-   <Name>CV meter (3)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-meter</URI>
+   <Name>CV_LinearMap</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearMap</URI>
   </Info>
 
   <Data>
-   <Active>No</Active>
+   <Active>Yes</Active>
    <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Reset</Name>
-    <Symbol>Reset</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>PluginEnabled</Name>
-    <Symbol>PluginEnabled</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- CV Clock -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>CV Clock (2)</Name>
-   <URI>http://moddevices.com/plugins/mod-devel/mod-cv-clock</URI>
-  </Info>
-
-  <Data>
-   <Active>No</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
+   <Options>0x4</Options>
 
    <Parameter>
     <Index>0</Index>
-    <Name>Bpm</Name>
-    <Symbol>Bpm</Symbol>
-    <Value>106</Value>
+    <Name>addFrac</Name>
+    <Symbol>addFrac</Symbol>
+    <Value>0</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
-    <Name>Divisions</Name>
-    <Symbol>Divisions</Symbol>
-    <Value>4</Value>
+    <Name>addInt</Name>
+    <Symbol>addInt</Symbol>
+    <Value>128</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
-    <Name>Sync</Name>
-    <Symbol>sync</Symbol>
+    <Name>mulFrac</Name>
+    <Symbol>mulFrac</Symbol>
     <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>mulInt</Name>
+    <Symbol>mulInt</Symbol>
+    <Value>129</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearMap -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_LinearMap (2)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearMap</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>addFrac</Name>
+    <Symbol>addFrac</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>addInt</Name>
+    <Symbol>addInt</Symbol>
+    <Value>128</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>mulFrac</Name>
+    <Symbol>mulFrac</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>mulInt</Name>
+    <Symbol>mulInt</Symbol>
+    <Value>129</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearMap -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_LinearMap (3)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearMap</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>addFrac</Name>
+    <Symbol>addFrac</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>addInt</Name>
+    <Symbol>addInt</Symbol>
+    <Value>128</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>mulFrac</Name>
+    <Symbol>mulFrac</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>mulInt</Name>
+    <Symbol>mulInt</Symbol>
+    <Value>129</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- CV_LinearMap -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>CV_LinearMap (4)</Name>
+   <URI>https://github.com/ryukau/LV2Plugins/tree/master/CV_LinearMap</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>addFrac</Name>
+    <Symbol>addFrac</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>addInt</Name>
+    <Symbol>addInt</Symbol>
+    <Value>128</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>mulFrac</Name>
+    <Symbol>mulFrac</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>mulInt</Name>
+    <Symbol>mulInt</Symbol>
+    <Value>137</Value>
    </Parameter>
   </Data>
  </Plugin>
 
  <ExternalPatchbay>
-  <Connection>
-   <Source>system:capture_1</Source>
-   <Target>PulseAudio JACK Source:front-left</Target>
-  </Connection>
   <Connection>
    <Source>PulseAudio JACK Sink:front-left</Source>
    <Target>system:playback_1</Target>
@@ -4799,44 +4401,24 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>Stereo DJ X-Fade (2):In A Left</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO 64/1:Sine</Source>
+   <Source>AMS VC Organ - 4 Osc:Out</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 1</Target>
+  </Connection>
+  <Connection>
+   <Source>ZLFO 64.1:Sine</Source>
    <Target>AMS Saw:Lin FM</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO 64/1:Sine</Source>
-   <Target>Attenuverter Booster (7):CV Input</Target>
+   <Source>ZLFO 64.1:Triangle</Source>
+   <Target>CV_LinearMap (4):Input</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO 64/1:Saw</Source>
+   <Source>ZLFO 64.1:Saw</Source>
    <Target>AMS Multiphase LFO:Freq (Hz)</Target>
   </Connection>
   <Connection>
-   <Source>ZLFO 64/1:Saw</Source>
-   <Target>VC to Hz:Input</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Triangle</Source>
-   <Target>AMS Slew Limiter (9):Time Up</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Saw</Source>
-   <Target>Attenuverter Booster (9):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Custom</Source>
-   <Target>ZLFO 64/1:Range min</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Custom</Source>
-   <Target>AMS Saw:Frequency</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Custom</Source>
-   <Target>AMS Slew Limiter (9):Time Down</Target>
-  </Connection>
-  <Connection>
-   <Source>ZLFO 64/1.:Custom</Source>
-   <Target>CV meter:CV input</Target>
+   <Source>ZLFO 64.1. (2):Saw</Source>
+   <Target>ZLFO 64.1:Range min</Target>
   </Connection>
   <Connection>
    <Source>AMS Multiphase LFO:Saw Out 0</Source>
@@ -4900,15 +4482,15 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>LFO Blender:LFO 1</Source>
-   <Target>Attenuverter Booster:CV Input</Target>
+   <Target>AMS Slew Limiter:In</Target>
   </Connection>
   <Connection>
    <Source>LFO Blender:LFO 2</Source>
-   <Target>Attenuverter Booster (3):CV Input</Target>
+   <Target>AMS Slew Limiter (2):In</Target>
   </Connection>
   <Connection>
    <Source>LFO Blender:LFO 3</Source>
-   <Target>Attenuverter Booster (5):CV Input</Target>
+   <Target>AMS Slew Limiter (3):In</Target>
   </Connection>
   <Connection>
    <Source>Dragonfly Hall Reverb:Audio Output 1</Source>
@@ -4919,20 +4501,8 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>AMS Stereo Mixer 8 channels:In 6</Target>
   </Connection>
   <Connection>
-   <Source>Attenuverter Booster:CV Output</Source>
-   <Target>AMS Slew Limiter:In</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (2):CV Output</Source>
-   <Target>Dragonfly Hall Reverb:Dry Level</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (3):CV Output</Source>
-   <Target>AMS Slew Limiter (3):In</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (4):CV Output</Source>
-   <Target>Dragonfly Hall Reverb:Early Level</Target>
+   <Source>CV_LinearMap (4):Output</Source>
+   <Target>AMS Slew Limiter (4):In</Target>
   </Connection>
   <Connection>
    <Source>x42 Whirl - Rotary Speaker:Left Output</Source>
@@ -4951,32 +4521,16 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>AMS Stereo Mixer 8 channels:In 4</Target>
   </Connection>
   <Connection>
-   <Source>Attenuverter Booster (5):CV Output</Source>
-   <Target>AMS Slew Limiter (2):In</Target>
-  </Connection>
-  <Connection>
    <Source>AMS Slew Limiter:Out</Source>
-   <Target>Attenuverter Booster (2):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (6):CV Output</Source>
-   <Target>Dragonfly Hall Reverb:Late Level</Target>
+   <Target>CV_LinearMap:Input</Target>
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter (2):Out</Source>
-   <Target>Attenuverter Booster (6):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (7):CV Output</Source>
-   <Target>AMS Slew Limiter (4):In</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (8):CV Output</Source>
-   <Target>x42 Whirl - Rotary Speaker:Horn Speed Slow</Target>
+   <Target>CV_LinearMap (2):Input</Target>
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter (3):Out</Source>
-   <Target>Attenuverter Booster (4):CV Input</Target>
+   <Target>CV_LinearMap (3):Input</Target>
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter (5):Out</Source>
@@ -4996,19 +4550,19 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter (7):Out</Source>
-   <Target>AMS VC Organ - 4 Osc:Volume 3</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Slew Limiter (7):Out</Source>
-   <Target>AMS VC Organ - 4 Osc (2):Volume 3</Target>
-  </Connection>
-  <Connection>
-   <Source>AMS Slew Limiter (8):Out</Source>
    <Target>AMS VC Organ - 4 Osc:Volume 2</Target>
   </Connection>
   <Connection>
-   <Source>AMS Slew Limiter (8):Out</Source>
+   <Source>AMS Slew Limiter (7):Out</Source>
    <Target>AMS VC Organ - 4 Osc (2):Volume 2</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter (8):Out</Source>
+   <Target>AMS VC Organ - 4 Osc:Volume 3</Target>
+  </Connection>
+  <Connection>
+   <Source>AMS Slew Limiter (8):Out</Source>
+   <Target>AMS VC Organ - 4 Osc (2):Volume 3</Target>
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter (9):Out</Source>
@@ -5024,7 +4578,7 @@ Shouts to the #lad and #lv2 crew on Freenode
   </Connection>
   <Connection>
    <Source>AMS Slew Limiter (4):Out</Source>
-   <Target>Attenuverter Booster (8):CV Input</Target>
+   <Target>x42 Whirl - Rotary Speaker:Horn Speed Slow</Target>
   </Connection>
   <Connection>
    <Source>Slew Rate Limiter (6):CV Output</Source>
@@ -5033,14 +4587,6 @@ Shouts to the #lad and #lv2 crew on Freenode
   <Connection>
    <Source>AMS VC Delay:Output</Source>
    <Target>AMS VC Organ - 4 Osc:VCO 1 - Tune</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (9):CV Output</Source>
-   <Target>Attenuverter Booster (10):CV Input</Target>
-  </Connection>
-  <Connection>
-   <Source>Attenuverter Booster (10):CV Output</Source>
-   <Target>x42 Whirl - Rotary Speaker:Horn Speed Fast</Target>
   </Connection>
   <Connection>
    <Source>AMS Stereo Mixer 2 channels:Out Left</Source>
@@ -5107,20 +4653,16 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>x42 Whirl - Rotary Speaker:Input</Target>
   </Connection>
   <Connection>
+   <Source>AMS VC Organ - 4 Osc (2):Out</Source>
+   <Target>AMS Stereo Mixer 8 channels:In 2</Target>
+  </Connection>
+  <Connection>
    <Source>LSP Compressor Stereo:Output L</Source>
    <Target>Stereo DJ X-Fade:In B Left</Target>
   </Connection>
   <Connection>
-   <Source>LSP Compressor Stereo:Output L</Source>
-   <Target>K14/RMS Meter (Stereo):InL</Target>
-  </Connection>
-  <Connection>
    <Source>LSP Compressor Stereo:Output R</Source>
    <Target>Stereo DJ X-Fade:In B Right</Target>
-  </Connection>
-  <Connection>
-   <Source>LSP Compressor Stereo:Output R</Source>
-   <Target>K14/RMS Meter (Stereo):InR</Target>
   </Connection>
   <Connection>
    <Source>ZynDistortion:Audio Output 1</Source>
@@ -5135,6 +4677,10 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Target>AMS Stereo Mixer 8 channels:In 8</Target>
   </Connection>
   <Connection>
+   <Source>CV_LinearMap:Output</Source>
+   <Target>Dragonfly Hall Reverb:Dry Level</Target>
+  </Connection>
+  <Connection>
    <Source>AMS CV Source:CV Out 1</Source>
    <Target>AMS Slew Limiter (10):In</Target>
   </Connection>
@@ -5142,5 +4688,153 @@ Shouts to the #lad and #lv2 crew on Freenode
    <Source>AMS Slew Limiter (10):Out</Source>
    <Target>Attenuverter Booster (11):CV Input</Target>
   </Connection>
+  <Connection>
+   <Source>CV_LinearMap (2):Output</Source>
+   <Target>Dragonfly Hall Reverb:Early Level</Target>
+  </Connection>
+  <Connection>
+   <Source>CV_LinearMap (3):Output</Source>
+   <Target>Dragonfly Hall Reverb:Late Level</Target>
+  </Connection>
+  <Positions>
+   <Position x1="4142" y1="1126">
+    <Name>system</Name>
+   </Position>
+   <Position x1="3737" y1="1269">
+    <Name>PulseAudio JACK Sink</Name>
+   </Position>
+   <Position x1="4969" y1="747">
+    <Name>a2j</Name>
+   </Position>
+   <Position x1="3731" y1="1375">
+    <Name>PulseAudio JACK Source</Name>
+   </Position>
+   <Position x1="668" y1="1507">
+    <Name>Random CV Generator</Name>
+   </Position>
+   <Position x1="482" y1="1525">
+    <Name>CV Clock</Name>
+   </Position>
+   <Position x1="607" y1="868">
+    <Name>AMS Saw</Name>
+   </Position>
+   <Position x1="1404" y1="851">
+    <Name>AMS VC Organ - 4 Osc</Name>
+   </Position>
+   <Position x1="315" y1="935">
+    <Name>ZLFO 64.1</Name>
+   </Position>
+   <Position x1="1647" y1="1338">
+    <Name>LFO Blender</Name>
+   </Position>
+   <Position x1="2350" y1="1100">
+    <Name>Dragonfly Hall Reverb</Name>
+   </Position>
+   <Position x1="1955" y1="950">
+    <Name>x42 Whirl - Rotary Speaker</Name>
+   </Position>
+   <Position x1="1862" y1="1314">
+    <Name>AMS Slew Limiter</Name>
+   </Position>
+   <Position x1="1864" y1="1387">
+    <Name>AMS Slew Limiter (2)</Name>
+   </Position>
+   <Position x1="1862" y1="1459">
+    <Name>AMS Slew Limiter (3)</Name>
+   </Position>
+   <Position x1="995" y1="1038">
+    <Name>AMS Slew Limiter (5)</Name>
+   </Position>
+   <Position x1="995" y1="1248">
+    <Name>AMS Slew Limiter (6)</Name>
+   </Position>
+   <Position x1="994" y1="1107">
+    <Name>AMS Slew Limiter (7)</Name>
+   </Position>
+   <Position x1="996" y1="1177">
+    <Name>AMS Slew Limiter (8)</Name>
+   </Position>
+   <Position x1="882" y1="810">
+    <Name>AMS Slew Limiter (9)</Name>
+   </Position>
+   <Position x1="1083" y1="879">
+    <Name>CV Switchbox 2-1</Name>
+   </Position>
+   <Position x1="887" y1="1485">
+    <Name>Slew Rate Limiter (6)</Name>
+   </Position>
+   <Position x1="1072" y1="1420">
+    <Name>AMS VC Delay</Name>
+   </Position>
+   <Position x1="3730" y1="976">
+    <Name>AMS Stereo Mixer 2 channels</Name>
+   </Position>
+   <Position x1="1132" y1="198">
+    <Name>Control to CV 0</Name>
+   </Position>
+   <Position x1="1521" y1="201">
+    <Name>Control to CV 1</Name>
+   </Position>
+   <Position x1="1307" y1="179">
+    <Name>CV Switchbox 2-1 (2)</Name>
+   </Position>
+   <Position x1="1707" y1="175">
+    <Name>AMS VC Envelope II</Name>
+   </Position>
+   <Position x1="3530" y1="957">
+    <Name>Stereo DJ X-Fade</Name>
+   </Position>
+   <Position x1="1893" y1="186">
+    <Name>CV meter (2)</Name>
+   </Position>
+   <Position x1="2646" y1="848">
+    <Name>AMS Stereo Mixer 8 channels</Name>
+   </Position>
+   <Position x1="2946" y1="847">
+    <Name>x42-eq - Parametric Equalizer Stereo</Name>
+   </Position>
+   <Position x1="1769" y1="800">
+    <Name>Stereo DJ X-Fade (2)</Name>
+   </Position>
+   <Position x1="1395" y1="1145">
+    <Name>AMS VC Organ - 4 Osc (2)</Name>
+   </Position>
+   <Position x1="3291" y1="859">
+    <Name>LSP Compressor Stereo</Name>
+   </Position>
+   <Position x1="1976" y1="804">
+    <Name>ZynDistortion</Name>
+   </Position>
+   <Position x1="2272" y1="876">
+    <Name>Cycle Shifter</Name>
+   </Position>
+   <Position x1="896" y1="159">
+    <Name>CV meter</Name>
+   </Position>
+   <Position x1="3283" y1="1088">
+    <Name>Attenuverter Booster (11)</Name>
+   </Position>
+   <Position x1="2863" y1="1124">
+    <Name>AMS CV Source</Name>
+   </Position>
+   <Position x1="3065" y1="1105">
+    <Name>AMS Slew Limiter (10)</Name>
+   </Position>
+   <Position x1="96" y1="802" pluginId="5">
+    <Name>ZLFO 64.1. (2)</Name>
+   </Position>
+   <Position x1="2075" y1="1304" pluginId="43">
+    <Name>CV_LinearMap</Name>
+   </Position>
+   <Position x1="2076" y1="1376" pluginId="44">
+    <Name>CV_LinearMap (2)</Name>
+   </Position>
+   <Position x1="2076" y1="1450" pluginId="45">
+    <Name>CV_LinearMap (3)</Name>
+   </Position>
+   <Position x1="716" y1="633" pluginId="46">
+    <Name>CV_LinearMap (4)</Name>
+   </Position>
+  </Positions>
  </ExternalPatchbay>
 </CARLA-PROJECT>
