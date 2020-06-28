@@ -27,7 +27,7 @@ For Arch Linux users:
 * https://aur.archlinux.org/packages/screcord.lv2-git
 
 ## Videos
-* [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist, 4 and 2 are best, more non-drone to come
+* [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist
 
 ## Screenshots
 ![boom3.png](https://user-images.githubusercontent.com/108225/85911333-91076f00-b81c-11ea-9b49-d0bae859a768.png)
