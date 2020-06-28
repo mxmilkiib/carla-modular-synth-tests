@@ -33,6 +33,6 @@ For Arch Linux users:
 ![boom3.png](https://user-images.githubusercontent.com/108225/85911333-91076f00-b81c-11ea-9b49-d0bae859a768.png)
 ![3zlfo.png](https://i.imgur.com/F4CS7dW.png)
 ![drone_winds_on.png](https://user-images.githubusercontent.com/108225/85948119-e50e7280-b946-11ea-89c7-75824b887c12.png)
-![modular_synth_play.png](https://user-images.githubusercontent.com/108225/74800701-338e6f00-52cc-11ea-9cba-09f5231fcbea.png)
+![modular_synth_play.png](https://user-images.githubusercontent.com/108225/85948272-ea1ff180-b947-11ea-8d87-226429fe876c.png)
 
 + [extra screenshots](https://github.com/mxmilkiib/carla-modular-synth-tests/issues/1)
