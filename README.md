@@ -30,9 +30,9 @@ For Arch Linux users:
 * [Modular Synth in Carla with LV2 plugins](https://www.youtube.com/playlist?list=PLi4842O5fEfKwAKxqBCZJs3cFP78ggsd9) - YouTube playlist, 4 and 2 are best, more non-drone to come
 
 ## Screenshots
-![modular_synth_play.png](https://user-images.githubusercontent.com/108225/74800701-338e6f00-52cc-11ea-9cba-09f5231fcbea.png)
-![drone_winds_on.png](https://user-images.githubusercontent.com/108225/74863027-1944a780-5345-11ea-8792-9e94e9a8ff73.png)
+![boom3.png](https://user-images.githubusercontent.com/108225/85911333-91076f00-b81c-11ea-9b49-d0bae859a768.png)
 ![3zlfo.png](https://i.imgur.com/F4CS7dW.png)
-![boom2.png](https://user-images.githubusercontent.com/108225/79204775-fc07f300-7e34-11ea-9a8a-53845487c195.png)
+![drone_winds_on.png](https://user-images.githubusercontent.com/108225/74863027-1944a780-5345-11ea-8792-9e94e9a8ff73.png)
+![modular_synth_play.png](https://user-images.githubusercontent.com/108225/74800701-338e6f00-52cc-11ea-9cba-09f5231fcbea.png)
 
 + [extra screenshots](https://github.com/mxmilkiib/carla-modular-synth-tests/issues/1)
