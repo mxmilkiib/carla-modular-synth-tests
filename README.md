@@ -3,6 +3,8 @@ To share some test projects.
 
 For information about LV2/JACK CV, see [this post](https://linuxmusicians.com/viewtopic.php?f=1&t=20701).
 
+Newer repo: https://github.com/mxmilkiib/carla-lv2-jack-nsm
+
 ## Requirements
 For Arch Linux users:
 * https://aur.archlinux.org/packages/carla-debug-git - for fixes/testing
